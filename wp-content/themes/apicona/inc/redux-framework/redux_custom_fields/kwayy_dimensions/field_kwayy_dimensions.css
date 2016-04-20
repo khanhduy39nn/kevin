@@ -1,0 +1,32 @@
+.redux-main .input-prepend input {
+  border-left: 0;
+  margin-bottom: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: 0;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  float: left;
+  margin-top: 0;
+  display: block;
+}
+.redux-dimensions-container .field-dimensions-input {
+  margin-right: 20px;
+}
+.input-prepend.input-append .add-on:first-child, .input-prepend.input-append .btn:first-child {
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+.input-prepend.input-append .add-on:last-child, .input-prepend.input-append .btn:last-child {
+  margin-left: -1px;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+.tm-hard-crop-wrapper{
+	float: left;
+	border: 1px solid #C8C8C8;
+	border-radius: 3px;
+	padding: 0 10px;
+}

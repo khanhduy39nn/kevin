@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+  <head><!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <meta charset="UTF-8"><style>/*
+ * Bootstrap v2.2.1
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  background-color: #fff;
+}
+a {
+  color: #08c;
+  text-decoration: none;
+}
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.row:after {
+  clear: both;
+}
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;
+}
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 940px;
+}
+.span12 {
+  width: 940px;
+}
+.span11 {
+  width: 860px;
+}
+.span10 {
+  width: 780px;
+}
+.span9 {
+  width: 700px;
+}
+.span8 {
+  width: 620px;
+}
+.span7 {
+  width: 540px;
+}
+.span6 {
+  width: 460px;
+}
+.span5 {
+  width: 380px;
+}
+.span4 {
+  width: 300px;
+}
+.span3 {
+  width: 220px;
+}
+.span2 {
+  width: 140px;
+}
+.span1 {
+  width: 60px;
+}
+[class*="span"].pull-right,
+.row-fluid [class*="span"].pull-right {
+  float: right;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+.container:before,
+.container:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.container:after {
+  clear: both;
+}
+p {
+  margin: 0 0 10px;
+}
+.lead {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+}
+small {
+  font-size: 85%;
+}
+h1 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h1 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999;
+}
+h1 {
+  line-height: 40px;
+}
+h1 {
+  font-size: 38.5px;
+}
+h1 small {
+  font-size: 24.5px;
+}
+body {
+  margin-top: 90px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -480px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+  z-index: 10;
+}
+.footer {
+  color: #ddd;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer a {
+  color: #ccc;
+  text-decoration: underline;
+}
+.the-icons {
+  font-size: 14px;
+  line-height: 24px;
+}
+.switch {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  color: #666;
+}
+.switch input {
+  margin-right: 0.3em;
+}
+.codesOn .i-name {
+  display: none;
+}
+.codesOn .i-code {
+  display: inline;
+}
+.i-code {
+  display: none;
+}
+</style>
+    <link rel="stylesheet" href="css/kwayy-mpictograms.css">
+    <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/kwayy-mpictograms-ie7.css"><![endif]-->
+    <script>
+      function toggleCodes(on) {
+        var obj = document.getElementById('icons');
+        
+        if (on) {
+          obj.className += ' codesOn';
+        } else {
+          obj.className = obj.className.replace(' codesOn', '');
+        }
+      }
+      
+    </script>
+  </head>
+  <body>
+    <div class="container header">
+      <h1>
+        kwayy-mpictograms
+         <small>font demo</small>
+      </h1>
+      <label class="switch">
+        <input type="checkbox" onclick="toggleCodes(this.checked)">show codes
+      </label>
+    </div>
+    <div id="icons" class="container">
+      <div class="row">
+        <div title="Code: 0xe800" class="the-icons span3"><i class="kwicon-mpictograms-search"></i> <span class="i-name">kwicon-mpictograms-search</span><span class="i-code">0xe800</span></div>
+        <div title="Code: 0xe801" class="the-icons span3"><i class="kwicon-mpictograms-mail"></i> <span class="i-name">kwicon-mpictograms-mail</span><span class="i-code">0xe801</span></div>
+        <div title="Code: 0xe802" class="the-icons span3"><i class="kwicon-mpictograms-heart"></i> <span class="i-name">kwicon-mpictograms-heart</span><span class="i-code">0xe802</span></div>
+        <div title="Code: 0xe803" class="the-icons span3"><i class="kwicon-mpictograms-star"></i> <span class="i-name">kwicon-mpictograms-star</span><span class="i-code">0xe803</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe804" class="the-icons span3"><i class="kwicon-mpictograms-user"></i> <span class="i-name">kwicon-mpictograms-user</span><span class="i-code">0xe804</span></div>
+        <div title="Code: 0xe805" class="the-icons span3"><i class="kwicon-mpictograms-user-woman"></i> <span class="i-name">kwicon-mpictograms-user-woman</span><span class="i-code">0xe805</span></div>
+        <div title="Code: 0xe806" class="the-icons span3"><i class="kwicon-mpictograms-user-pair"></i> <span class="i-name">kwicon-mpictograms-user-pair</span><span class="i-code">0xe806</span></div>
+        <div title="Code: 0xe807" class="the-icons span3"><i class="kwicon-mpictograms-video-alt"></i> <span class="i-name">kwicon-mpictograms-video-alt</span><span class="i-code">0xe807</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe808" class="the-icons span3"><i class="kwicon-mpictograms-videocam"></i> <span class="i-name">kwicon-mpictograms-videocam</span><span class="i-code">0xe808</span></div>
+        <div title="Code: 0xe809" class="the-icons span3"><i class="kwicon-mpictograms-videocam-alt"></i> <span class="i-name">kwicon-mpictograms-videocam-alt</span><span class="i-code">0xe809</span></div>
+        <div title="Code: 0xe80a" class="the-icons span3"><i class="kwicon-mpictograms-camera"></i> <span class="i-name">kwicon-mpictograms-camera</span><span class="i-code">0xe80a</span></div>
+        <div title="Code: 0xe80b" class="the-icons span3"><i class="kwicon-mpictograms-th"></i> <span class="i-name">kwicon-mpictograms-th</span><span class="i-code">0xe80b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe80c" class="the-icons span3"><i class="kwicon-mpictograms-th-list"></i> <span class="i-name">kwicon-mpictograms-th-list</span><span class="i-code">0xe80c</span></div>
+        <div title="Code: 0xe80d" class="the-icons span3"><i class="kwicon-mpictograms-ok"></i> <span class="i-name">kwicon-mpictograms-ok</span><span class="i-code">0xe80d</span></div>
+        <div title="Code: 0xe80e" class="the-icons span3"><i class="kwicon-mpictograms-cancel"></i> <span class="i-name">kwicon-mpictograms-cancel</span><span class="i-code">0xe80e</span></div>
+        <div title="Code: 0xe80f" class="the-icons span3"><i class="kwicon-mpictograms-cancel-circle"></i> <span class="i-name">kwicon-mpictograms-cancel-circle</span><span class="i-code">0xe80f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe810" class="the-icons span3"><i class="kwicon-mpictograms-plus"></i> <span class="i-name">kwicon-mpictograms-plus</span><span class="i-code">0xe810</span></div>
+        <div title="Code: 0xe811" class="the-icons span3"><i class="kwicon-mpictograms-home"></i> <span class="i-name">kwicon-mpictograms-home</span><span class="i-code">0xe811</span></div>
+        <div title="Code: 0xe812" class="the-icons span3"><i class="kwicon-mpictograms-lock"></i> <span class="i-name">kwicon-mpictograms-lock</span><span class="i-code">0xe812</span></div>
+        <div title="Code: 0xe813" class="the-icons span3"><i class="kwicon-mpictograms-lock-open"></i> <span class="i-name">kwicon-mpictograms-lock-open</span><span class="i-code">0xe813</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe814" class="the-icons span3"><i class="kwicon-mpictograms-eye"></i> <span class="i-name">kwicon-mpictograms-eye</span><span class="i-code">0xe814</span></div>
+        <div title="Code: 0xe815" class="the-icons span3"><i class="kwicon-mpictograms-tag"></i> <span class="i-name">kwicon-mpictograms-tag</span><span class="i-code">0xe815</span></div>
+        <div title="Code: 0xe816" class="the-icons span3"><i class="kwicon-mpictograms-thumbs-up"></i> <span class="i-name">kwicon-mpictograms-thumbs-up</span><span class="i-code">0xe816</span></div>
+        <div title="Code: 0xe817" class="the-icons span3"><i class="kwicon-mpictograms-thumbs-down"></i> <span class="i-name">kwicon-mpictograms-thumbs-down</span><span class="i-code">0xe817</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe818" class="the-icons span3"><i class="kwicon-mpictograms-download"></i> <span class="i-name">kwicon-mpictograms-download</span><span class="i-code">0xe818</span></div>
+        <div title="Code: 0xe819" class="the-icons span3"><i class="kwicon-mpictograms-export"></i> <span class="i-name">kwicon-mpictograms-export</span><span class="i-code">0xe819</span></div>
+        <div title="Code: 0xe81a" class="the-icons span3"><i class="kwicon-mpictograms-pencil"></i> <span class="i-name">kwicon-mpictograms-pencil</span><span class="i-code">0xe81a</span></div>
+        <div title="Code: 0xe81b" class="the-icons span3"><i class="kwicon-mpictograms-pencil-alt"></i> <span class="i-name">kwicon-mpictograms-pencil-alt</span><span class="i-code">0xe81b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe81c" class="the-icons span3"><i class="kwicon-mpictograms-edit"></i> <span class="i-name">kwicon-mpictograms-edit</span><span class="i-code">0xe81c</span></div>
+        <div title="Code: 0xe81d" class="the-icons span3"><i class="kwicon-mpictograms-chat"></i> <span class="i-name">kwicon-mpictograms-chat</span><span class="i-code">0xe81d</span></div>
+        <div title="Code: 0xe81e" class="the-icons span3"><i class="kwicon-mpictograms-print"></i> <span class="i-name">kwicon-mpictograms-print</span><span class="i-code">0xe81e</span></div>
+        <div title="Code: 0xe81f" class="the-icons span3"><i class="kwicon-mpictograms-bell"></i> <span class="i-name">kwicon-mpictograms-bell</span><span class="i-code">0xe81f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe820" class="the-icons span3"><i class="kwicon-mpictograms-attention"></i> <span class="i-name">kwicon-mpictograms-attention</span><span class="i-code">0xe820</span></div>
+        <div title="Code: 0xe821" class="the-icons span3"><i class="kwicon-mpictograms-info"></i> <span class="i-name">kwicon-mpictograms-info</span><span class="i-code">0xe821</span></div>
+        <div title="Code: 0xe822" class="the-icons span3"><i class="kwicon-mpictograms-question"></i> <span class="i-name">kwicon-mpictograms-question</span><span class="i-code">0xe822</span></div>
+        <div title="Code: 0xe823" class="the-icons span3"><i class="kwicon-mpictograms-location"></i> <span class="i-name">kwicon-mpictograms-location</span><span class="i-code">0xe823</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe824" class="the-icons span3"><i class="kwicon-mpictograms-trash"></i> <span class="i-name">kwicon-mpictograms-trash</span><span class="i-code">0xe824</span></div>
+        <div title="Code: 0xe825" class="the-icons span3"><i class="kwicon-mpictograms-doc"></i> <span class="i-name">kwicon-mpictograms-doc</span><span class="i-code">0xe825</span></div>
+        <div title="Code: 0xe826" class="the-icons span3"><i class="kwicon-mpictograms-article"></i> <span class="i-name">kwicon-mpictograms-article</span><span class="i-code">0xe826</span></div>
+        <div title="Code: 0xe827" class="the-icons span3"><i class="kwicon-mpictograms-article-alt"></i> <span class="i-name">kwicon-mpictograms-article-alt</span><span class="i-code">0xe827</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe828" class="the-icons span3"><i class="kwicon-mpictograms-rss"></i> <span class="i-name">kwicon-mpictograms-rss</span><span class="i-code">0xe828</span></div>
+        <div title="Code: 0xe829" class="the-icons span3"><i class="kwicon-mpictograms-wrench"></i> <span class="i-name">kwicon-mpictograms-wrench</span><span class="i-code">0xe829</span></div>
+        <div title="Code: 0xe82a" class="the-icons span3"><i class="kwicon-mpictograms-basket"></i> <span class="i-name">kwicon-mpictograms-basket</span><span class="i-code">0xe82a</span></div>
+        <div title="Code: 0xe82b" class="the-icons span3"><i class="kwicon-mpictograms-basket-alt"></i> <span class="i-name">kwicon-mpictograms-basket-alt</span><span class="i-code">0xe82b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe82c" class="the-icons span3"><i class="kwicon-mpictograms-calendar"></i> <span class="i-name">kwicon-mpictograms-calendar</span><span class="i-code">0xe82c</span></div>
+        <div title="Code: 0xe82d" class="the-icons span3"><i class="kwicon-mpictograms-calendar-alt"></i> <span class="i-name">kwicon-mpictograms-calendar-alt</span><span class="i-code">0xe82d</span></div>
+        <div title="Code: 0xe82e" class="the-icons span3"><i class="kwicon-mpictograms-volume-off"></i> <span class="i-name">kwicon-mpictograms-volume-off</span><span class="i-code">0xe82e</span></div>
+        <div title="Code: 0xe82f" class="the-icons span3"><i class="kwicon-mpictograms-volume-down"></i> <span class="i-name">kwicon-mpictograms-volume-down</span><span class="i-code">0xe82f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe830" class="the-icons span3"><i class="kwicon-mpictograms-volume-up"></i> <span class="i-name">kwicon-mpictograms-volume-up</span><span class="i-code">0xe830</span></div>
+        <div title="Code: 0xe831" class="the-icons span3"><i class="kwicon-mpictograms-bullhorn"></i> <span class="i-name">kwicon-mpictograms-bullhorn</span><span class="i-code">0xe831</span></div>
+        <div title="Code: 0xe832" class="the-icons span3"><i class="kwicon-mpictograms-clock"></i> <span class="i-name">kwicon-mpictograms-clock</span><span class="i-code">0xe832</span></div>
+        <div title="Code: 0xe833" class="the-icons span3"><i class="kwicon-mpictograms-clock-alt"></i> <span class="i-name">kwicon-mpictograms-clock-alt</span><span class="i-code">0xe833</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe834" class="the-icons span3"><i class="kwicon-mpictograms-stop"></i> <span class="i-name">kwicon-mpictograms-stop</span><span class="i-code">0xe834</span></div>
+        <div title="Code: 0xe835" class="the-icons span3"><i class="kwicon-mpictograms-resize-full"></i> <span class="i-name">kwicon-mpictograms-resize-full</span><span class="i-code">0xe835</span></div>
+        <div title="Code: 0xe836" class="the-icons span3"><i class="kwicon-mpictograms-resize-small"></i> <span class="i-name">kwicon-mpictograms-resize-small</span><span class="i-code">0xe836</span></div>
+        <div title="Code: 0xe837" class="the-icons span3"><i class="kwicon-mpictograms-zoom-in"></i> <span class="i-name">kwicon-mpictograms-zoom-in</span><span class="i-code">0xe837</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe838" class="the-icons span3"><i class="kwicon-mpictograms-zoom-out"></i> <span class="i-name">kwicon-mpictograms-zoom-out</span><span class="i-code">0xe838</span></div>
+        <div title="Code: 0xe839" class="the-icons span3"><i class="kwicon-mpictograms-popup"></i> <span class="i-name">kwicon-mpictograms-popup</span><span class="i-code">0xe839</span></div>
+        <div title="Code: 0xe83a" class="the-icons span3"><i class="kwicon-mpictograms-down-dir"></i> <span class="i-name">kwicon-mpictograms-down-dir</span><span class="i-code">0xe83a</span></div>
+        <div title="Code: 0xe83b" class="the-icons span3"><i class="kwicon-mpictograms-left-dir"></i> <span class="i-name">kwicon-mpictograms-left-dir</span><span class="i-code">0xe83b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe83c" class="the-icons span3"><i class="kwicon-mpictograms-right-dir"></i> <span class="i-name">kwicon-mpictograms-right-dir</span><span class="i-code">0xe83c</span></div>
+        <div title="Code: 0xe83d" class="the-icons span3"><i class="kwicon-mpictograms-up-dir"></i> <span class="i-name">kwicon-mpictograms-up-dir</span><span class="i-code">0xe83d</span></div>
+        <div title="Code: 0xe83e" class="the-icons span3"><i class="kwicon-mpictograms-down"></i> <span class="i-name">kwicon-mpictograms-down</span><span class="i-code">0xe83e</span></div>
+        <div title="Code: 0xe83f" class="the-icons span3"><i class="kwicon-mpictograms-up"></i> <span class="i-name">kwicon-mpictograms-up</span><span class="i-code">0xe83f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe840" class="the-icons span3"><i class="kwicon-mpictograms-cw"></i> <span class="i-name">kwicon-mpictograms-cw</span><span class="i-code">0xe840</span></div>
+        <div title="Code: 0xe841" class="the-icons span3"><i class="kwicon-mpictograms-signal"></i> <span class="i-name">kwicon-mpictograms-signal</span><span class="i-code">0xe841</span></div>
+        <div title="Code: 0xe842" class="the-icons span3"><i class="kwicon-mpictograms-award"></i> <span class="i-name">kwicon-mpictograms-award</span><span class="i-code">0xe842</span></div>
+        <div title="Code: 0xe843" class="the-icons span3"><i class="kwicon-mpictograms-mobile"></i> <span class="i-name">kwicon-mpictograms-mobile</span><span class="i-code">0xe843</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe844" class="the-icons span3"><i class="kwicon-mpictograms-mobile-alt"></i> <span class="i-name">kwicon-mpictograms-mobile-alt</span><span class="i-code">0xe844</span></div>
+        <div title="Code: 0xe845" class="the-icons span3"><i class="kwicon-mpictograms-tablet"></i> <span class="i-name">kwicon-mpictograms-tablet</span><span class="i-code">0xe845</span></div>
+        <div title="Code: 0xe846" class="the-icons span3"><i class="kwicon-mpictograms-ipod"></i> <span class="i-name">kwicon-mpictograms-ipod</span><span class="i-code">0xe846</span></div>
+        <div title="Code: 0xe847" class="the-icons span3"><i class="kwicon-mpictograms-cd"></i> <span class="i-name">kwicon-mpictograms-cd</span><span class="i-code">0xe847</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe848" class="the-icons span3"><i class="kwicon-mpictograms-grid"></i> <span class="i-name">kwicon-mpictograms-grid</span><span class="i-code">0xe848</span></div>
+        <div title="Code: 0xe849" class="the-icons span3"><i class="kwicon-mpictograms-book"></i> <span class="i-name">kwicon-mpictograms-book</span><span class="i-code">0xe849</span></div>
+        <div title="Code: 0xe84a" class="the-icons span3"><i class="kwicon-mpictograms-easel"></i> <span class="i-name">kwicon-mpictograms-easel</span><span class="i-code">0xe84a</span></div>
+        <div title="Code: 0xe84b" class="the-icons span3"><i class="kwicon-mpictograms-globe"></i> <span class="i-name">kwicon-mpictograms-globe</span><span class="i-code">0xe84b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe84c" class="the-icons span3"><i class="kwicon-mpictograms-chart"></i> <span class="i-name">kwicon-mpictograms-chart</span><span class="i-code">0xe84c</span></div>
+        <div title="Code: 0xe84d" class="the-icons span3"><i class="kwicon-mpictograms-chart-bar"></i> <span class="i-name">kwicon-mpictograms-chart-bar</span><span class="i-code">0xe84d</span></div>
+        <div title="Code: 0xe84e" class="the-icons span3"><i class="kwicon-mpictograms-chart-pie"></i> <span class="i-name">kwicon-mpictograms-chart-pie</span><span class="i-code">0xe84e</span></div>
+        <div title="Code: 0xe84f" class="the-icons span3"><i class="kwicon-mpictograms-dollar"></i> <span class="i-name">kwicon-mpictograms-dollar</span><span class="i-code">0xe84f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe850" class="the-icons span3"><i class="kwicon-mpictograms-at"></i> <span class="i-name">kwicon-mpictograms-at</span><span class="i-code">0xe850</span></div>
+        <div title="Code: 0xe851" class="the-icons span3"><i class="kwicon-mpictograms-colon"></i> <span class="i-name">kwicon-mpictograms-colon</span><span class="i-code">0xe851</span></div>
+        <div title="Code: 0xe852" class="the-icons span3"><i class="kwicon-mpictograms-semicolon"></i> <span class="i-name">kwicon-mpictograms-semicolon</span><span class="i-code">0xe852</span></div>
+        <div title="Code: 0xe853" class="the-icons span3"><i class="kwicon-mpictograms-squares"></i> <span class="i-name">kwicon-mpictograms-squares</span><span class="i-code">0xe853</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe854" class="the-icons span3"><i class="kwicon-mpictograms-money"></i> <span class="i-name">kwicon-mpictograms-money</span><span class="i-code">0xe854</span></div>
+        <div title="Code: 0xe855" class="the-icons span3"><i class="kwicon-mpictograms-facebook"></i> <span class="i-name">kwicon-mpictograms-facebook</span><span class="i-code">0xe855</span></div>
+        <div title="Code: 0xe856" class="the-icons span3"><i class="kwicon-mpictograms-facebook-rect"></i> <span class="i-name">kwicon-mpictograms-facebook-rect</span><span class="i-code">0xe856</span></div>
+        <div title="Code: 0xe857" class="the-icons span3"><i class="kwicon-mpictograms-twitter"></i> <span class="i-name">kwicon-mpictograms-twitter</span><span class="i-code">0xe857</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe858" class="the-icons span3"><i class="kwicon-mpictograms-twitter-bird"></i> <span class="i-name">kwicon-mpictograms-twitter-bird</span><span class="i-code">0xe858</span></div>
+        <div title="Code: 0xe859" class="the-icons span3"><i class="kwicon-mpictograms-twitter-rect"></i> <span class="i-name">kwicon-mpictograms-twitter-rect</span><span class="i-code">0xe859</span></div>
+        <div title="Code: 0xe85a" class="the-icons span3"><i class="kwicon-mpictograms-youtube"></i> <span class="i-name">kwicon-mpictograms-youtube</span><span class="i-code">0xe85a</span></div>
+      </div>
+    </div>
+    <div class="container footer">Generated by <a href="http://fontello.com">fontello.com</a></div>
+  </body>
+</html>

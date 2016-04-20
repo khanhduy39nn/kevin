@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'kwayy-websymbols';
+  src: url('../font/kwayy-websymbols.eot?40897921');
+  src: url('../font/kwayy-websymbols.eot?40897921#iefix') format('embedded-opentype'),
+       url('../font/kwayy-websymbols.woff?40897921') format('woff'),
+       url('../font/kwayy-websymbols.ttf?40897921') format('truetype'),
+       url('../font/kwayy-websymbols.svg?40897921#kwayy-websymbols') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'kwayy-websymbols';
+    src: url('../font/kwayy-websymbols.svg?40897921#kwayy-websymbols') format('svg');
+  }
+}
+*/
+ 
+ [class^="kwicon-websymbols-"]:before, [class*=" kwicon-websymbols-"]:before {
+  font-family: "kwayy-websymbols";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.kwicon-websymbols-search:before { content: '\e800'; } /* '' */
+.kwicon-websymbols-mail:before { content: '\e801'; } /* '' */
+.kwicon-websymbols-heart:before { content: '\e802'; } /* '' */
+.kwicon-websymbols-heart-empty:before { content: '\e803'; } /* '' */
+.kwicon-websymbols-star:before { content: '\e804'; } /* '' */
+.kwicon-websymbols-user:before { content: '\e805'; } /* '' */
+.kwicon-websymbols-video:before { content: '\e806'; } /* '' */
+.kwicon-websymbols-picture:before { content: '\e807'; } /* '' */
+.kwicon-websymbols-th-large:before { content: '\e808'; } /* '' */
+.kwicon-websymbols-th:before { content: '\e809'; } /* '' */
+.kwicon-websymbols-th-list:before { content: '\e80a'; } /* '' */
+.kwicon-websymbols-ok:before { content: '\e80b'; } /* '' */
+.kwicon-websymbols-ok-circle:before { content: '\e80c'; } /* '' */
+.kwicon-websymbols-cancel:before { content: '\e80d'; } /* '' */
+.kwicon-websymbols-cancel-circle:before { content: '\e80e'; } /* '' */
+.kwicon-websymbols-plus-circle:before { content: '\e80f'; } /* '' */
+.kwicon-websymbols-minus-circle:before { content: '\e810'; } /* '' */
+.kwicon-websymbols-link:before { content: '\e811'; } /* '' */
+.kwicon-websymbols-attach:before { content: '\e812'; } /* '' */
+.kwicon-websymbols-lock:before { content: '\e813'; } /* '' */
+.kwicon-websymbols-lock-open:before { content: '\e814'; } /* '' */
+.kwicon-websymbols-tag:before { content: '\e815'; } /* '' */
+.kwicon-websymbols-reply:before { content: '\e816'; } /* '' */
+.kwicon-websymbols-reply-all:before { content: '\e817'; } /* '' */
+.kwicon-websymbols-forward:before { content: '\e818'; } /* '' */
+.kwicon-websymbols-code:before { content: '\e819'; } /* '' */
+.kwicon-websymbols-retweet:before { content: '\e81a'; } /* '' */
+.kwicon-websymbols-comment:before { content: '\e81b'; } /* '' */
+.kwicon-websymbols-comment-alt:before { content: '\e81c'; } /* '' */
+.kwicon-websymbols-chat:before { content: '\e81d'; } /* '' */
+.kwicon-websymbols-attention:before { content: '\e81e'; } /* '' */
+.kwicon-websymbols-location:before { content: '\e81f'; } /* '' */
+.kwicon-websymbols-doc:before { content: '\e820'; } /* '' */
+.kwicon-websymbols-docs-landscape:before { content: '\e821'; } /* '' */
+.kwicon-websymbols-folder:before { content: '\e822'; } /* '' */
+.kwicon-websymbols-archive:before { content: '\e823'; } /* '' */
+.kwicon-websymbols-rss:before { content: '\e824'; } /* '' */
+.kwicon-websymbols-rss-alt:before { content: '\e825'; } /* '' */
+.kwicon-websymbols-cog:before { content: '\e826'; } /* '' */
+.kwicon-websymbols-logout:before { content: '\e827'; } /* '' */
+.kwicon-websymbols-clock:before { content: '\e828'; } /* '' */
+.kwicon-websymbols-block:before { content: '\e829'; } /* '' */
+.kwicon-websymbols-resize-full:before { content: '\e82a'; } /* '' */
+.kwicon-websymbols-resize-full-circle:before { content: '\e82b'; } /* '' */
+.kwicon-websymbols-popup:before { content: '\e82c'; } /* '' */
+.kwicon-websymbols-left-open:before { content: '\e82d'; } /* '' */
+.kwicon-websymbols-right-open:before { content: '\e82e'; } /* '' */
+.kwicon-websymbols-down-circle:before { content: '\e82f'; } /* '' */
+.kwicon-websymbols-left-circle:before { content: '\e830'; } /* '' */
+.kwicon-websymbols-right-circle:before { content: '\e831'; } /* '' */
+.kwicon-websymbols-up-circle:before { content: '\e832'; } /* '' */
+.kwicon-websymbols-down-dir:before { content: '\e833'; } /* '' */
+.kwicon-websymbols-right-dir:before { content: '\e834'; } /* '' */
+.kwicon-websymbols-down-micro:before { content: '\e835'; } /* '' */
+.kwicon-websymbols-up-micro:before { content: '\e836'; } /* '' */
+.kwicon-websymbols-cw-circle:before { content: '\e837'; } /* '' */
+.kwicon-websymbols-arrows-cw:before { content: '\e838'; } /* '' */
+.kwicon-websymbols-updown-circle:before { content: '\e839'; } /* '' */
+.kwicon-websymbols-target:before { content: '\e83a'; } /* '' */
+.kwicon-websymbols-signal:before { content: '\e83b'; } /* '' */
+.kwicon-websymbols-progress-0:before { content: '\e83c'; } /* '' */
+.kwicon-websymbols-progress-1:before { content: '\e83d'; } /* '' */
+.kwicon-websymbols-progress-2:before { content: '\e83e'; } /* '' */
+.kwicon-websymbols-progress-3:before { content: '\e83f'; } /* '' */
+.kwicon-websymbols-progress-4:before { content: '\e840'; } /* '' */
+.kwicon-websymbols-progress-5:before { content: '\e841'; } /* '' */
+.kwicon-websymbols-progress-6:before { content: '\e842'; } /* '' */
+.kwicon-websymbols-progress-7:before { content: '\e843'; } /* '' */
+.kwicon-websymbols-font:before { content: '\e844'; } /* '' */
+.kwicon-websymbols-list:before { content: '\e845'; } /* '' */
+.kwicon-websymbols-list-numbered:before { content: '\e846'; } /* '' */
+.kwicon-websymbols-indent-left:before { content: '\e847'; } /* '' */
+.kwicon-websymbols-indent-right:before { content: '\e848'; } /* '' */
+.kwicon-websymbols-cloud:before { content: '\e849'; } /* '' */
+.kwicon-websymbols-terminal:before { content: '\e84a'; } /* '' */
+.kwicon-websymbols-facebook-rect-1:before { content: '\e84b'; } /* '' */
+.kwicon-websymbols-twitter-bird:before { content: '\e84c'; } /* '' */
+.kwicon-websymbols-vimeo-rect:before { content: '\e84d'; } /* '' */
+.kwicon-websymbols-tumblr-rect:before { content: '\e84e'; } /* '' */
+.kwicon-websymbols-googleplus-rect:before { content: '\e84f'; } /* '' */
+.kwicon-websymbols-linkedin-rect:before { content: '\e850'; } /* '' */
+.kwicon-websymbols-skype:before { content: '\e851'; } /* '' */
+.kwicon-websymbols-vkontakte-rect:before { content: '\e852'; } /* '' */
+.kwicon-websymbols-youtube:before { content: '\e853'; } /* '' */
+.kwicon-websymbols-odnoklassniki-rect:before { content: '\e854'; } /* '' */

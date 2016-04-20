@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'kwayy-mpictograms';
+  src: url('../font/kwayy-mpictograms.eot?41556029');
+  src: url('../font/kwayy-mpictograms.eot?41556029#iefix') format('embedded-opentype'),
+       url('../font/kwayy-mpictograms.woff?41556029') format('woff'),
+       url('../font/kwayy-mpictograms.ttf?41556029') format('truetype'),
+       url('../font/kwayy-mpictograms.svg?41556029#kwayy-mpictograms') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'kwayy-mpictograms';
+    src: url('../font/kwayy-mpictograms.svg?41556029#kwayy-mpictograms') format('svg');
+  }
+}
+*/
+ 
+ [class^="kwicon-mpictograms-"]:before, [class*=" kwicon-mpictograms-"]:before {
+  font-family: "kwayy-mpictograms";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.kwicon-mpictograms-search:before { content: '\e800'; } /* '' */
+.kwicon-mpictograms-mail:before { content: '\e801'; } /* '' */
+.kwicon-mpictograms-heart:before { content: '\e802'; } /* '' */
+.kwicon-mpictograms-star:before { content: '\e803'; } /* '' */
+.kwicon-mpictograms-user:before { content: '\e804'; } /* '' */
+.kwicon-mpictograms-user-woman:before { content: '\e805'; } /* '' */
+.kwicon-mpictograms-user-pair:before { content: '\e806'; } /* '' */
+.kwicon-mpictograms-video-alt:before { content: '\e807'; } /* '' */
+.kwicon-mpictograms-videocam:before { content: '\e808'; } /* '' */
+.kwicon-mpictograms-videocam-alt:before { content: '\e809'; } /* '' */
+.kwicon-mpictograms-camera:before { content: '\e80a'; } /* '' */
+.kwicon-mpictograms-th:before { content: '\e80b'; } /* '' */
+.kwicon-mpictograms-th-list:before { content: '\e80c'; } /* '' */
+.kwicon-mpictograms-ok:before { content: '\e80d'; } /* '' */
+.kwicon-mpictograms-cancel:before { content: '\e80e'; } /* '' */
+.kwicon-mpictograms-cancel-circle:before { content: '\e80f'; } /* '' */
+.kwicon-mpictograms-plus:before { content: '\e810'; } /* '' */
+.kwicon-mpictograms-home:before { content: '\e811'; } /* '' */
+.kwicon-mpictograms-lock:before { content: '\e812'; } /* '' */
+.kwicon-mpictograms-lock-open:before { content: '\e813'; } /* '' */
+.kwicon-mpictograms-eye:before { content: '\e814'; } /* '' */
+.kwicon-mpictograms-tag:before { content: '\e815'; } /* '' */
+.kwicon-mpictograms-thumbs-up:before { content: '\e816'; } /* '' */
+.kwicon-mpictograms-thumbs-down:before { content: '\e817'; } /* '' */
+.kwicon-mpictograms-download:before { content: '\e818'; } /* '' */
+.kwicon-mpictograms-export:before { content: '\e819'; } /* '' */
+.kwicon-mpictograms-pencil:before { content: '\e81a'; } /* '' */
+.kwicon-mpictograms-pencil-alt:before { content: '\e81b'; } /* '' */
+.kwicon-mpictograms-edit:before { content: '\e81c'; } /* '' */
+.kwicon-mpictograms-chat:before { content: '\e81d'; } /* '' */
+.kwicon-mpictograms-print:before { content: '\e81e'; } /* '' */
+.kwicon-mpictograms-bell:before { content: '\e81f'; } /* '' */
+.kwicon-mpictograms-attention:before { content: '\e820'; } /* '' */
+.kwicon-mpictograms-info:before { content: '\e821'; } /* '' */
+.kwicon-mpictograms-question:before { content: '\e822'; } /* '' */
+.kwicon-mpictograms-location:before { content: '\e823'; } /* '' */
+.kwicon-mpictograms-trash:before { content: '\e824'; } /* '' */
+.kwicon-mpictograms-doc:before { content: '\e825'; } /* '' */
+.kwicon-mpictograms-article:before { content: '\e826'; } /* '' */
+.kwicon-mpictograms-article-alt:before { content: '\e827'; } /* '' */
+.kwicon-mpictograms-rss:before { content: '\e828'; } /* '' */
+.kwicon-mpictograms-wrench:before { content: '\e829'; } /* '' */
+.kwicon-mpictograms-basket:before { content: '\e82a'; } /* '' */
+.kwicon-mpictograms-basket-alt:before { content: '\e82b'; } /* '' */
+.kwicon-mpictograms-calendar:before { content: '\e82c'; } /* '' */
+.kwicon-mpictograms-calendar-alt:before { content: '\e82d'; } /* '' */
+.kwicon-mpictograms-volume-off:before { content: '\e82e'; } /* '' */
+.kwicon-mpictograms-volume-down:before { content: '\e82f'; } /* '' */
+.kwicon-mpictograms-volume-up:before { content: '\e830'; } /* '' */
+.kwicon-mpictograms-bullhorn:before { content: '\e831'; } /* '' */
+.kwicon-mpictograms-clock:before { content: '\e832'; } /* '' */
+.kwicon-mpictograms-clock-alt:before { content: '\e833'; } /* '' */
+.kwicon-mpictograms-stop:before { content: '\e834'; } /* '' */
+.kwicon-mpictograms-resize-full:before { content: '\e835'; } /* '' */
+.kwicon-mpictograms-resize-small:before { content: '\e836'; } /* '' */
+.kwicon-mpictograms-zoom-in:before { content: '\e837'; } /* '' */
+.kwicon-mpictograms-zoom-out:before { content: '\e838'; } /* '' */
+.kwicon-mpictograms-popup:before { content: '\e839'; } /* '' */
+.kwicon-mpictograms-down-dir:before { content: '\e83a'; } /* '' */
+.kwicon-mpictograms-left-dir:before { content: '\e83b'; } /* '' */
+.kwicon-mpictograms-right-dir:before { content: '\e83c'; } /* '' */
+.kwicon-mpictograms-up-dir:before { content: '\e83d'; } /* '' */
+.kwicon-mpictograms-down:before { content: '\e83e'; } /* '' */
+.kwicon-mpictograms-up:before { content: '\e83f'; } /* '' */
+.kwicon-mpictograms-cw:before { content: '\e840'; } /* '' */
+.kwicon-mpictograms-signal:before { content: '\e841'; } /* '' */
+.kwicon-mpictograms-award:before { content: '\e842'; } /* '' */
+.kwicon-mpictograms-mobile:before { content: '\e843'; } /* '' */
+.kwicon-mpictograms-mobile-alt:before { content: '\e844'; } /* '' */
+.kwicon-mpictograms-tablet:before { content: '\e845'; } /* '' */
+.kwicon-mpictograms-ipod:before { content: '\e846'; } /* '' */
+.kwicon-mpictograms-cd:before { content: '\e847'; } /* '' */
+.kwicon-mpictograms-grid:before { content: '\e848'; } /* '' */
+.kwicon-mpictograms-book:before { content: '\e849'; } /* '' */
+.kwicon-mpictograms-easel:before { content: '\e84a'; } /* '' */
+.kwicon-mpictograms-globe:before { content: '\e84b'; } /* '' */
+.kwicon-mpictograms-chart:before { content: '\e84c'; } /* '' */
+.kwicon-mpictograms-chart-bar:before { content: '\e84d'; } /* '' */
+.kwicon-mpictograms-chart-pie:before { content: '\e84e'; } /* '' */
+.kwicon-mpictograms-dollar:before { content: '\e84f'; } /* '' */
+.kwicon-mpictograms-at:before { content: '\e850'; } /* '' */
+.kwicon-mpictograms-colon:before { content: '\e851'; } /* '' */
+.kwicon-mpictograms-semicolon:before { content: '\e852'; } /* '' */
+.kwicon-mpictograms-squares:before { content: '\e853'; } /* '' */
+.kwicon-mpictograms-money:before { content: '\e854'; } /* '' */
+.kwicon-mpictograms-facebook:before { content: '\e855'; } /* '' */
+.kwicon-mpictograms-facebook-rect:before { content: '\e856'; } /* '' */
+.kwicon-mpictograms-twitter:before { content: '\e857'; } /* '' */
+.kwicon-mpictograms-twitter-bird:before { content: '\e858'; } /* '' */
+.kwicon-mpictograms-twitter-rect:before { content: '\e859'; } /* '' */
+.kwicon-mpictograms-youtube:before { content: '\e85a'; } /* '' */

@@ -1,0 +1,538 @@
+@media (max-width: 1200px){	
+/*------------------------------------------------------------------
+[Table of contents]
+
+
+1. Header Section
+2. Navigation
+3. Kwayy Doctor page 
+-------------------------------------------------------------------*/	
+	
+	
+
+ 
+ 
+ /**
+ *  3. Kwayy Doctor page 
+ * ----------------------------------------------------------------------------
+ */
+ 	
+	.kwayy-tbar-team-search-box .row .col-lg-3:nth-child(1) {
+   		width: 24% !important;
+	}
+	.kwayy-tbar-team-search-box .row .col-lg-3:nth-child(4) {
+		width: 16% !important;
+	}
+	.kwayy-tbar-team-search-box .row .col-lg-3:nth-child(2), 
+	.kwayy-tbar-team-search-box .row .col-lg-3:nth-child(3) {
+		width: 30% !important;
+	}	
+	.kwayy-content-team-search-box h2 {		
+		font-size: 18px;
+	}
+	.kwayy-content-team-search-box .row .col-lg-3:nth-child(1) {
+		width: 25% !important;
+	}
+	.kwayy-content-team-search-box .row .col-lg-3:nth-child(2), 
+	.kwayy-content-team-search-box .row .col-lg-3:nth-child(3) {
+		width: 27% !important;
+	}
+	.kwayy-content-team-search-box .row .col-lg-3:nth-child(4) {
+		width: 21% !important;
+	}
+	.kwayy-tbar-team-search-box .kwayy-team-form-no-group .row .col-lg-6:nth-child(2) {
+		width: 61% !important;
+	}
+	.kwayy-tbar-team-search-box .kwayy-team-form-no-group .row .col-lg-3:nth-child(3) {
+		width: 15% !important;
+	}
+	.kwayy-tbar-team-search-box .search_field select, 
+	.kwayy-content-team-search-box .search_field select{
+		width: 124%;
+	}
+	.kwayy-content-team-search-box .kwayy-team-form-no-group .row .col-lg-6:nth-child(2){
+		width: 54% !important;
+	}
+	.kwayy-content-team-search-box .kwayy-team-form-no-group .row .col-lg-3:nth-child(3) {
+		width: 20% !important;
+	}
+	
+	/*No image setting*/
+	.kwayy-page-full-width .kwayy-blog-col-two .kwayy-proj-noimage{
+			height: 253px;
+			line-height: 253px;
+	}
+	.kwayy-sidebar-left .kwayy-blog-col-two .kwayy-proj-noimage, 
+	.kwayy-sidebar-right .kwayy-blog-col-two .kwayy-proj-noimage {
+		height: 185px;
+		line-height: 185px;
+	}	
+	.kwayy-page-full-width .kwayy-blog-col-three .kwayy-proj-noimage{
+		height: 165px;
+		line-height: 165px;
+	}
+	.kwayy-sidebar-left .kwayy-blog-col-three .kwayy-proj-noimage,
+	.kwayy-sidebar-right .kwayy-blog-col-three .kwayy-proj-noimage{	
+		height: 116px;
+		line-height: 116px;
+	}
+	.kwayy-page-full-width .kwayy-blog-col-four .kwayy-proj-noimage{
+		height: 120px;
+		line-height: 120px;
+	}
+	
+	
+	.kwayy-wide.kwayy-sticky-footer .site-footer{
+		position:inherit;
+	}
+	.kwayy-wide.kwayy-sticky-footer .site-main{
+		margin-bottom: auto !important;
+	}
+	
+}
+
+@media (max-width: 995px){		
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+
+1. Header Section
+2. Navigation
+3. Body Content
+4. Kwayy Doctor page 
+-------------------------------------------------------------------*/	
+
+
+/**
+ * 1. Header Section
+ * ----------------------------------------------------------------------------
+ */
+	/*Topbar menu*/
+	.top-contact li:nth-child(3) {
+		display:none;
+	}
+ 	.kwayy-flexible-width-left, .kwayy-flexible-width-right{
+		display:block;
+	}
+ 
+
+
+
+/**
+ * 3. Body Content 
+ * ----------------------------------------------------------------------------
+ */	
+
+	.wpb_call_to_action .table-row {
+		display: block;
+	}
+	.wpb_call_to_action {
+		display: block;
+	}
+	.cta_align_left .kwayy-cta-content-wrapper, 
+	.cta_align_left .kwayy-cta-button-wrapper, 
+	.cta_align_right .kwayy-cta-content-wrapper, 
+	.cta_align_right .kwayy-cta-button-wrapper {
+		display:block;
+		text-align: center;
+	}
+	.cta_align_left .kwayy-cta-button-wrapper, 
+	.cta_align_right .kwayy-cta-button-wrapper {
+		margin-top: 10px;
+		display: block;
+		padding-left:0px;
+	}	
+	.headingblock, 
+	.breadcrumbblock {
+		display: table-cell;
+	}	
+	.footer .widget {
+		margin-bottom: 0px;
+	}	
+	.site-footer .widget-area:last-child {
+		margin-bottom: 40px;
+	}	
+	.site-footer .widget-area {
+		min-height: 350px;
+	}	
+	body.kwayy-sidebar-right .site-main #primary.content-area,
+	body.kwayy-sidebar-right.tax-team_group .site-main #primary.content-area,
+	.tax-team_group .site-main .kwayy-team-group-left {
+		padding-right: 15px!important;
+		border-right: 0px;
+		margin-top: 0px;
+	}
+	#sidebar-right .widget{
+		padding-left:0px;
+	}		
+	.site-main #sidebar-left.sidebar{
+		border-right: 0px;
+	}	
+	.sidebar .search-form:after{
+		display:none;
+	}		
+	.site-main #sidebar-right.sidebar{
+		border-left: 0px;
+	}	
+	#sidebar-left .widget{
+		padding-right: 0px;
+	}	
+	.site-main #sidebar-left.sidebar{
+		float:none;
+	}	
+	body.kwayy-sidebar-left .site-main #primary.content-area {
+		padding-left: 15px!important;
+		border-left: none;
+	} 
+	body.kwayy-sidebar-bothright .site-main #primary.content-area {
+		padding-right: 15px!important;
+		border-right: none;
+		margin-right: 0px;
+	}	
+	body.kwayy-sidebar-bothright .site-main #sidebar-left .widget{
+		padding-left: 0px;
+	}	
+	body.kwayy-sidebar-bothright .site-main #sidebar-left.sidebar {
+		border-right: none;
+		border-left: none;
+	}	
+	body.kwayy-sidebar-bothright .site-main #sidebar-left.sidebar,
+	body.kwayy-sidebar-bothleft .site-main #sidebar-right.sidebar {
+		border-right: none;
+		border-left: none;
+		margin-right:0px;
+	}
+	body.kwayy-sidebar-bothleft .site-main #primary.content-area {
+		padding-left: 15px!important;
+		border-left: none;
+	}
+	body.kwayy-sidebar-bothleft .site-main #sidebar-right .widget {
+		padding-left: 0px;
+		padding-right: 0px;
+	}	
+	body.kwayy-sidebar-both .site-main #primary.content-area {
+		padding-right: 15px!important;
+		border-right: none;
+		margin-right: 0px;
+		padding-left: 15px!important;
+		border-left: none;
+		margin-left: 0px;
+	}
+	body.kwayy-sidebar-both .site-main #sidebar-left.sidebar,
+	body.kwayy-sidebar-both .site-main #primary.content-area {
+		margin-left: 0% !important;
+	}
+	
+
+
+	
+/**
+ * 4. Kwayy Doctor page
+ * ----------------------------------------------------------------------------
+ */	
+
+	.tax-team_group .site-main .kwayy-team-group-right {
+		padding-left: 15px !important;
+		border-left: none;
+		margin-left: 0px;
+		margin-top: 60px;
+	}
+	.tax-team_group .site-main .kwayy-team-group-left{
+		padding-top:0px;
+	}	
+	.kwayy-tbar-team-search-box .row .col-lg-3:nth-child(2), 
+	.kwayy-tbar-team-search-box .row .col-lg-3:nth-child(3) {
+		width: 24% !important;
+	}
+	.kwayy-tbar-team-search-box .row .col-lg-3:nth-child(1) {
+		width: 32% !important;
+	}
+	.kwayy-tbar-team-search-box .row .col-lg-3:nth-child(4) {
+		width: 20% !important;
+	}	
+	.kwayy-content-team-search-box h2 {		
+		font-size: 18px;
+	}
+	.kwayy-content-team-search-box .row .col-lg-3:nth-child(1) {
+		width: 26% !important;
+	}
+	.kwayy-content-team-search-box .row .col-lg-3:nth-child(2), 
+	.kwayy-content-team-search-box .row .col-lg-3:nth-child(3) {
+		width: 27% !important;
+	}
+	.kwayy-content-team-search-box .row .col-lg-3:nth-child(4) {
+		width: 20% !important;
+	}
+	.kwayy-tbar-team-search-box .kwayy-team-form-no-group .row .col-lg-3:nth-child(1) {
+		width: 30% !important;
+	}	
+	.kwayy-tbar-team-search-box .kwayy-team-form-no-group .row .col-lg-6:nth-child(2){
+		width: 51% !important;
+	}	
+	.kwayy-tbar-team-search-box .kwayy-team-form-no-group .row .col-lg-3:nth-child(3){
+		width: 19% !important;
+	}	
+	.selectstyle {
+		margin-bottom: 15px !important;
+	}
+		
+	/*No image setting*/
+	.kwayy-page-full-width .kwayy-blog-col-two .kwayy-proj-noimage,
+	.kwayy-page-full-width .kwayy-blog-col-three .kwayy-proj-noimage,
+	.kwayy-page-full-width .kwayy-blog-col-four .kwayy-proj-noimage{
+			height: 194px;
+			line-height: 194px;
+	}
+	.kwayy-sidebar-left .kwayy-blog-col-two .kwayy-proj-noimage, 
+	.kwayy-sidebar-right .kwayy-blog-col-two .kwayy-proj-noimage {
+		height: 185px;
+		line-height: 185px;
+	}	
+	.kwayy-sidebar-left .kwayy-blog-col-three .kwayy-proj-noimage,
+	.kwayy-sidebar-right .kwayy-blog-col-three .kwayy-proj-noimage{	
+		height: 190px;
+		line-height: 190px;
+	}
+
+	.kwayy-row-fullwidth-true .grid_section .col-lg-4{
+		width: 50% !important;
+	}
+	
+	
+	.kwayy-carousel-items-wrapper .kwayy_tweet_item.kwayy_tweetitem{
+		margin-right:50px;
+	}
+	
+}
+
+
+@media only screen and (max-width: 767px){
+	
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Header Section
+2. Kwayy Doctor page 
+3. Body Content
+-------------------------------------------------------------------*/	
+	
+/**
+ * 1. Header Section
+ * ----------------------------------------------------------------------------
+ */	
+ 
+ 	.kwayy-header-style-2 #stickable-header .headerlogo,
+	.headerlogo {
+		float: none;
+		width:300px;
+	}
+	.site-title {
+		text-align: left;
+	}
+	.headercontent .headerlogo img {		
+		max-width: 100%;
+		height: auto;
+	}
+	
+	body.kwayy-header-style-2 h1.site-title {
+		width: auto;
+		margin: 0;
+	}
+	
+ 
+ 		
+	.kwayy-tbar-team-search-box .search_field select, 
+	.kwayy-content-team-search-box .search_field select{
+		width: 110%;
+	}
+	.header-inner{
+		height:auto;
+	}	
+	.kwayy-tb-content.kwayy-flexible-width-left,
+	.kwayy-tb-social.kwayy-flexible-width-right{
+		display:block;
+		text-align:center;
+	}
+	.kwayy-tb-social  .social-icons{
+		display:none;		
+	}	
+	.social-icons{
+		display:none;
+		text-align:center;
+	}		
+	.kwayy-team-box {
+		margin-bottom:30px;
+	}	
+	.headingblock, 
+	.breadcrumbblock {
+		display:block;
+		text-align:center;
+	}
+	.kwayy-titlebar-main .breadcrumb-wrapper {
+		text-align:center;
+	}
+	
+/**
+ * 2. Kwayy Doctor page 
+ * ----------------------------------------------------------------------------
+ */ 
+	.kwayy-tbar-team-search-box .row .col-lg-3:nth-child(1),
+	.kwayy-tbar-team-search-box .row .col-lg-3:nth-child(2), 
+	.kwayy-tbar-team-search-box .row .col-lg-3:nth-child(3),
+	.kwayy-tbar-team-search-box .row .col-lg-3:nth-child(4),	
+	.kwayy-content-team-search-box .row .col-lg-3:nth-child(1),
+	.kwayy-content-team-search-box .row .col-lg-3:nth-child(2), 
+	.kwayy-content-team-search-box .row .col-lg-3:nth-child(3),
+	.kwayy-content-team-search-box .row .col-lg-3:nth-child(4),
+	.kwayy-tbar-team-search-box .kwayy-team-form-no-group  .row .col-lg-3:nth-child(1), 
+	.kwayy-tbar-team-search-box .kwayy-team-form-no-group .row .col-lg-6:nth-child(2), 
+	.kwayy-tbar-team-search-box .kwayy-team-form-no-group .row .col-lg-3:nth-child(3), 
+	.kwayy-content-team-search-box .kwayy-team-form-no-group .row .col-lg-6:nth-child(2),
+	.kwayy-content-team-search-box .kwayy-team-form-no-group .row .col-lg-3:nth-child(3){
+		width: 100% !important;
+	}
+	.kwayy-tbar-team-search-box .row .col-lg-3,
+	.kwayy-content-team-search-box  .row .col-lg-3,
+	.kwayy-tbar-team-search-box .kwayy-team-form-no-group  .row .col-lg-3:nth-child(1),
+	.kwayy-tbar-team-search-box .kwayy-team-form-no-group .row .col-lg-6:nth-child(2),
+	.kwayy-tbar-team-search-box .kwayy-team-form-no-group .row .col-lg-3:nth-child(3),
+	.kwayy-content-team-search-box .kwayy-team-form-no-group .row .col-lg-6:nth-child(2) {
+		margin-bottom:10px;
+	}
+	
+/**
+ * 3. Body Content
+ * ----------------------------------------------------------------------------
+ */		
+	.kwayy-blog-boxes-wrapper img.wp-post-image{
+		width:100%;
+	}
+	.wpb_content_element, .rspacer, .wpb_column > .wpb_wrapper > .inside {
+		margin-bottom: 25px;
+	}	
+	.site-footer .widget-area {
+		min-height:inherit;
+	}	
+	.site-info,
+	.kwayy_footer_menu {
+		text-align:center;
+	}
+	.footer .social-icons{
+		display:block;	
+	}
+	
+
+}
+@media only screen and (max-width: 479px){
+	
+	.headerlogo,
+	.kwayy-header-style-2 #stickable-header .headerlogo {
+		width:220px;
+	}	
+	.tm-header-invert .headerlogo {
+		width:210px;
+	}	
+	.top-contact li{
+		display:block;
+	}
+	.top-contact li,
+	.top-contact li:first-child{
+		border:none;
+	}
+	.portfolio-wrapper .portfolio-box{
+		width: 100%;
+	}
+	.kwayy-row-fullwidth-true .grid_section .col-lg-4{
+		width: 100% !important;
+	}
+	
+	.owl-wrapper .portfolio-box {
+		margin:0px;
+	}	
+	.owl-wrapper .owl-item > article {
+		margin: 0px;
+		padding: 0px 15px;
+	}
+
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+	
+/*	Blog six and five colum  */
+	
+.kwayy-items-col-five.kwayy-blog-boxes-wrapper .kwayy-postbox-small-date,
+.kwayy-items-col-six.kwayy-blog-boxes-wrapper .kwayy-postbox-small-date{
+	  width: 44px;
+	  line-height: 15px;
+}
+.kwayy-items-col-five.kwayy-blog-boxes-wrapper .kwayy-entry-date,
+.kwayy-items-col-six.kwayy-blog-boxes-wrapper  .kwayy-entry-date{
+	  padding: 10px 0px 4px 0px;
+}
+.kwayy-items-col-five.kwayy-blog-boxes-wrapper .entry-date .entry-date,
+.kwayy-items-col-six.kwayy-blog-boxes-wrapper .entry-date .entry-date{
+	font-size: 19px;
+	  line-height: 12px;
+}
+.kwayy-items-col-five.kwayy-blog-boxes-wrapper .entry-month,
+.kwayy-items-col-six.kwayy-blog-boxes-wrapper .entry-month {
+	font-size: 11px;
+}
+.kwayy-items-col-five.kwayy-blog-boxes-wrapper .flex-direction-nav a:before,
+.kwayy-items-col-six.kwayy-blog-boxes-wrapper .flex-direction-nav a:before {
+	margin-top: 4px;
+}
+.kwayy-items-col-six.kwayy-blog-boxes-wrapper .flex-direction-nav a.flex-next, 
+.kwayy-items-col-six.kwayy-blog-boxes-wrapper .flex-direction-nav a.flex-prev,
+
+.kwayy-items-col-five.kwayy-blog-boxes-wrapper .flex-direction-nav a.flex-next, 
+.kwayy-items-col-five.kwayy-blog-boxes-wrapper .flex-direction-nav a.flex-prev  {
+	height: 24px;
+	width: 24px;
+	line-height: 14px;
+}
+.kwayy-items-col-five.kwayy-blog-boxes-wrapper .flex-direction-nav a,
+.kwayy-items-col-six.kwayy-blog-boxes-wrapper .flex-direction-nav a {
+	margin: -10px 0 0;
+}
+.kwayy-items-col-five.kwayy-blog-boxes-wrapper .post-item .item-content,
+.kwayy-items-col-six.kwayy-blog-boxes-wrapper .post-item .item-content {
+	padding: 15px 15px;
+}
+
+
+/*	Testimonial six and five colum  */
+
+.kwayy-items-col-five.kwayy-testimonial-wrapper .kwayy-testimonial-text .contarea,
+.kwayy-items-col-six.kwayy-testimonial-wrapper .kwayy-testimonial-text .contarea  {	
+	padding: 10px 10px 10px 30px;	
+}
+.kwayy-items-col-five.kwayy-testimonial-wrapper .kwayy-tst-contarea-text:before,
+.kwayy-items-col-six.kwayy-testimonial-wrapper .kwayy-tst-contarea-text:before {
+	top: 33px;
+	left: 19px;
+}
+.kwayy-items-col-five.kwayy-testimonial-wrapper .kwayy-tst-contarea-text:after,
+.kwayy-items-col-six.kwayy-testimonial-wrapper .kwayy-tst-contarea-text:after {
+	left: 11px;
+	top: 15px;
+}
+
+.kwayy-items-col-five.kwayy-team-wrapper .kwayy-team-social-links a,
+.kwayy-items-col-six.kwayy-team-wrapper .kwayy-team-social-links a {
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+}
+
+
+
+}
+
+
+

@@ -1,0 +1,63 @@
+#min-generator-results{
+	border: 1px solid rgb(238, 238, 238);
+	margin-top: 10px;
+	padding: 35px;
+	min-height: 45px;
+	background: white no-repeat 15px 15px;
+}
+#min-generator-results .import-demo-data-text{
+	padding: 10px 10px 10px 66px;
+	background: white url('mingenerator-alert.jpg') no-repeat 15px 15px;
+}
+
+
+#min-generator-results.kwayy-min-generator-progress{
+	background-image: url('mingenerator-loader.gif');
+	padding: 11px 18px 18px 65px;
+}
+#min-generator-results.kwayy-min-generator-progress.kwayy-min-generator-success{
+	background-image: url('mingenerator-success.jpg');
+}
+
+.kwayy-one-click-demo-content-wrapper{
+	padding: 10px 0;
+}
+
+
+.import-demo-data-layout{
+	margin-bottom:25px;
+}
+.import-demo-thumb{
+	position: relative;
+	display: inline-block;
+	margin-right: 35px;
+}
+.import-demo-imgwrapper,
+.import-demo-imgwrapper img{
+	display: block;
+	transition: all 0.2s ease;
+}
+.import-demo-thumb .import-demo-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 4px solid #00aeef;
+	margin: -4px;
+	display: block;
+}
+.import-demo-thumb .import-demo-overlay > span{
+	display: block;
+	position: absolute;
+	bottom: -4px;
+	left: 0px;
+	opacity: 0;
+	transition: all 0.2s ease;
+}
+.import-demo-thumb:hover .import-demo-imgwrapper > img{
+	opacity: 0.8;
+}
+.import-demo-thumb.import-demo-thumb-active .import-demo-overlay > span{
+	opacity: 1;
+}

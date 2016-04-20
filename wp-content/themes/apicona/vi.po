@@ -1,0 +1,6343 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Apicona WordPress Theme\n"
+"POT-Creation-Date: 2015-02-26 19:08+0530\n"
+"PO-Revision-Date: 2015-05-27 09:05+0700\n"
+"Last-Translator: Theme Mount <thememount@gmail.com>\n"
+"Language-Team: ThemeMount <thememount@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../content-quote.php:52 ../content-audio.php:57 ../content-gallery.php:40
+#: ../image.php:96 ../single-portfolio.php:83 ../content-image.php:38
+#: ../content-aside.php:21 ../content-link.php:47 ../content-chat.php:41
+#: ../content-video.php:55 ../content-status.php:21 ../content.php:61
+#: ../page.php:55
+msgid "Pages:"
+msgstr ""
+
+#: ../content-quote.php:59 ../content-audio.php:49 ../content-audio.php:65
+#: ../content-gallery.php:33 ../content-gallery.php:48 ../image.php:102
+#: ../single-portfolio.php:86 ../content-image.php:45 ../content-aside.php:28
+#: ../content-link.php:38 ../content-chat.php:34 ../content-chat.php:49
+#: ../content-video.php:44 ../content-video.php:62 ../content-status.php:26
+#: ../content.php:45 ../content.php:70 ../page.php:59
+msgid "Edit"
+msgstr ""
+
+#: ../sidebar-woocommerce.php:9 ../sidebar-left.php:10 ../sidebar-shop.php:9
+#: ../sidebar-bbpress.php:10 ../sidebar.php:9 ../sidebar-right.php:10
+msgid "No Widget Found"
+msgstr ""
+
+#: ../sidebar-woocommerce.php:10 ../sidebar-left.php:11 ../sidebar-shop.php:10
+#: ../sidebar-bbpress.php:11 ../sidebar.php:10 ../sidebar-right.php:11
+#, php-format
+msgid ""
+"We don't find any widget to show. Please add some widgets by going to "
+"<strong>Admin > Appearance > Widgets</strong> and add widgets in <strong>\"%s"
+"\"</strong> area."
+msgstr ""
+
+#: ../single-team_member.php:79
+msgid "About"
+msgstr ""
+
+#: ../image.php:48
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
+msgstr ""
+
+#: ../image.php:64
+msgid "Link to full-size image"
+msgstr ""
+
+#: ../image.php:65
+msgid "Full resolution"
+msgstr ""
+
+#: ../image.php:77
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: ../image.php:78
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content-image.php:37 ../content-aside.php:20 ../content-video.php:54
+#: ../content-status.php:20
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../searchform.php:3 ../searchform.php:4
+msgid "Search for:"
+msgstr ""
+
+#: ../searchform.php:4
+msgid "Search ..."
+msgstr ""
+
+#: ../searchform.php:6 ../inc/redux-options.php:1282 ../inc/tools.php:107
+msgid "Search"
+msgstr ""
+
+#: ../functions.php:111 ../css/functions.php:93
+#: ../inc/redux-framework/ReduxCore/framework.php:1835
+msgid "Default"
+msgstr ""
+
+#: ../functions.php:671 ../css/functions.php:651
+msgid "Navigation Menu"
+msgstr ""
+
+#: ../functions.php:672 ../css/functions.php:652
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:986 ../css/functions.php:966
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../functions.php:1001 ../css/functions.php:981
+msgid "Left Sidebar for Blog"
+msgstr ""
+
+#: ../functions.php:1003 ../css/functions.php:983
+msgid "This is left sidebar for blog section"
+msgstr ""
+
+#: ../functions.php:1011 ../css/functions.php:991
+msgid "Right Sidebar for Blog"
+msgstr ""
+
+#: ../functions.php:1013 ../css/functions.php:993
+msgid "This is right sidebar for blog section"
+msgstr ""
+
+#: ../functions.php:1021 ../css/functions.php:1001
+msgid "Left Sidebar for Pages"
+msgstr ""
+
+#: ../functions.php:1023 ../css/functions.php:1003
+msgid "This is left sidebar for pages"
+msgstr ""
+
+#: ../functions.php:1031 ../css/functions.php:1011
+msgid "Right Sidebar for Pages"
+msgstr ""
+
+#: ../functions.php:1033 ../css/functions.php:1013
+msgid "This is right sidebar for pages"
+msgstr ""
+
+#: ../functions.php:1041 ../css/functions.php:1021
+msgid "Left Sidebar for Search"
+msgstr ""
+
+#: ../functions.php:1043 ../css/functions.php:1023
+msgid "This is left sidebar for search"
+msgstr ""
+
+#: ../functions.php:1051 ../css/functions.php:1031
+msgid "Right Sidebar for search"
+msgstr ""
+
+#: ../functions.php:1053 ../css/functions.php:1033
+msgid "This is right sidebar for search"
+msgstr ""
+
+#: ../functions.php:1062 ../css/functions.php:1042
+msgid "WooCommerce Shop"
+msgstr ""
+
+#: ../functions.php:1064 ../css/functions.php:1044
+msgid "This is sidebar for WooCommerce shop pages."
+msgstr ""
+
+#: ../functions.php:1073 ../css/functions.php:1053
+#: ../inc/redux-options.php:2066
+msgid "BBPress Sidebar"
+msgstr ""
+
+#: ../functions.php:1075 ../css/functions.php:1055
+msgid "This is sidebar for BBPress."
+msgstr ""
+
+#: ../functions.php:1085 ../css/functions.php:1065
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: ../functions.php:1087 ../css/functions.php:1067
+msgid "This is first footer widget area."
+msgstr ""
+
+#: ../functions.php:1094 ../css/functions.php:1074
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: ../functions.php:1096 ../css/functions.php:1076
+msgid "This is second footer widget area."
+msgstr ""
+
+#: ../functions.php:1103 ../css/functions.php:1083
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: ../functions.php:1105 ../css/functions.php:1085
+msgid "This is third footer widget area."
+msgstr ""
+
+#: ../functions.php:1112 ../css/functions.php:1092
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: ../functions.php:1114 ../css/functions.php:1094
+msgid "This is fourth footer widget area."
+msgstr ""
+
+#: ../functions.php:1130 ../css/functions.php:1110
+msgid "This is custom widget developed from \"Appearance > Theme Options\"."
+msgstr ""
+
+#: ../functions.php:1164 ../css/functions.php:1144
+msgid " <i class=\"kwicon-fa-angle-left\"></i> "
+msgstr ""
+
+#: ../functions.php:1165 ../css/functions.php:1145
+msgid " <i class=\"kwicon-fa-angle-right\"></i> "
+msgstr ""
+
+#: ../functions.php:1201 ../css/functions.php:1183
+msgid "<span class=\"meta-nav\"></span> Previous"
+msgstr ""
+
+#: ../functions.php:1202 ../css/functions.php:1184
+msgid "Next <span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: ../functions.php:1232 ../functions.php:1233 ../css/functions.php:1215
+#: ../css/functions.php:1216 ../inc/tools.php:1715 ../inc/tools.php:2286
+msgid ", "
+msgstr ""
+
+#: ../functions.php:1241 ../css/functions.php:1224
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../functions.php:1279 ../functions.php:1320 ../css/functions.php:1262
+#: ../css/functions.php:1303
+#, php-format
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: ../functions.php:1814 ../css/functions.php:1768
+#: ../inc/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../functions.php:1815 ../css/functions.php:1769
+#: ../inc/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions.php:1816 ../css/functions.php:1770
+#: ../inc/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../functions.php:1817 ../css/functions.php:1771
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:1818 ../css/functions.php:1772
+#: ../inc/class-tgm-plugin-activation.php:168
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:1819 ../css/functions.php:1773
+#: ../inc/class-tgm-plugin-activation.php:169
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:1820 ../css/functions.php:1774
+#: ../inc/class-tgm-plugin-activation.php:170
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:1821 ../css/functions.php:1775
+#: ../inc/class-tgm-plugin-activation.php:171
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:1822 ../css/functions.php:1776
+#: ../inc/class-tgm-plugin-activation.php:172
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:1823 ../css/functions.php:1777
+#: ../inc/class-tgm-plugin-activation.php:173
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:1824 ../css/functions.php:1778
+#: ../inc/class-tgm-plugin-activation.php:174
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:1825 ../css/functions.php:1779
+#: ../inc/class-tgm-plugin-activation.php:175
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:1826 ../css/functions.php:1780
+#: ../inc/class-tgm-plugin-activation.php:176
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:1827 ../css/functions.php:1781
+#: ../inc/class-tgm-plugin-activation.php:177
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:1828 ../css/functions.php:1782
+#: ../inc/class-tgm-plugin-activation.php:178
+#: ../inc/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../functions.php:1829 ../css/functions.php:1783
+#: ../inc/class-tgm-plugin-activation.php:179
+#: ../inc/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions.php:1830 ../css/functions.php:1784
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../header.php:94
+msgid "<span>Toggle menu</span><i class=\"kwicon-fa-navicon\"></i>"
+msgstr ""
+
+#: ../header.php:96 ../header.php:97
+msgid "Skip to content"
+msgstr ""
+
+#: ../taxonomy-post_format.php:23
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: ../sidebar-right.php:12
+msgid ""
+"We don't find any widget to show. Please add some widgets by going to "
+"<strong>Admin > Appearance > Widgets</strong> section."
+msgstr ""
+
+#: ../author-bio.php:26
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../author-bio.php:30
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../archive.php:46 ../inc/tools.php:1029
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../archive.php:48 ../inc/tools.php:1031
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../archive.php:48 ../inc/tools.php:1031
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:50 ../inc/tools.php:1033
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../archive.php:50 ../inc/tools.php:1033
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:52 ../inc/tools.php:1038
+msgid "Archives"
+msgstr ""
+
+#: ../content.php:34
+msgid "[No Title]"
+msgstr ""
+
+#: ../content.php:60
+msgid "Read more  <i class=\"kwicon-fa-angle-right\"></i>"
+msgstr ""
+
+#: ../comments.php:25
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:45
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:46
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:67
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:71
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../comments.php:80
+msgid "Name *"
+msgstr ""
+
+#: ../comments.php:85
+msgid "Email *"
+msgstr ""
+
+#: ../comments.php:90 ../inc/visual-composer.php:1335
+#: ../inc/widgets/kwayyWidgetContact.php:162
+msgid "Website"
+msgstr ""
+
+#: ../content-none.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../css/functions.php:1180
+msgid "Post navigation"
+msgstr ""
+
+#: ../woocommerce/global/quantity-input.php:15
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:27
+msgid "Product"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:28
+msgid "Price"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:30
+msgid "Total"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:74
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:119
+msgid "Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:119
+msgid "Coupon code"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:119
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:126
+msgid "Update Cart"
+msgstr ""
+
+#: ../inc/back-compat.php:41 ../inc/back-compat.php:53
+#: ../inc/back-compat.php:68
+#, php-format
+msgid ""
+"Apicona requires at least WordPress version 3.6. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: ../inc/redux-options.php:15
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ../inc/redux-options.php:22 ../inc/redux-options.php:25
+msgid "Current theme preview"
+msgstr ""
+
+#: ../inc/redux-options.php:34
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../inc/redux-options.php:35
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:169
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:300
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:338
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:476
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../inc/redux-options.php:36
+msgid "Tags"
+msgstr ""
+
+#: ../inc/redux-options.php:40
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: ../inc/redux-options.php:41
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: ../inc/redux-options.php:168 ../inc/redux-options.php:172
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/redux-options.php:215
+msgid "Help and Support"
+msgstr ""
+
+#: ../inc/redux-options.php:216
+msgid ""
+"<h3>Help and Support</h3>\n"
+"\t\t<ul>\n"
+"\t\t\t<li><a href=\"http://apicona.thememount.com/documentation/index.html\" "
+"target=\"_blank\">Theme Help Documenation</a></li>\n"
+"\t\t\t<li><a href=\"http://support.thememount.com/\" target=\"_blank"
+"\">Questions? Ask us here.</a></li>\n"
+"\t\t\t<li><a href=\"http://apicona.thememount.com/\" target=\"_blank\">Live "
+"Demo</a></li>\n"
+"\t\t</ul>"
+msgstr ""
+
+#: ../inc/redux-options.php:240
+msgid ""
+"<p>If you have any problem or question than you can <a href=\"http://apicona."
+"thememount.com/documentation/\" target=\"_blank\">read theme documentation "
+"online by clicking here</a>. If still not working than you can contact us "
+"via our <a href=\"http://support.thememount.com\" target=\"_blank\">support "
+"ticket system</a>.</p>"
+msgstr ""
+
+#: ../inc/redux-options.php:242
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but "
+"more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: ../inc/redux-options.php:283 ../inc/redux-options.php:284
+msgid "Layout Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:285
+msgid "Specify theme pages layout, the skin coloring and background"
+msgstr ""
+
+#: ../inc/redux-options.php:303
+msgid "Demo Content Setup"
+msgstr ""
+
+#: ../inc/redux-options.php:304
+msgid "This is one click demo content setup"
+msgstr ""
+
+#: ../inc/redux-options.php:320
+msgid "Pages Layout"
+msgstr ""
+
+#: ../inc/redux-options.php:321
+msgid "Specify the layout for the pages"
+msgstr ""
+
+#: ../inc/redux-options.php:335
+msgid "Responsive Design"
+msgstr ""
+
+#: ../inc/redux-options.php:336
+msgid "Check this option to enable responsive design to the theme"
+msgstr ""
+
+#: ../inc/redux-options.php:337 ../inc/redux-options.php:1229
+#: ../inc/redux-options.php:1304 ../inc/redux-options.php:1336
+#: ../inc/redux-options.php:1549 ../inc/redux-options.php:1586
+#: ../inc/redux-options.php:1699 ../inc/redux-options.php:1898
+#: ../inc/redux-options.php:1954 ../inc/redux-options.php:2184
+#: ../inc/visual-composer.php:568 ../inc/visual-composer.php:1182
+#: ../inc/visual-composer.php:1194 ../inc/visual-composer.php:1699
+#: ../inc/visual-composer.php:1710
+#: ../inc/cuztom-helper-framework/classes/fields/yesno.class.php:17
+msgid "Yes"
+msgstr ""
+
+#: ../inc/redux-options.php:338 ../inc/redux-options.php:1230
+#: ../inc/redux-options.php:1305 ../inc/redux-options.php:1337
+#: ../inc/redux-options.php:1550 ../inc/redux-options.php:1586
+#: ../inc/redux-options.php:1700 ../inc/redux-options.php:1899
+#: ../inc/redux-options.php:1955 ../inc/redux-options.php:2185
+#: ../inc/visual-composer.php:322 ../inc/visual-composer.php:567
+#: ../inc/visual-composer.php:1181 ../inc/visual-composer.php:1193
+#: ../inc/visual-composer.php:1698 ../inc/visual-composer.php:1709
+#: ../inc/cuztom-helper-framework/classes/fields/yesno.class.php:20
+msgid "No"
+msgstr ""
+
+#: ../inc/redux-options.php:345 ../inc/visual-composer.php:1564
+msgid "Skin Color"
+msgstr ""
+
+#: ../inc/redux-options.php:346
+msgid ""
+"Custom color for skin. This is color to highlight different elements. Like "
+"text links, active tabs, progress bars, active accordion and others."
+msgstr ""
+
+#: ../inc/redux-options.php:373
+msgid "Background Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:374
+msgid ""
+"Set below background options. Background settings will be applied to Boxed "
+"layout only."
+msgstr ""
+
+#: ../inc/redux-options.php:379
+msgid "Body Background Properties"
+msgstr ""
+
+#: ../inc/redux-options.php:380
+msgid ""
+"Set background for main body. This is for main outer body background. For "
+"\"Boxed\" layout only."
+msgstr ""
+
+#: ../inc/redux-options.php:389
+msgid "Content Area Background Properties"
+msgstr ""
+
+#: ../inc/redux-options.php:390
+msgid "Set background for content area."
+msgstr ""
+
+#: ../inc/redux-options.php:401
+msgid "Page Translation Effect"
+msgstr ""
+
+#: ../inc/redux-options.php:402
+msgid ""
+"Select page translation effect for the site. We are using "
+"<strong>Animsition</strong> library for page transation and you can <a href="
+"\"http://git.blivesta.com/animsition/\" target=\"_blank\">see preview of "
+"each translation here</a>."
+msgstr ""
+
+#: ../inc/redux-options.php:407
+msgid "Page translation effect"
+msgstr ""
+
+#: ../inc/redux-options.php:408
+msgid "Select page translation effect here."
+msgstr ""
+
+#: ../inc/redux-options.php:432
+msgid "Pre-loader image"
+msgstr ""
+
+#: ../inc/redux-options.php:433
+msgid ""
+"Select pre-loader image for the site. This will work on desktop, mobile and "
+"tablet devices."
+msgstr ""
+
+#: ../inc/redux-options.php:438
+msgid "Pre-loader Image"
+msgstr ""
+
+#: ../inc/redux-options.php:439
+msgid ""
+"Please select site pre-loader image. <br /><br /><em><strong>Note: </"
+"strong>Please note that if you uploaded pre-loader image (in below option) "
+"than this pre-defined loader image will be ignored.</em>"
+msgstr ""
+
+#: ../inc/redux-options.php:442
+msgid "Loader image 1"
+msgstr ""
+
+#: ../inc/redux-options.php:446
+msgid "Loader image 2"
+msgstr ""
+
+#: ../inc/redux-options.php:450
+msgid "Loader image 3"
+msgstr ""
+
+#: ../inc/redux-options.php:454
+msgid "Loader image 4"
+msgstr ""
+
+#: ../inc/redux-options.php:458
+msgid "Loader image 5"
+msgstr ""
+
+#: ../inc/redux-options.php:462
+msgid "Loader image 6"
+msgstr ""
+
+#: ../inc/redux-options.php:466
+msgid "Loader image 7"
+msgstr ""
+
+#: ../inc/redux-options.php:470
+msgid "Loader image 8"
+msgstr ""
+
+#: ../inc/redux-options.php:474
+msgid "Loader image 9"
+msgstr ""
+
+#: ../inc/redux-options.php:478 ../inc/redux-options.php:482
+#: ../inc/redux-options.php:486 ../inc/redux-options.php:490
+#: ../inc/redux-options.php:494 ../inc/redux-options.php:498
+#: ../inc/redux-options.php:502 ../inc/redux-options.php:506
+#: ../inc/redux-options.php:510
+msgid "Loader image 10"
+msgstr ""
+
+#: ../inc/redux-options.php:519
+msgid "Upload Pre-loader Image"
+msgstr ""
+
+#: ../inc/redux-options.php:520
+msgid ""
+"Custom pre-loader image that you want to show. You can create animated GIF "
+"image from your logo from <a href=\"http://animizer.net/en/animate-static-"
+"image\" target=\"_blank\">Animizer</a> website. <br /><br /"
+"><em><strong>Note: </strong>Please note that if you selected image here than "
+"the pre-defined loader image (in above option) will be ignored.</em>"
+msgstr ""
+
+#: ../inc/redux-options.php:529
+msgid "Scroller Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:530
+msgid "Set options for scrollbar."
+msgstr ""
+
+#: ../inc/redux-options.php:545
+msgid "Page Scrolling Effect"
+msgstr ""
+
+#: ../inc/redux-options.php:546
+msgid "Select page scrolling effect. "
+msgstr ""
+
+#: ../inc/redux-options.php:547
+msgid ""
+"<ul><li><strong>NiceScroll:</strong> Contains fancy scrollbar and smooth "
+"page scroll</li><li><strong>SmoothScroll:</strong> contains only smooth page "
+"scroll</li><ul>"
+msgstr ""
+
+#: ../inc/redux-options.php:561
+msgid "Page Scrolling Speed (mousescrollstep)"
+msgstr ""
+
+#: ../inc/redux-options.php:562
+msgid ""
+"Page scrolling speed with mouse wheel, default value is <code>40</code> "
+"(pixel)"
+msgstr ""
+
+#: ../inc/redux-options.php:565
+msgid "40"
+msgstr ""
+
+#: ../inc/redux-options.php:573
+msgid "Font Icon Library Selection"
+msgstr ""
+
+#: ../inc/redux-options.php:574
+msgid ""
+"Select font-icon library. The more library you select the more loading in "
+"your site will be applied."
+msgstr ""
+
+#: ../inc/redux-options.php:579
+msgid "Select Font Icon Library"
+msgstr ""
+
+#: ../inc/redux-options.php:580
+msgid "Select font icon library"
+msgstr ""
+
+#: ../inc/redux-options.php:581
+msgid "Select font icon library."
+msgstr ""
+
+#: ../inc/redux-options.php:585
+msgid "Font Awesome (558 icons)"
+msgstr ""
+
+#: ../inc/redux-options.php:586
+msgid "Lineicons (58 icons)"
+msgstr ""
+
+#: ../inc/redux-options.php:587
+msgid "Entypo (284 icons)"
+msgstr ""
+
+#: ../inc/redux-options.php:588
+msgid "Typicons (308 icons)"
+msgstr ""
+
+#: ../inc/redux-options.php:589
+msgid "Iconic (151 icons)"
+msgstr ""
+
+#: ../inc/redux-options.php:590
+msgid "Modern Pictograms (91 icons)"
+msgstr ""
+
+#: ../inc/redux-options.php:591
+msgid "Meteocons (47 icons)"
+msgstr ""
+
+#: ../inc/redux-options.php:592
+msgid "MFG Labs (153 icons)"
+msgstr ""
+
+#: ../inc/redux-options.php:593
+msgid "Maki (63 icons)"
+msgstr ""
+
+#: ../inc/redux-options.php:594
+msgid "Zocial (103 icons)"
+msgstr ""
+
+#: ../inc/redux-options.php:595
+msgid "Brandico (45 icons)"
+msgstr ""
+
+#: ../inc/redux-options.php:596
+msgid "Elusive (271 icons)"
+msgstr ""
+
+#: ../inc/redux-options.php:597
+msgid "Web Symbols (85 icons)"
+msgstr ""
+
+#: ../inc/redux-options.php:630 ../inc/redux-options.php:631
+msgid "Favicon Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:633
+msgid ""
+"Set all Favicon icons. Upload different Favicons for different type of "
+"devices. (Click here to <a href=\"http://en.wikipedia.org/wiki/Favicon\" "
+"target=\"_blank\"> know more about Favicon</a>). Also you can generate "
+"favicon from <a href=\"http://realfavicongenerator.net/\" target=\"_blank"
+"\">http://realfavicongenerator.net/</a> site."
+msgstr ""
+
+#: ../inc/redux-options.php:642 ../inc/redux-options.php:2093
+msgid "TIP:"
+msgstr ""
+
+#: ../inc/redux-options.php:643
+msgid ""
+"You can generate Favicon easily.  Just create a new PNG image with size "
+"<strong>260x260 pixel</strong> and upload on <a href=\"http://"
+"realfavicongenerator.net/\" target=\"_blank\">http://realfavicongenerator."
+"net/</a> site. This site will create all required images and you just need "
+"to upload each image in each below options."
+msgstr ""
+
+#: ../inc/redux-options.php:650
+msgid "Favicon image (favicon.ico icon file)"
+msgstr ""
+
+#: ../inc/redux-options.php:651
+msgid ""
+"Select or upload <strong>favicon.ico</strong> with size 48x48 pixel. You can "
+"generate Favicon image from <a href=\"http://realfavicongenerator.net/\" "
+"target=\"_blank\">http://realfavicongenerator.net/</a> site."
+msgstr ""
+
+#: ../inc/redux-options.php:658
+msgid "Favicon Image (16x16 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:659
+msgid ""
+"Select or upload Favicon image with size 16x16 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:667
+msgid "Favicon Image (32x32 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:668
+msgid ""
+"Select or upload Favicon image with size 32x32 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:676
+msgid "Favicon Image (96x96 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:677
+msgid ""
+"Select or upload Favicon image with size 96x96 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:685
+msgid "Favicon Image (160x160 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:686
+msgid ""
+"Select or upload Favicon image with size 160x160 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:694
+msgid "Favicon Image (192x192 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:695
+msgid ""
+"Select or upload Favicon image with size 192x192 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:703
+msgid "Favicon icons for Apple devices"
+msgstr ""
+
+#: ../inc/redux-options.php:704
+msgid ""
+"Upload different Favicons for different type of devices. (Click here to <a "
+"href=\"http://en.wikipedia.org/wiki/Favicon\" target=\"_blank\"> know more "
+"about Favicon</a>). Also you can generate favicon from <a href=\"http://"
+"realfavicongenerator.net/\" target=\"_blank\">http://realfavicongenerator."
+"net/</a> site."
+msgstr ""
+
+#: ../inc/redux-options.php:710
+msgid "Favicon Image for Apple devices (57x57 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:711
+msgid ""
+"Select or upload Favicon image with size 57x57 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:719
+msgid "Favicon Image for Apple devices (60x60 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:720
+msgid ""
+"Select or upload Favicon image with size 60x60 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:728
+msgid "Favicon Image for Apple devices (72x72 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:729
+msgid ""
+"Select or upload Favicon image with size 72x72 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:737
+msgid "Favicon Image for Apple devices (76x76 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:738
+msgid ""
+"Select or upload Favicon image with size 76x76 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:746
+msgid "Favicon Image for Apple devices (114x114 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:747
+msgid ""
+"Select or upload Favicon image with size 114x114 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:755
+msgid "Favicon Image for Apple devices (120x120 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:756
+msgid ""
+"Select or upload Favicon image with size 120x120 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:764
+msgid "Favicon Image for Apple devices (144x144 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:765
+msgid ""
+"Select or upload Favicon image with size 144x144 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:773
+msgid "Favicon Image for Apple devices (152x152 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:774
+msgid ""
+"Select or upload Favicon image with size 152x152 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:782
+msgid "Favicon Image for Apple devices (180x180 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:783
+msgid ""
+"Select or upload Favicon image with size 180x180 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site"
+msgstr ""
+
+#: ../inc/redux-options.php:791
+msgid "Favicon image and color for Microsoft Tile link (for Microsoft Devices)"
+msgstr ""
+
+#: ../inc/redux-options.php:792
+msgid ""
+"Upload different Favicons for different type of devices. (<a href=\"http://"
+"www.buildmypinnedsite.com/en\" target=\"_blank\">Click here to know more "
+"about Favicon for Microsoft devices</a>)."
+msgstr ""
+
+#: ../inc/redux-options.php:798
+msgid "Favicon Background Color for the MS App Tile link"
+msgstr ""
+
+#: ../inc/redux-options.php:799
+msgid "Select background color for Favicon Tile App link."
+msgstr ""
+
+#: ../inc/redux-options.php:807
+msgid "Favicon Image for MicroSoft App link (144x144 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:808
+msgid ""
+"Select or upload Favicon image with size 144x144 pixel. You can generate "
+"Favicon image from <a href=\"http://realfavicongenerator.net/\" target="
+"\"_blank\">http://realfavicongenerator.net/</a> site."
+msgstr ""
+
+#: ../inc/redux-options.php:815
+msgid "Favicon Image for MicroSoft App link (70x70 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:816
+msgid ""
+"Select or upload Favicon image with size 70x70 or 128x128 (if with "
+"transparent border) pixel. You can generate Favicon image from <a href="
+"\"http://realfavicongenerator.net/\" target=\"_blank\">http://"
+"realfavicongenerator.net/</a> site."
+msgstr ""
+
+#: ../inc/redux-options.php:823
+msgid "Favicon Image for MicroSoft App link (150x150 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:824
+msgid ""
+"Select or upload Favicon image with size 150x150 or 170x270 (if with "
+"transparent border) pixel. You can generate Favicon image from <a href="
+"\"http://realfavicongenerator.net/\" target=\"_blank\">http://"
+"realfavicongenerator.net/</a> site."
+msgstr ""
+
+#: ../inc/redux-options.php:831
+msgid "Favicon Image for MicroSoft App link (310x150 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:832
+msgid ""
+"Select or upload Favicon image with size 310x150 or 558x270 (if with "
+"transparent border) pixel. You can generate Favicon image from <a href="
+"\"http://realfavicongenerator.net/\" target=\"_blank\">http://"
+"realfavicongenerator.net/</a> site."
+msgstr ""
+
+#: ../inc/redux-options.php:839
+msgid "Favicon Image for MicroSoft App link (310x310 PNG image)"
+msgstr ""
+
+#: ../inc/redux-options.php:840
+msgid ""
+"Select or upload Favicon image with size 310x310 or 558x558 (if with "
+"transparent border) pixel. You can generate Favicon image from <a href="
+"\"http://realfavicongenerator.net/\" target=\"_blank\">http://"
+"realfavicongenerator.net/</a> site."
+msgstr ""
+
+#: ../inc/redux-options.php:855 ../inc/redux-options.php:856
+msgid "Font Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:858
+msgid "Set different font style"
+msgstr ""
+
+#: ../inc/redux-options.php:866
+msgid "General Font"
+msgstr ""
+
+#: ../inc/redux-options.php:881 ../inc/redux-options.php:969
+#: ../inc/redux-options.php:998 ../inc/redux-options.php:1027
+#: ../inc/redux-options.php:1056 ../inc/redux-options.php:1084
+#: ../inc/redux-options.php:1112
+msgid "Select General font, color and size"
+msgstr ""
+
+#: ../inc/redux-options.php:896
+msgid "Widget Title Font"
+msgstr ""
+
+#: ../inc/redux-options.php:911
+msgid "Select font, color and size for widget title"
+msgstr ""
+
+#: ../inc/redux-options.php:925
+msgid "Button Font"
+msgstr ""
+
+#: ../inc/redux-options.php:940
+msgid "This fonts will be applied to all buttons in this site"
+msgstr ""
+
+#: ../inc/redux-options.php:954
+msgid "H1 Heading Font"
+msgstr ""
+
+#: ../inc/redux-options.php:983
+msgid "H2 Heading Font"
+msgstr ""
+
+#: ../inc/redux-options.php:1012
+msgid "H3 Heading Font"
+msgstr ""
+
+#: ../inc/redux-options.php:1041
+msgid "H4 Heading Font"
+msgstr ""
+
+#: ../inc/redux-options.php:1069
+msgid "H5 Heading Font"
+msgstr ""
+
+#: ../inc/redux-options.php:1097
+msgid "H6 Heading Font"
+msgstr ""
+
+#: ../inc/redux-options.php:1125
+msgid "Main Menu Font"
+msgstr ""
+
+#: ../inc/redux-options.php:1140
+msgid "Select font, color and size for main menu."
+msgstr ""
+
+#: ../inc/redux-options.php:1154
+msgid "Dropdown Menu Font"
+msgstr ""
+
+#: ../inc/redux-options.php:1169
+msgid "Select font, color and size for dropdown menu."
+msgstr ""
+
+#: ../inc/redux-options.php:1183
+msgid "Element Title Font"
+msgstr ""
+
+#: ../inc/redux-options.php:1198
+msgid ""
+"This will be applied to Tab title, Accordion Title and Progress Bar title "
+"text."
+msgstr ""
+
+#: ../inc/redux-options.php:1214
+msgid "Floating Bar Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1216
+msgid "Doctor's Search Bar Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1217
+msgid "This is floating bar and we are using it as Doctor's Search Bar."
+msgstr ""
+
+#: ../inc/redux-options.php:1225
+msgid "Show Team Member Search Box"
+msgstr ""
+
+#: ../inc/redux-options.php:1226
+msgid "Show Team Member search box in Topbar"
+msgstr ""
+
+#: ../inc/redux-options.php:1236
+msgid "Open Link Icon"
+msgstr ""
+
+#: ../inc/redux-options.php:1237
+msgid "Select icon for the link to open the Doctor's search box"
+msgstr ""
+
+#: ../inc/redux-options.php:1245
+msgid "Close Link Icon"
+msgstr ""
+
+#: ../inc/redux-options.php:1246
+msgid "Select icon for the link to close the Doctor's search box"
+msgstr ""
+
+#: ../inc/redux-options.php:1253
+msgid "Texts for the Floating Bar Form"
+msgstr ""
+
+#: ../inc/redux-options.php:1254
+msgid "Edit texts for the Floating Bar form."
+msgstr ""
+
+#: ../inc/redux-options.php:1259 ../inc/redux-options.php:1555
+msgid "Search Form Title"
+msgstr ""
+
+#: ../inc/redux-options.php:1260
+msgid "Insert Search Form title. <br> Default is <code>Doctor's Search</code>"
+msgstr ""
+
+#: ../inc/redux-options.php:1261
+msgid "Doctor's Search"
+msgstr ""
+
+#: ../inc/redux-options.php:1266
+msgid "Text for Form Input field"
+msgstr ""
+
+#: ../inc/redux-options.php:1267
+msgid ""
+"Insert Search Form input text. <br> Default is <code>Search by name</code>"
+msgstr ""
+
+#: ../inc/redux-options.php:1268
+msgid "Search by name"
+msgstr ""
+
+#: ../inc/redux-options.php:1273
+msgid "Text for Select Section"
+msgstr ""
+
+#: ../inc/redux-options.php:1274
+msgid ""
+"Insert Search Form input text. <br> Default is <code>All sections</code>"
+msgstr ""
+
+#: ../inc/redux-options.php:1275
+msgid "All sections"
+msgstr ""
+
+#: ../inc/redux-options.php:1280
+msgid "Insert form button text"
+msgstr ""
+
+#: ../inc/redux-options.php:1281
+msgid "Insert form button text. <br> Default is <code>Search</code>"
+msgstr ""
+
+#: ../inc/redux-options.php:1290 ../inc/redux-options.php:1292
+msgid "Topbar Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1293
+msgid "Topbar settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1301 ../inc/posttype-page.php:225
+msgid "Hide Topbar"
+msgstr ""
+
+#: ../inc/redux-options.php:1302
+msgid "Check this option to hide the Topbar"
+msgstr ""
+
+#: ../inc/redux-options.php:1311
+msgid "Topbar Background Color"
+msgstr ""
+
+#: ../inc/redux-options.php:1312
+msgid "Custom background color for Topbar."
+msgstr ""
+
+#: ../inc/redux-options.php:1320
+msgid "Topbar Text Color"
+msgstr ""
+
+#: ../inc/redux-options.php:1321 ../inc/redux-options.php:1386
+#: ../inc/redux-options.php:1459 ../inc/redux-options.php:1738
+#: ../inc/redux-options.php:1763
+msgid ""
+"Select <code>Dark</code> color if you are going to select light color in "
+"above option."
+msgstr ""
+
+#: ../inc/redux-options.php:1324 ../inc/redux-options.php:1388
+#: ../inc/redux-options.php:1461 ../inc/redux-options.php:1740
+#: ../inc/redux-options.php:1765 ../inc/posttype-page.php:244
+#: ../inc/visual-composer.php:109 ../inc/visual-composer.php:126
+msgid "White"
+msgstr ""
+
+#: ../inc/redux-options.php:1325 ../inc/redux-options.php:1389
+#: ../inc/redux-options.php:1462 ../inc/redux-options.php:1741
+#: ../inc/redux-options.php:1766
+msgid "Dark"
+msgstr ""
+
+#: ../inc/redux-options.php:1332 ../inc/posttype-page.php:251
+msgid "Hide Social Icons in Topbar"
+msgstr ""
+
+#: ../inc/redux-options.php:1333 ../inc/posttype-page.php:252
+msgid "Check this option to hide the Social icons in Topbar"
+msgstr ""
+
+#: ../inc/redux-options.php:1342
+msgid "Topbar Text"
+msgstr ""
+
+#: ../inc/redux-options.php:1343
+msgid "Add content for Topbar text"
+msgstr ""
+
+#: ../inc/redux-options.php:1344 ../inc/redux-options.php:1944
+#: ../inc/redux-options.php:1976
+msgid "HTML tags and shortcodes are allowed"
+msgstr ""
+
+#: ../inc/redux-options.php:1355 ../inc/redux-options.php:1356
+msgid "Titlebar Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1357
+msgid "Settings for titlebar"
+msgstr ""
+
+#: ../inc/redux-options.php:1365
+msgid "Titlebar Background Type"
+msgstr ""
+
+#: ../inc/redux-options.php:1366
+msgid "Please select background type for the titlebar"
+msgstr ""
+
+#: ../inc/redux-options.php:1368
+msgid "Color only"
+msgstr ""
+
+#: ../inc/redux-options.php:1369
+msgid "Color and predefined image (select from below)"
+msgstr ""
+
+#: ../inc/redux-options.php:1370
+msgid "Color and custom image (select from below)"
+msgstr ""
+
+#: ../inc/redux-options.php:1377
+msgid "Titlebar Background Color"
+msgstr ""
+
+#: ../inc/redux-options.php:1378
+msgid "Custom color for titlebar background."
+msgstr ""
+
+#: ../inc/redux-options.php:1385
+msgid "Titlebar Text Color"
+msgstr ""
+
+#: ../inc/redux-options.php:1396 ../inc/posttype-page.php:145
+#: ../inc/posttype-post.php:64
+msgid "Titlebar Background Image"
+msgstr ""
+
+#: ../inc/redux-options.php:1397
+msgid "Please select image for background of titlebar"
+msgstr ""
+
+#: ../inc/redux-options.php:1400 ../inc/posttype-page.php:150
+#: ../inc/posttype-post.php:69
+msgid "Image 1"
+msgstr ""
+
+#: ../inc/redux-options.php:1404 ../inc/posttype-page.php:151
+#: ../inc/posttype-post.php:70
+msgid "Image 2"
+msgstr ""
+
+#: ../inc/redux-options.php:1408 ../inc/posttype-page.php:152
+#: ../inc/posttype-post.php:71
+msgid "Image 3"
+msgstr ""
+
+#: ../inc/redux-options.php:1412 ../inc/posttype-page.php:153
+#: ../inc/posttype-post.php:72
+msgid "Image 4"
+msgstr ""
+
+#: ../inc/redux-options.php:1416 ../inc/posttype-page.php:154
+#: ../inc/posttype-post.php:73
+msgid "Image 5"
+msgstr ""
+
+#: ../inc/redux-options.php:1428
+msgid "Select Custom Titlebar Background Image"
+msgstr ""
+
+#: ../inc/redux-options.php:1429
+msgid ""
+"Upload your own image that will be used as background for the Titlebar box."
+msgstr ""
+
+#: ../inc/redux-options.php:1440 ../inc/redux-options.php:1441
+msgid "Header Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1442
+msgid "Header settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1450
+msgid "Header Background Color"
+msgstr ""
+
+#: ../inc/redux-options.php:1451
+msgid "Custom color for header background."
+msgstr ""
+
+#: ../inc/redux-options.php:1458
+msgid "Header Text Color"
+msgstr ""
+
+#: ../inc/redux-options.php:1469
+msgid "Logo type"
+msgstr ""
+
+#: ../inc/redux-options.php:1470
+msgid "Specify the type of logo. It can be or the text or the image"
+msgstr ""
+
+#: ../inc/redux-options.php:1471
+msgid "Logo as Text"
+msgstr ""
+
+#: ../inc/redux-options.php:1471
+msgid "Logo as Image"
+msgstr ""
+
+#: ../inc/redux-options.php:1478
+msgid "Logo Text"
+msgstr ""
+
+#: ../inc/redux-options.php:1479
+msgid "Enter the text to be used instead of the logo image"
+msgstr ""
+
+#: ../inc/redux-options.php:1486
+msgid "Logo Font"
+msgstr ""
+
+#: ../inc/redux-options.php:1501
+msgid "This will be applied to logo text only. Select Logo font-style and size"
+msgstr ""
+
+#: ../inc/redux-options.php:1518
+msgid "Logo Image"
+msgstr ""
+
+#: ../inc/redux-options.php:1519
+msgid "Upload own image that will be used as logo for the site"
+msgstr ""
+
+#: ../inc/redux-options.php:1540
+msgid "Search Button in Header"
+msgstr ""
+
+#: ../inc/redux-options.php:1541
+msgid "Option to show or hide search button in header area."
+msgstr ""
+
+#: ../inc/redux-options.php:1546
+msgid "Show Search Button"
+msgstr ""
+
+#: ../inc/redux-options.php:1547
+msgid ""
+"Set this option <code>YES</code> to show search button in header. The icon "
+"will be at the right side (after menu)."
+msgstr ""
+
+#: ../inc/redux-options.php:1556
+msgid ""
+"Write the search form title here. <br> Default: <code>Just type and press "
+"'enter'</code>"
+msgstr ""
+
+#: ../inc/redux-options.php:1557
+msgid "Just type and press 'enter'"
+msgstr ""
+
+#: ../inc/redux-options.php:1562
+msgid "Search Form Input Word"
+msgstr ""
+
+#: ../inc/redux-options.php:1563
+msgid ""
+"Write the search form input word here. <br> Default: <code>WRITE SEARCH "
+"WORD...</code>"
+msgstr ""
+
+#: ../inc/redux-options.php:1564
+msgid "WRITE SEARCH WORD..."
+msgstr ""
+
+#: ../inc/redux-options.php:1569
+msgid "Search Form Close Button Text (SEO purpose)"
+msgstr ""
+
+#: ../inc/redux-options.php:1570
+msgid ""
+"Write the search form close button text here. This is for SEO purpose only. "
+"<br> Default: <code>Close search</code>"
+msgstr ""
+
+#: ../inc/redux-options.php:1571
+msgid "Close search"
+msgstr ""
+
+#: ../inc/redux-options.php:1577
+msgid "Sticky Header"
+msgstr ""
+
+#: ../inc/redux-options.php:1578
+msgid "Options for sticky header"
+msgstr ""
+
+#: ../inc/redux-options.php:1584
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: ../inc/redux-options.php:1585
+msgid "Select YES if you want the sticky header on page scroll"
+msgstr ""
+
+#: ../inc/redux-options.php:1592
+msgid "Header Style"
+msgstr ""
+
+#: ../inc/redux-options.php:1593
+msgid "Options to change header style"
+msgstr ""
+
+#: ../inc/redux-options.php:1598
+msgid "Select Header Style"
+msgstr ""
+
+#: ../inc/redux-options.php:1599
+msgid "Please select header style"
+msgstr ""
+
+#: ../inc/redux-options.php:1602
+msgid "Left logo and right menu"
+msgstr ""
+
+#: ../inc/redux-options.php:1606
+msgid "Centre logo between menu"
+msgstr ""
+
+#: ../inc/redux-options.php:1610
+msgid "Centre logo above menu"
+msgstr ""
+
+#: ../inc/redux-options.php:1619
+msgid "Logo Area Width (pixel)"
+msgstr ""
+
+#: ../inc/redux-options.php:1620
+msgid ""
+"This is the width of the logo area. This is for centre-logo header style "
+"only."
+msgstr ""
+
+#: ../inc/redux-options.php:1621
+msgid ""
+"You need to change this only when your menu overlays on the logo. This "
+"should be bigger that the logo width (ignore this if retina logo). Please "
+"set this and check your site for best results."
+msgstr ""
+
+#: ../inc/redux-options.php:1632
+msgid "Menu Left margin (pixel)"
+msgstr ""
+
+#: ../inc/redux-options.php:1633
+msgid ""
+"This is to set the logo appear at center with the menu. The logo will be "
+"always center. This is an advanced option."
+msgstr ""
+
+#: ../inc/redux-options.php:1634
+msgid ""
+"You need to change this only when you feel your menu is not center aligned "
+"with logo. Please set this and check your site for best results."
+msgstr ""
+
+#: ../inc/redux-options.php:1650 ../inc/redux-options.php:1651
+msgid "Footer Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1652
+msgid "Settings of the elements from the page footer area"
+msgstr ""
+
+#: ../inc/redux-options.php:1660 ../inc/redux-options.php:1697
+msgid "Sticky Footer"
+msgstr ""
+
+#: ../inc/redux-options.php:1661
+msgid "Make footer sticky and visible on scrolling at bottom."
+msgstr ""
+
+#: ../inc/redux-options.php:1666
+msgid "Footer Column layout View"
+msgstr ""
+
+#: ../inc/redux-options.php:1667
+msgid "Change view of Footer Columns."
+msgstr ""
+
+#: ../inc/redux-options.php:1672
+msgid "Select Footer Column layout View"
+msgstr ""
+
+#: ../inc/redux-options.php:1673
+msgid "Select Footer Column layout View."
+msgstr ""
+
+#: ../inc/redux-options.php:1675 ../inc/redux-options.php:2219
+#: ../inc/visual-composer.php:628 ../inc/visual-composer.php:819
+#: ../inc/visual-composer.php:950 ../inc/visual-composer.php:1071
+#: ../inc/visual-composer.php:1254 ../inc/visual-composer.php:1506
+msgid "One Column"
+msgstr ""
+
+#: ../inc/redux-options.php:1676 ../inc/redux-options.php:2220
+#: ../inc/visual-composer.php:629 ../inc/visual-composer.php:820
+#: ../inc/visual-composer.php:951 ../inc/visual-composer.php:1072
+#: ../inc/visual-composer.php:1255 ../inc/visual-composer.php:1507
+msgid "Two Columns"
+msgstr ""
+
+#: ../inc/redux-options.php:1677 ../inc/redux-options.php:2221
+#: ../inc/visual-composer.php:627 ../inc/visual-composer.php:821
+#: ../inc/visual-composer.php:949 ../inc/visual-composer.php:1070
+#: ../inc/visual-composer.php:1253 ../inc/visual-composer.php:1505
+msgid "Three Columns"
+msgstr ""
+
+#: ../inc/redux-options.php:1678 ../inc/redux-options.php:2222
+#: ../inc/visual-composer.php:630 ../inc/visual-composer.php:818
+#: ../inc/visual-composer.php:952 ../inc/visual-composer.php:1073
+#: ../inc/visual-composer.php:1256 ../inc/visual-composer.php:1508
+msgid "Four Columns"
+msgstr ""
+
+#: ../inc/redux-options.php:1681
+msgid "8 + 4 Columns"
+msgstr ""
+
+#: ../inc/redux-options.php:1682
+msgid "4 + 8 Columns"
+msgstr ""
+
+#: ../inc/redux-options.php:1684
+msgid "6 + 3 + 3 columns"
+msgstr ""
+
+#: ../inc/redux-options.php:1685
+msgid "3 + 3 + 6 columns"
+msgstr ""
+
+#: ../inc/redux-options.php:1686
+msgid "8 + 2 + 2 columns"
+msgstr ""
+
+#: ../inc/redux-options.php:1687
+msgid "2 + 2 + 8 columns"
+msgstr ""
+
+#: ../inc/redux-options.php:1689
+msgid "6 + 2 + 2 + 2 columns"
+msgstr ""
+
+#: ../inc/redux-options.php:1690
+msgid "2 + 2 + 2 + 6 columns"
+msgstr ""
+
+#: ../inc/redux-options.php:1698
+msgid ""
+"Set this option <code>YES</code> to enable sticky footer on scrolling at "
+"bottom."
+msgstr ""
+
+#: ../inc/redux-options.php:1708
+msgid "Footer Widget Area"
+msgstr ""
+
+#: ../inc/redux-options.php:1709
+msgid "Options to change settings for footer widget area."
+msgstr ""
+
+#: ../inc/redux-options.php:1714 ../inc/redux-options.php:1754
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../inc/redux-options.php:1715 ../inc/redux-options.php:1755
+msgid "Custom color for footer background."
+msgstr ""
+
+#: ../inc/redux-options.php:1722
+msgid "Footer Background"
+msgstr ""
+
+#: ../inc/redux-options.php:1723
+msgid "Footer background image"
+msgstr ""
+
+#: ../inc/redux-options.php:1737 ../inc/redux-options.php:1762
+#: ../inc/visual-composer.php:1557
+msgid "Text Color"
+msgstr ""
+
+#: ../inc/redux-options.php:1748
+msgid "Footer Text Area"
+msgstr ""
+
+#: ../inc/redux-options.php:1749
+msgid ""
+"Options to change settings for footer text area. This contains copyright "
+"info."
+msgstr ""
+
+#: ../inc/redux-options.php:1773
+msgid "Footer Text"
+msgstr ""
+
+#: ../inc/redux-options.php:1774
+msgid ""
+"You can use the following shortcodes in your footer text: <code>[site-url]</"
+"code> <code>[site-title]</code> <code>[site-tagline]</code> <code>[current-"
+"year]</code>"
+msgstr ""
+
+#: ../inc/redux-options.php:1784 ../inc/redux-options.php:1785
+msgid "Login Page Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1787
+msgid "Set options for login page."
+msgstr ""
+
+#: ../inc/redux-options.php:1794
+msgid "Background Properties"
+msgstr ""
+
+#: ../inc/redux-options.php:1795
+msgid "Specify the type of background object."
+msgstr ""
+
+#: ../inc/redux-options.php:1815 ../inc/redux-options.php:1816
+msgid "Blog Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1818
+msgid "Settings for Blog section."
+msgstr ""
+
+#: ../inc/redux-options.php:1832
+msgid "Blog Excerpt Limit (in words)"
+msgstr ""
+
+#: ../inc/redux-options.php:1833
+msgid ""
+"Set limit for small description. Select how many words you like to show. "
+"<br><strong>TIP: </strong> Select <code>0</code> (zero) to show excerpt or "
+"content before READ MORE break. <br>  "
+msgstr ""
+
+#: ../inc/redux-options.php:1834
+msgid ""
+"Select how many products you want to show in the Related prodcuts area on "
+"single product page."
+msgstr ""
+
+#: ../inc/redux-options.php:1844
+msgid "Blog view"
+msgstr ""
+
+#: ../inc/redux-options.php:1845
+msgid ""
+"Select blog view. The default view is classic list view. You can select two, "
+"three or four column blog view from here."
+msgstr ""
+
+#: ../inc/redux-options.php:1847
+msgid "Classic View (default)"
+msgstr ""
+
+#: ../inc/redux-options.php:1848
+msgid "Two Column view"
+msgstr ""
+
+#: ../inc/redux-options.php:1849
+msgid "Three Column view"
+msgstr ""
+
+#: ../inc/redux-options.php:1850
+msgid "Four Column view"
+msgstr ""
+
+#: ../inc/redux-options.php:1862
+msgid " Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1863
+msgid " (Team Members) Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1865
+msgid "Settings for <strong>"
+msgstr ""
+
+#: ../inc/redux-options.php:1873
+msgid "Text Before Name of Member"
+msgstr ""
+
+#: ../inc/redux-options.php:1874
+msgid "Text before name of Member (for single page only)."
+msgstr ""
+
+#: ../inc/redux-options.php:1884 ../inc/redux-options.php:1885
+msgid "Portfolio Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1887
+msgid "Portfolio section settings."
+msgstr ""
+
+#: ../inc/redux-options.php:1895
+msgid "Show Related Portfolio"
+msgstr ""
+
+#: ../inc/redux-options.php:1896
+msgid "Select YES to show related portfolio on single portfolio page."
+msgstr ""
+
+#: ../inc/redux-options.php:1904
+msgid "Description Title"
+msgstr ""
+
+#: ../inc/redux-options.php:1905
+msgid "Title for the \"Description\" area. (For single portfolio only)"
+msgstr ""
+
+#: ../inc/redux-options.php:1906
+msgid "Details"
+msgstr ""
+
+#: ../inc/redux-options.php:1911
+msgid "Project Details Title"
+msgstr ""
+
+#: ../inc/redux-options.php:1912
+msgid "Title for the \"Project Details\" area. (For single portfolio only)"
+msgstr ""
+
+#: ../inc/redux-options.php:1913
+msgid "Research Details"
+msgstr ""
+
+#: ../inc/redux-options.php:1918
+msgid "Related Portfolio Title"
+msgstr ""
+
+#: ../inc/redux-options.php:1919
+msgid "Title for the Releated Portfolio area. (For single portfolio only)"
+msgstr ""
+
+#: ../inc/redux-options.php:1920
+msgid "Related Research"
+msgstr ""
+
+#: ../inc/redux-options.php:1931 ../inc/redux-options.php:1932
+msgid "Error 404 Page Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1934
+msgid "Settings that determine how the error page will be looking"
+msgstr ""
+
+#: ../inc/redux-options.php:1942
+msgid "Error 404 Page Content"
+msgstr ""
+
+#: ../inc/redux-options.php:1943
+msgid "Content of the page if error 404 occurred"
+msgstr ""
+
+#: ../inc/redux-options.php:1946
+msgid ""
+"<div class=\"kwayy-big-icon\"><i class=\"kwicon-fa-warning\"></i></"
+"div><h1>404 ERROR</h1><p>This file may have been moved or deleted. Be sure "
+"to check your spelling.</p><a class=\"vc_btn vc_btn_skincolor vc_btn_md "
+"vc_btn_round\" title=\"Back to Home\" href=\"#\">Back to Home</a><br><br><br>"
+msgstr ""
+
+#: ../inc/redux-options.php:1951
+msgid "Show Search Form"
+msgstr ""
+
+#: ../inc/redux-options.php:1952
+msgid "Set this option <code>YES</code> to show search form on the 404 page."
+msgstr ""
+
+#: ../inc/redux-options.php:1963 ../inc/redux-options.php:1964
+msgid "Search Page Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:1966
+msgid "Settings that determine how the search results page will be looking"
+msgstr ""
+
+#: ../inc/redux-options.php:1974
+msgid "Content of the search page if no results found"
+msgstr ""
+
+#: ../inc/redux-options.php:1975
+msgid ""
+"Specify the content of the page that will be displayed if while search no "
+"results found"
+msgstr ""
+
+#: ../inc/redux-options.php:1978
+msgid ""
+"<div class=\"kwayy-big-icon\"><i class=\"kwicon-fa-search\"></i></div><h4>No "
+"results were found for your search</h4></br>You may try the search with "
+"another query.<br><br><br>"
+msgstr ""
+
+#: ../inc/redux-options.php:1987 ../inc/redux-options.php:1989
+msgid "Sidebar"
+msgstr ""
+
+#: ../inc/redux-options.php:1990
+msgid "Setup some extra sidebars for a page widgets"
+msgstr ""
+
+#: ../inc/redux-options.php:1998
+msgid "Custom Sidebars"
+msgstr ""
+
+#: ../inc/redux-options.php:1999
+msgid "Specify the custom sidebars that can be used in the pages for a widgets"
+msgstr ""
+
+#: ../inc/redux-options.php:2004 ../inc/posttype-page.php:185
+#: ../inc/posttype-post.php:103
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../inc/redux-options.php:2005
+msgid "Select sidebar position for different sections."
+msgstr ""
+
+#: ../inc/redux-options.php:2010
+msgid "Standard Pages Sidebar"
+msgstr ""
+
+#: ../inc/redux-options.php:2011
+msgid "Select one of layouts for standard pages"
+msgstr ""
+
+#: ../inc/redux-options.php:2013 ../inc/redux-options.php:2028
+#: ../inc/redux-options.php:2043 ../inc/posttype-page.php:191
+msgid "No Sidebar"
+msgstr ""
+
+#: ../inc/redux-options.php:2014 ../inc/redux-options.php:2029
+#: ../inc/redux-options.php:2044 ../inc/redux-options.php:2058
+#: ../inc/redux-options.php:2069 ../inc/posttype-page.php:171
+#: ../inc/posttype-post.php:89
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../inc/redux-options.php:2015 ../inc/redux-options.php:2030
+#: ../inc/redux-options.php:2045 ../inc/redux-options.php:2059
+#: ../inc/redux-options.php:2070 ../inc/posttype-page.php:178
+#: ../inc/posttype-post.php:96
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../inc/redux-options.php:2016 ../inc/redux-options.php:2031
+#: ../inc/redux-options.php:2046
+msgid "Both Sidebars"
+msgstr ""
+
+#: ../inc/redux-options.php:2017 ../inc/redux-options.php:2032
+#: ../inc/redux-options.php:2047
+msgid "Both at Left"
+msgstr ""
+
+#: ../inc/redux-options.php:2018 ../inc/redux-options.php:2033
+#: ../inc/redux-options.php:2048
+msgid "Both at Right"
+msgstr ""
+
+#: ../inc/redux-options.php:2025
+msgid "Blog Page Sidebar"
+msgstr ""
+
+#: ../inc/redux-options.php:2026
+msgid "Select one of layouts for blog page"
+msgstr ""
+
+#: ../inc/redux-options.php:2040
+msgid "Search Page Sidebar"
+msgstr ""
+
+#: ../inc/redux-options.php:2041
+msgid "Select one of layouts for search page"
+msgstr ""
+
+#: ../inc/redux-options.php:2055
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: ../inc/redux-options.php:2056
+msgid "Select sidebar position for WooCommerce Shop and Single Product page"
+msgstr ""
+
+#: ../inc/redux-options.php:2067
+msgid "Select sidebar position for BBPress pages"
+msgstr ""
+
+#: ../inc/redux-options.php:2080 ../inc/redux-options.php:2081
+msgid "Social Links"
+msgstr ""
+
+#: ../inc/redux-options.php:2083
+msgid "Setup social links to show in header and footer"
+msgstr ""
+
+#: ../inc/redux-options.php:2094
+msgid ""
+"Not found your social service? No problem, we are ready to add new social "
+"service here. Please send us social service name via our <a href=\"http://"
+"support.thememount.com/\" target=\"_blank\">support system</a> and we will "
+"add it."
+msgstr ""
+
+#: ../inc/redux-options.php:2099 ../inc/posttype-team.php:75
+msgid "Twitter Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2100
+msgid "Your Twitter Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2101 ../inc/redux-options.php:2108
+#: ../inc/redux-options.php:2115 ../inc/redux-options.php:2122
+#: ../inc/redux-options.php:2129 ../inc/redux-options.php:2136
+#: ../inc/redux-options.php:2143 ../inc/redux-options.php:2150
+#: ../inc/redux-options.php:2157 ../inc/redux-options.php:2164
+#: ../inc/redux-options.php:2171 ../inc/redux-options.php:2178
+msgid "Paste URL only"
+msgstr ""
+
+#: ../inc/redux-options.php:2106
+msgid "YouTube Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2107
+msgid "Your YouTube Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2113 ../inc/posttype-team.php:69
+msgid "Facebook Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2114
+msgid "Your Facebook Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2120 ../inc/posttype-team.php:81
+msgid "LinkedIn Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2121
+msgid "Your LinkedIn Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2127 ../inc/posttype-team.php:87
+msgid "Google+ Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2128
+msgid "Your Google+ Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2134
+msgid "Yelp Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2135
+msgid "Your Yelp Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2141
+msgid "Dribbble Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2142
+msgid "Your Dribbble Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2148
+msgid "Pinterest Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2149
+msgid "Your Pinterest Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2155
+msgid "Podcast Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2156
+msgid "Your Podcast Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2162
+msgid "Instagram Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2163
+msgid "Your Instagram Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2169
+msgid "Flickr Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2170
+msgid "Your Flickr Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2176
+msgid "Issuu Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2177
+msgid "Your Issuu Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2183
+msgid "Show RSS Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2186
+msgid "Check this option to show RSS link with social icons list"
+msgstr ""
+
+#: ../inc/redux-options.php:2197 ../inc/redux-options.php:2198
+msgid "WooCommerce Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:2200
+msgid ""
+"Setup for WooCommerce shop section. Please make sure you installed "
+"WooCommerce plugin."
+msgstr ""
+
+#: ../inc/redux-options.php:2216
+msgid "WooCommerce Product List Column"
+msgstr ""
+
+#: ../inc/redux-options.php:2217
+msgid "Select how many column you want to show for product list view."
+msgstr ""
+
+#: ../inc/redux-options.php:2229
+msgid "Products Per Page"
+msgstr ""
+
+#: ../inc/redux-options.php:2230 ../inc/redux-options.php:2231
+msgid "Select how many product you want to show on SHOP page."
+msgstr ""
+
+#: ../inc/redux-options.php:2245 ../inc/redux-options.php:2246
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:2248
+msgid "Team Member section settings."
+msgstr ""
+
+#: ../inc/redux-options.php:2256
+msgid "Custom Post Type : Team member (Doctors) Settings"
+msgstr ""
+
+#: ../inc/redux-options.php:2257
+msgid ""
+"Settings for Team Member custom post type. We are using Team member custom "
+"post type as Doctors and you can change SLUG, TITLE etc from here."
+msgstr ""
+
+#: ../inc/redux-options.php:2262
+msgid "Title for Team Member Post Type"
+msgstr ""
+
+#: ../inc/redux-options.php:2263
+msgid "This will change the Title for Team Member post type section."
+msgstr ""
+
+#: ../inc/redux-options.php:2269
+msgid "URL Slug for Team Member Post Type"
+msgstr ""
+
+#: ../inc/redux-options.php:2270
+msgid "This will change the URL slug for Team Member post type section."
+msgstr ""
+
+#: ../inc/redux-options.php:2276
+msgid "URL Slug for Team Group Link"
+msgstr ""
+
+#: ../inc/redux-options.php:2277
+msgid "This will change the URL slug for Team Group link."
+msgstr ""
+
+#: ../inc/redux-options.php:2283
+msgid "Title for Team Group List"
+msgstr ""
+
+#: ../inc/redux-options.php:2284
+msgid ""
+"Title for Team Group list for group page. This will appear at left sidebar."
+msgstr ""
+
+#: ../inc/redux-options.php:2291 ../inc/posttype-page.php:118
+#: ../inc/posttype-post.php:37
+msgid "Titlebar Options"
+msgstr ""
+
+#: ../inc/redux-options.php:2292
+msgid "Change settings for Titlebar."
+msgstr ""
+
+#: ../inc/redux-options.php:2297
+msgid "Post Category <code>Category Archives:</code> Label Text"
+msgstr ""
+
+#: ../inc/redux-options.php:2304
+msgid "Post Tag <code>Tag Archives:</code> Label Text"
+msgstr ""
+
+#: ../inc/redux-options.php:2311
+msgid "Post Taxonomy <code>Posts classified under:</code> Label Text"
+msgstr ""
+
+#: ../inc/redux-options.php:2318
+msgid "Post Author <code>Author Archives:</code> Label Text"
+msgstr ""
+
+#: ../inc/redux-options.php:2327 ../inc/redux-options.php:2333
+msgid "Dynamic Style Position"
+msgstr ""
+
+#: ../inc/redux-options.php:2328
+msgid "Change how the dynamic-style.php file's code will be appear."
+msgstr ""
+
+#: ../inc/redux-options.php:2334
+msgid ""
+"- Select <strong>External</strong> to load the file external (the file name "
+"will be <code>dynamic-style.php</code>). <br><br> - Select <strong>Internal</"
+"strong> to load the dynamic style on page directly (useful for WPMU server)."
+msgstr ""
+
+#: ../inc/redux-options.php:2335
+msgid "External"
+msgstr ""
+
+#: ../inc/redux-options.php:2335
+msgid "Internal"
+msgstr ""
+
+#: ../inc/redux-options.php:2343 ../inc/redux-options.php:2349
+msgid "Responsive Menu Breakpoint"
+msgstr ""
+
+#: ../inc/redux-options.php:2344 ../inc/redux-options.php:2350
+msgid "Change options for responsive menu breakpoint."
+msgstr ""
+
+#: ../inc/redux-options.php:2352
+msgid "Large devices <small>Desktops (>1200px)</small>"
+msgstr ""
+
+#: ../inc/redux-options.php:2353
+msgid "Medium devices <small>Desktops and Tablets (>992px)</small>"
+msgstr ""
+
+#: ../inc/redux-options.php:2354
+msgid "Small devices <small>Mobile and Tablets (>768px)</small>"
+msgstr ""
+
+#: ../inc/redux-options.php:2355
+msgid "Custom (select pixel below)"
+msgstr ""
+
+#: ../inc/redux-options.php:2362
+msgid "Custom Breakpoint for Menu (in pixel)"
+msgstr ""
+
+#: ../inc/redux-options.php:2363
+msgid "Select after how many pixels the menu will become responsive."
+msgstr ""
+
+#: ../inc/redux-options.php:2380 ../inc/redux-options.php:2381
+msgid "Custom Code"
+msgstr ""
+
+#: ../inc/redux-options.php:2383
+msgid "Add custom JS and CSS code"
+msgstr ""
+
+#: ../inc/redux-options.php:2391
+msgid "CSS Code"
+msgstr ""
+
+#: ../inc/redux-options.php:2392
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: ../inc/redux-options.php:2401
+msgid "JS Code"
+msgstr ""
+
+#: ../inc/redux-options.php:2402
+msgid "Paste your JS code here."
+msgstr ""
+
+#: ../inc/redux-options.php:2412
+msgid "Custom Code for Login page"
+msgstr ""
+
+#: ../inc/redux-options.php:2413
+msgid ""
+"Custom Code for Login page only. This will effect only login page and not "
+"effect any other pages or admin section."
+msgstr ""
+
+#: ../inc/redux-options.php:2418
+msgid "CSS Code for Login Page"
+msgstr ""
+
+#: ../inc/redux-options.php:2419
+msgid "Paste write CSS code here."
+msgstr ""
+
+#: ../inc/redux-options.php:2422
+msgid ""
+"Possible modes can be found at <a href=\"http://ace.c9.io\" target=\"_blank"
+"\">http://ace.c9.io/</a>."
+msgstr ""
+
+#: ../inc/redux-options.php:2435
+msgid "Theme Information"
+msgstr ""
+
+#: ../inc/redux-options.php:2436
+msgid ""
+"<p class=\"description\">This is the Description. Again HTML is allowed</p>"
+msgstr ""
+
+#: ../inc/redux-options.php:2448
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:140
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:149
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:150
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:143
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:152
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:153
+msgid "Import / Export"
+msgstr ""
+
+#: ../inc/redux-options.php:2449
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: ../inc/redux-options.php:2485
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: ../inc/redux-options.php:2486
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: ../inc/redux-options.php:2487
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: ../inc/redux-options.php:2490
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: ../inc/redux-options.php:2497
+msgid "Documentation"
+msgstr ""
+
+#: ../inc/redux-options.php:2545
+msgid "A Section added by hook"
+msgstr ""
+
+#: ../inc/redux-options.php:2546
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: ../inc/posttype-page.php:36
+msgid "No slider"
+msgstr ""
+
+#: ../inc/posttype-page.php:37
+msgid "Slider Revolution"
+msgstr ""
+
+#: ../inc/posttype-page.php:38
+msgid "Nivo Slider"
+msgstr ""
+
+#: ../inc/posttype-page.php:39
+msgid "Flex Slider"
+msgstr ""
+
+#: ../inc/posttype-page.php:54 ../inc/posttype-page.php:75
+msgid "Select Slider"
+msgstr ""
+
+#: ../inc/posttype-page.php:55 ../inc/posttype-page.php:76
+msgid ""
+"Select slider which you want to show on this page. The slider will appear in "
+"header area."
+msgstr ""
+
+#: ../inc/posttype-page.php:62
+msgid "Select Slider for Slider Revolution"
+msgstr ""
+
+#: ../inc/posttype-page.php:63
+msgid "Select slider for Slider Revolution."
+msgstr ""
+
+#: ../inc/posttype-page.php:92
+msgid "Select Slider Group"
+msgstr ""
+
+#: ../inc/posttype-page.php:93
+msgid ""
+"Select slider group to fetch all slides. Please note that only selected "
+"group's slides will be shown in FLEX or NIVO slider."
+msgstr ""
+
+#: ../inc/posttype-page.php:103
+msgid "Slide Size"
+msgstr ""
+
+#: ../inc/posttype-page.php:104
+msgid "Select slider width size."
+msgstr ""
+
+#: ../inc/posttype-page.php:121 ../inc/posttype-post.php:40
+msgid "Hide Titlebar"
+msgstr ""
+
+#: ../inc/posttype-page.php:122 ../inc/posttype-post.php:41
+msgid "If you want to hide title box than check this option"
+msgstr ""
+
+#: ../inc/posttype-page.php:127
+msgid "Page Title"
+msgstr ""
+
+#: ../inc/posttype-page.php:128 ../inc/posttype-post.php:47
+msgid ""
+"(Optional) Replace current page title with this title. So Search results "
+"will show the original page title and the page will show this title."
+msgstr ""
+
+#: ../inc/posttype-page.php:133
+msgid "Page Subtitle"
+msgstr ""
+
+#: ../inc/posttype-page.php:134 ../inc/posttype-post.php:53
+msgid "(Optional) Please fill page subtitle"
+msgstr ""
+
+#: ../inc/posttype-page.php:139 ../inc/posttype-post.php:58
+msgid "Hide Breadcrumb"
+msgstr ""
+
+#: ../inc/posttype-page.php:140 ../inc/posttype-post.php:59
+msgid "If you want to hide breadcrumb than check this option"
+msgstr ""
+
+#: ../inc/posttype-page.php:146 ../inc/posttype-post.php:65
+msgid "(Optional) Please select background image."
+msgstr ""
+
+#: ../inc/posttype-page.php:149 ../inc/posttype-page.php:190
+#: ../inc/posttype-page.php:229 ../inc/posttype-page.php:241
+#: ../inc/posttype-page.php:255 ../inc/posttype-page.php:327
+#: ../inc/posttype-post.php:68 ../inc/posttype-post.php:107
+msgid "Global"
+msgstr ""
+
+#: ../inc/posttype-page.php:155 ../inc/posttype-post.php:74
+msgid "Custom image (selected below)"
+msgstr ""
+
+#: ../inc/posttype-page.php:160 ../inc/posttype-post.php:79
+msgid "Upload Titlebar Background Image"
+msgstr ""
+
+#: ../inc/posttype-page.php:161 ../inc/posttype-post.php:80
+msgid ""
+"(Optional) Please upload image for background of Titlebar. Image size should "
+"be <code>1700px X 500px</code>."
+msgstr ""
+
+#: ../inc/posttype-page.php:166
+msgid "Slider Area Options"
+msgstr ""
+
+#: ../inc/posttype-page.php:168
+msgid "Sidebar Options"
+msgstr ""
+
+#: ../inc/posttype-page.php:172
+msgid "(Optional) Select left sidebar Widget position"
+msgstr ""
+
+#: ../inc/posttype-page.php:179
+msgid "(Optional) Select right sidebar Widget position"
+msgstr ""
+
+#: ../inc/posttype-page.php:186 ../inc/posttype-post.php:104
+msgid "(Optional) Select position for sidebars"
+msgstr ""
+
+#: ../inc/posttype-page.php:192 ../inc/posttype-post.php:108
+msgid "Left Sidebar only"
+msgstr ""
+
+#: ../inc/posttype-page.php:193 ../inc/posttype-post.php:109
+msgid "Right Sidebar only"
+msgstr ""
+
+#: ../inc/posttype-page.php:194 ../inc/posttype-post.php:110
+msgid "Both Left and Right Sidebars"
+msgstr ""
+
+#: ../inc/posttype-page.php:195 ../inc/posttype-post.php:111
+msgid "Both sidebars at Left side"
+msgstr ""
+
+#: ../inc/posttype-page.php:196 ../inc/posttype-post.php:112
+msgid "Both sidebars at Right side"
+msgstr ""
+
+#: ../inc/posttype-page.php:226
+msgid "If you want to hide Topbar than check this option"
+msgstr ""
+
+#: ../inc/posttype-page.php:230 ../inc/posttype-page.php:256
+msgid "Yes, hide Topbar"
+msgstr ""
+
+#: ../inc/posttype-page.php:231 ../inc/posttype-page.php:257
+msgid "No, show Topbar"
+msgstr ""
+
+#: ../inc/posttype-page.php:237 ../inc/visual-composer.php:1570
+msgid "Background Color"
+msgstr ""
+
+#: ../inc/posttype-page.php:238
+msgid "Please select color for background"
+msgstr ""
+
+#: ../inc/posttype-page.php:242
+msgid "Dark grey"
+msgstr ""
+
+#: ../inc/posttype-page.php:243
+msgid "Grey"
+msgstr ""
+
+#: ../inc/posttype-page.php:245
+msgid "Skincolor"
+msgstr ""
+
+#: ../inc/posttype-page.php:275
+msgid "Topbar Text (overwrite default text)"
+msgstr ""
+
+#: ../inc/posttype-page.php:276
+msgid ""
+"Add content for Topbar text. This will overwrite default text set in Theme "
+"Options."
+msgstr ""
+
+#: ../inc/posttype-page.php:323 ../inc/visual-composer.php:1469
+msgid "Show Posts"
+msgstr ""
+
+#: ../inc/posttype-page.php:324
+msgid "How many posts you like to show on Two, Thee or Four column blog view."
+msgstr ""
+
+#: ../inc/posttype-page.php:328 ../inc/visual-composer.php:435
+#: ../inc/visual-composer.php:1473
+msgid "1"
+msgstr ""
+
+#: ../inc/posttype-page.php:329 ../inc/visual-composer.php:436
+#: ../inc/visual-composer.php:1474
+msgid "2"
+msgstr ""
+
+#: ../inc/posttype-page.php:330 ../inc/visual-composer.php:437
+#: ../inc/visual-composer.php:597 ../inc/visual-composer.php:1223
+#: ../inc/visual-composer.php:1475
+msgid "3"
+msgstr ""
+
+#: ../inc/posttype-page.php:331 ../inc/visual-composer.php:438
+#: ../inc/visual-composer.php:598 ../inc/visual-composer.php:1224
+#: ../inc/visual-composer.php:1476
+msgid "4"
+msgstr ""
+
+#: ../inc/posttype-page.php:332 ../inc/visual-composer.php:439
+#: ../inc/visual-composer.php:599 ../inc/visual-composer.php:1225
+#: ../inc/visual-composer.php:1477
+msgid "5"
+msgstr ""
+
+#: ../inc/posttype-page.php:333 ../inc/visual-composer.php:440
+#: ../inc/visual-composer.php:600 ../inc/visual-composer.php:1226
+#: ../inc/visual-composer.php:1478
+msgid "6"
+msgstr ""
+
+#: ../inc/posttype-page.php:334 ../inc/visual-composer.php:441
+#: ../inc/visual-composer.php:601 ../inc/visual-composer.php:1227
+#: ../inc/visual-composer.php:1479
+msgid "7"
+msgstr ""
+
+#: ../inc/posttype-page.php:335 ../inc/visual-composer.php:442
+#: ../inc/visual-composer.php:602 ../inc/visual-composer.php:1228
+#: ../inc/visual-composer.php:1480
+msgid "8"
+msgstr ""
+
+#: ../inc/posttype-page.php:336 ../inc/visual-composer.php:443
+#: ../inc/visual-composer.php:603 ../inc/visual-composer.php:1229
+#: ../inc/visual-composer.php:1481
+msgid "9"
+msgstr ""
+
+#: ../inc/posttype-page.php:337 ../inc/visual-composer.php:444
+#: ../inc/visual-composer.php:604 ../inc/visual-composer.php:1230
+#: ../inc/visual-composer.php:1482
+msgid "10"
+msgstr ""
+
+#: ../inc/posttype-page.php:338 ../inc/visual-composer.php:605
+#: ../inc/visual-composer.php:1231 ../inc/visual-composer.php:1483
+msgid "11"
+msgstr ""
+
+#: ../inc/posttype-page.php:339 ../inc/visual-composer.php:606
+#: ../inc/visual-composer.php:1232 ../inc/visual-composer.php:1484
+msgid "12"
+msgstr ""
+
+#: ../inc/posttype-page.php:340 ../inc/visual-composer.php:607
+#: ../inc/visual-composer.php:1233 ../inc/visual-composer.php:1485
+msgid "13"
+msgstr ""
+
+#: ../inc/posttype-page.php:341 ../inc/visual-composer.php:608
+#: ../inc/visual-composer.php:1234 ../inc/visual-composer.php:1486
+msgid "14"
+msgstr ""
+
+#: ../inc/posttype-page.php:342 ../inc/visual-composer.php:609
+#: ../inc/visual-composer.php:1235 ../inc/visual-composer.php:1487
+msgid "15"
+msgstr ""
+
+#: ../inc/posttype-page.php:343 ../inc/visual-composer.php:610
+#: ../inc/visual-composer.php:1236 ../inc/visual-composer.php:1488
+msgid "16"
+msgstr ""
+
+#: ../inc/posttype-page.php:344 ../inc/visual-composer.php:611
+#: ../inc/visual-composer.php:1237 ../inc/visual-composer.php:1489
+msgid "17"
+msgstr ""
+
+#: ../inc/posttype-page.php:345 ../inc/visual-composer.php:612
+#: ../inc/visual-composer.php:1238 ../inc/visual-composer.php:1490
+msgid "18"
+msgstr ""
+
+#: ../inc/posttype-page.php:346 ../inc/visual-composer.php:613
+#: ../inc/visual-composer.php:1239 ../inc/visual-composer.php:1491
+msgid "19"
+msgstr ""
+
+#: ../inc/posttype-page.php:347 ../inc/visual-composer.php:614
+#: ../inc/visual-composer.php:1240 ../inc/visual-composer.php:1492
+msgid "20"
+msgstr ""
+
+#: ../inc/posttype-client.php:38
+msgid "Client Name"
+msgstr ""
+
+#: ../inc/posttype-client.php:69
+msgid "Select/Upload image of the client"
+msgstr ""
+
+#: ../inc/posttype-client.php:77
+msgid "Apicona: Client Details"
+msgstr ""
+
+#: ../inc/posttype-client.php:81 ../inc/posttype-testimonial.php:72
+msgid "Website Link"
+msgstr ""
+
+#: ../inc/posttype-client.php:82 ../inc/posttype-testimonial.php:73
+msgid "(Optional) Please fill person or company's website link"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:517
+#: ../inc/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1544
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1956
+#: ../inc/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1956
+#: ../inc/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:11 ../inc/posttype-portfolio.php:17
+#: ../inc/posttype-portfolio.php:18 ../inc/posttype-portfolio.php:29
+msgid "Portfolio"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:19
+msgid "Add New"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:20
+msgid "Add New Portfolio"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:21
+msgid "Edit Portfolio"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:22
+msgid "New Portfolio"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:23
+msgid "All Portfolio"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:24
+msgid "View Portfolio"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:25
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:26
+msgid "No Portfolio found"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:27
+msgid "No Portfolio found in Trash"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:34
+msgid "Apicona: Portfolio Options"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:38
+msgid "Doctor/Team Name"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:39
+msgid "(Optional) Please fill docotor or team name"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:46
+msgid "Doctor/Team Link"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:47
+msgid "(Optional) Please fill doctor or team website link"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:52
+msgid "Skills"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:53
+msgid "(Optional) Please fill special skills"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:58
+msgid "Project Link Text"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:59
+msgid ""
+"(Optional) Please fill project link text. Example <code>Read More</code>"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:64
+msgid "Project Link URL"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:65
+msgid ""
+"(Optional) Please fill project link URL. This will become the link for the "
+"\"Project Link Text\" word."
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:81
+msgid "Featured Image/Video"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:82
+msgid "Select what you want to show as featured. Image or Video"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:85
+msgid "Featured Image"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:86
+msgid "Video (YouTube or Vimeo)"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:88
+msgid "Audio (SoundCloud embed code)"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:90
+msgid "Image Slider"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:98
+msgid "YouTube or Vimeo URL"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:99
+msgid "Paste YouTube or Vimeo URL here."
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:126
+msgid "SoundCloud (or any other service) Embed Code"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:127
+msgid "Paste SoundCloud or any other service embed code here."
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:154 ../inc/posttype-post.php:136
+msgid "1st Slider Image"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:155 ../inc/posttype-post.php:137
+msgid ""
+"Select 1st image for slider here. You can select your featured image here to "
+"show the featured image as first image in slider."
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:160 ../inc/posttype-post.php:142
+msgid "2nd Slider Image"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:161 ../inc/posttype-post.php:143
+msgid "(optional) Select 2nd image for slider here."
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:166 ../inc/posttype-post.php:148
+msgid "3rd Slider Image"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:167 ../inc/posttype-post.php:149
+msgid "(optional) Select 3rd image for slider here."
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:172 ../inc/posttype-post.php:154
+msgid "4th Slider Image"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:173 ../inc/posttype-post.php:155
+msgid "(optional) Select 4th image for slider here."
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:178 ../inc/posttype-post.php:160
+msgid "5th Slider Image"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:179 ../inc/posttype-post.php:161
+msgid "(optional) Select 5th image for slider here."
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:184 ../inc/posttype-post.php:166
+msgid "6th Slider Image"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:185 ../inc/posttype-post.php:167
+msgid "(optional) Select 6h image for slider here."
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:190 ../inc/posttype-post.php:172
+msgid "7th Slider Image"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:191 ../inc/posttype-post.php:173
+msgid "(optional) Select 7th image for slider here."
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:196 ../inc/posttype-post.php:178
+msgid "8th Slider Image"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:197 ../inc/posttype-post.php:179
+msgid "(optional) Select 8th image for slider here."
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:202 ../inc/posttype-post.php:184
+msgid "9th Slider Image"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:203 ../inc/posttype-post.php:185
+msgid "(optional) Select 9th image for slider here."
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:208 ../inc/posttype-post.php:190
+msgid "10th Slider Image"
+msgstr ""
+
+#: ../inc/posttype-portfolio.php:209 ../inc/posttype-post.php:191
+msgid "(optional) Select 10th image for slider here."
+msgstr ""
+
+#: ../inc/posttype-team.php:22
+msgid "Doctor"
+msgstr ""
+
+#: ../inc/posttype-team.php:39
+msgid "Doctor's Image"
+msgstr ""
+
+#: ../inc/posttype-team.php:50
+msgid "Position"
+msgstr ""
+
+#: ../inc/posttype-team.php:51
+msgid "(Optional) Add doctor's position. Example: <code>Project Manager</code>"
+msgstr ""
+
+#: ../inc/posttype-team.php:56 ../inc/visual-composer.php:1327
+#: ../inc/widgets/kwayyWidgetContact.php:157
+msgid "Email"
+msgstr ""
+
+#: ../inc/posttype-team.php:57
+msgid ""
+"(Optional) Add doctor's email address. Example: <code>member@example.com</"
+"code>"
+msgstr ""
+
+#: ../inc/posttype-team.php:70
+msgid "(Optional) Please fill Facebook link"
+msgstr ""
+
+#: ../inc/posttype-team.php:76
+msgid "(Optional) Please fill Twitter link"
+msgstr ""
+
+#: ../inc/posttype-team.php:82
+msgid "(Optional) Please fill LinkedIn link"
+msgstr ""
+
+#: ../inc/posttype-team.php:88
+msgid "(Optional) Please fill Google+ link"
+msgstr ""
+
+#: ../inc/posttype-team.php:123
+msgid "Featured Image URL"
+msgstr ""
+
+#: ../inc/posttype-team.php:127
+msgid ""
+"Paste featured image URL for this group. Please upload first in media "
+"section."
+msgstr ""
+
+#: ../inc/visual-composer.php:97
+msgid "No Icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:108 ../inc/visual-composer.php:125
+#: ../inc/visual-composer.php:143
+msgid "Skin color"
+msgstr ""
+
+#: ../inc/visual-composer.php:153
+msgid "Apicona Service Box"
+msgstr ""
+
+#: ../inc/visual-composer.php:156 ../inc/visual-composer.php:340
+#: ../inc/visual-composer.php:384 ../inc/visual-composer.php:459
+#: ../inc/visual-composer.php:518 ../inc/visual-composer.php:681
+#: ../inc/visual-composer.php:755 ../inc/visual-composer.php:873
+#: ../inc/visual-composer.php:1001 ../inc/visual-composer.php:1120
+#: ../inc/visual-composer.php:1303 ../inc/visual-composer.php:1387
+msgid "ThemeMount Special Elements"
+msgstr ""
+
+#: ../inc/visual-composer.php:163
+msgid "Box Style"
+msgstr ""
+
+#: ../inc/visual-composer.php:166
+msgid "Left Icon (Rounded icon)"
+msgstr ""
+
+#: ../inc/visual-composer.php:167
+msgid "Left Icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:168
+msgid "Center Icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:169
+msgid "Center Icon with Border"
+msgstr ""
+
+#: ../inc/visual-composer.php:170
+msgid "Right Icon (Rounded icon)"
+msgstr ""
+
+#: ../inc/visual-composer.php:171
+msgid "Right Icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:173
+msgid "There are different look of Service Boxes."
+msgstr ""
+
+#: ../inc/visual-composer.php:179
+msgid "Box Hover Effect"
+msgstr ""
+
+#: ../inc/visual-composer.php:182
+msgid "None"
+msgstr ""
+
+#: ../inc/visual-composer.php:183
+msgid "Float Shadow"
+msgstr ""
+
+#: ../inc/visual-composer.php:184
+msgid "Grow"
+msgstr ""
+
+#: ../inc/visual-composer.php:185
+msgid "Shrink"
+msgstr ""
+
+#: ../inc/visual-composer.php:186
+msgid "Skew"
+msgstr ""
+
+#: ../inc/visual-composer.php:187
+msgid "Skew Forward"
+msgstr ""
+
+#: ../inc/visual-composer.php:188
+msgid "Rotate"
+msgstr ""
+
+#: ../inc/visual-composer.php:189
+msgid "Grow Rotate"
+msgstr ""
+
+#: ../inc/visual-composer.php:190
+msgid "Float"
+msgstr ""
+
+#: ../inc/visual-composer.php:191
+msgid "Sink"
+msgstr ""
+
+#: ../inc/visual-composer.php:193
+msgid "Select hover effect."
+msgstr ""
+
+#: ../inc/visual-composer.php:200 ../inc/visual-composer.php:356
+msgid "Service Box Main Icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:203
+msgid "Select icon for the Service Box."
+msgstr ""
+
+#: ../inc/visual-composer.php:209 ../inc/widgets/kwayyWidgetContact.php:147
+#: ../inc/widgets/kwayyWidgetFlickr.php:92
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:145
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:200
+msgid "Title"
+msgstr ""
+
+#: ../inc/visual-composer.php:211
+msgid "Main title."
+msgstr ""
+
+#: ../inc/visual-composer.php:216
+msgid "Title Link"
+msgstr ""
+
+#: ../inc/visual-composer.php:218
+msgid ""
+"Add URL here if you like to add link to the title. If you don't want to add "
+"link, than leave this field blank."
+msgstr ""
+
+#: ../inc/visual-composer.php:224
+msgid "Sub Title"
+msgstr ""
+
+#: ../inc/visual-composer.php:227
+msgid "Subtitle."
+msgstr ""
+
+#: ../inc/visual-composer.php:233
+msgid "Content"
+msgstr ""
+
+#: ../inc/visual-composer.php:236
+msgid "Content in normal text."
+msgstr ""
+
+#: ../inc/visual-composer.php:242
+msgid "Bottom Link Type"
+msgstr ""
+
+#: ../inc/visual-composer.php:245
+msgid "No link"
+msgstr ""
+
+#: ../inc/visual-composer.php:246
+msgid "Text Link without icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:247
+msgid "Text Link with icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:248
+msgid "Button link without icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:249
+msgid "Button link with icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:251
+msgid "Select button type."
+msgstr ""
+
+#: ../inc/visual-composer.php:257
+msgid "Button/Link Text"
+msgstr ""
+
+#: ../inc/visual-composer.php:260 ../inc/visual-composer.php:576
+#: ../inc/visual-composer.php:1202 ../inc/visual-composer.php:1452
+msgid "Write button text here."
+msgstr ""
+
+#: ../inc/visual-composer.php:264
+msgid "Button style"
+msgstr ""
+
+#: ../inc/visual-composer.php:267
+msgid "Select button style."
+msgstr ""
+
+#: ../inc/visual-composer.php:273
+msgid "Button Color"
+msgstr ""
+
+#: ../inc/visual-composer.php:276
+msgid "Select button Color."
+msgstr ""
+
+#: ../inc/visual-composer.php:281
+msgid "Button Size"
+msgstr ""
+
+#: ../inc/visual-composer.php:285
+msgid "Select button size."
+msgstr ""
+
+#: ../inc/visual-composer.php:292 ../inc/visual-composer.php:1665
+#: ../inc/visual-composer.php:1685
+msgid "Button Icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:295 ../inc/visual-composer.php:359
+msgid "Selct icon for the Service Box."
+msgstr ""
+
+#: ../inc/visual-composer.php:300 ../inc/posttype-slides.php:48
+msgid "Button Link"
+msgstr ""
+
+#: ../inc/visual-composer.php:302
+msgid "Button link URL."
+msgstr ""
+
+#: ../inc/visual-composer.php:308
+msgid "Icon Position in Button"
+msgstr ""
+
+#: ../inc/visual-composer.php:311
+msgid "Icon at left in Button"
+msgstr ""
+
+#: ../inc/visual-composer.php:312
+msgid "Icon at right in Button"
+msgstr ""
+
+#: ../inc/visual-composer.php:314
+msgid "Select position for icon in button."
+msgstr ""
+
+#: ../inc/visual-composer.php:320
+msgid "CSS Animation"
+msgstr ""
+
+#: ../inc/visual-composer.php:322
+msgid "Top to bottom"
+msgstr ""
+
+#: ../inc/visual-composer.php:322
+msgid "Bottom to top"
+msgstr ""
+
+#: ../inc/visual-composer.php:322
+msgid "Left to right"
+msgstr ""
+
+#: ../inc/visual-composer.php:322
+msgid "Right to left"
+msgstr ""
+
+#: ../inc/visual-composer.php:322
+msgid "Appear from center"
+msgstr ""
+
+#: ../inc/visual-composer.php:323
+msgid ""
+"Select animation type if you want this element to be animated when it enters "
+"into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: ../inc/visual-composer.php:336
+msgid "Apicona Facts in digits"
+msgstr ""
+
+#: ../inc/visual-composer.php:346
+msgid "Header (optional)"
+msgstr ""
+
+#: ../inc/visual-composer.php:349
+msgid ""
+"Enter text which will be used as widget title. Leave blank if no title is "
+"needed."
+msgstr ""
+
+#: ../inc/visual-composer.php:365
+msgid "Number"
+msgstr ""
+
+#: ../inc/visual-composer.php:368
+msgid "Enter roating number digit here."
+msgstr ""
+
+#: ../inc/visual-composer.php:380
+msgid "Apicona Twitter Box"
+msgstr ""
+
+#: ../inc/visual-composer.php:391
+msgid "(Required) Twitter Consumer Key"
+msgstr ""
+
+#: ../inc/visual-composer.php:393
+msgid ""
+"Twitter Consumer Key from Twitter site. Fill all the four keys to show "
+"Twitter bar in footer. You can get all the keys from <a href=\"https://dev."
+"twitter.com\" target=\"_blank\">https://dev.twitter.com</a> site."
+msgstr ""
+
+#: ../inc/visual-composer.php:399
+msgid "(Required) Twitter Consumer Secret"
+msgstr ""
+
+#: ../inc/visual-composer.php:401
+msgid "Twitter Consumer Secret from Twitter site."
+msgstr ""
+
+#: ../inc/visual-composer.php:407
+msgid "(Required) Twitter Oauth Token"
+msgstr ""
+
+#: ../inc/visual-composer.php:409
+msgid "Twitter Oauth Token from Twitter site."
+msgstr ""
+
+#: ../inc/visual-composer.php:415
+msgid "(Required) Twitter Oauth Token Secret"
+msgstr ""
+
+#: ../inc/visual-composer.php:417
+msgid "Twitter Oauth Token Secret from Twitter site."
+msgstr ""
+
+#: ../inc/visual-composer.php:423
+msgid "Twitter Username (optional)"
+msgstr ""
+
+#: ../inc/visual-composer.php:425
+msgid ""
+"(optional) Twitter user name. Example <code>envato</code>. <br> Leave this "
+"blank to show tweets from your account."
+msgstr ""
+
+#: ../inc/visual-composer.php:431
+msgid "Show Tweets"
+msgstr ""
+
+#: ../inc/visual-composer.php:433
+msgid "how many Tweets you like to show."
+msgstr ""
+
+#: ../inc/visual-composer.php:456
+msgid "Apicona Separator with Icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:464
+msgid "Icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:467
+msgid "Select icon for separator. Only visible if sub-heading is filled."
+msgstr ""
+
+#: ../inc/visual-composer.php:471
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:276
+msgid "Style"
+msgstr ""
+
+#: ../inc/visual-composer.php:474
+msgid "Border"
+msgstr ""
+
+#: ../inc/visual-composer.php:475
+msgid "Double Border"
+msgstr ""
+
+#: ../inc/visual-composer.php:476
+msgid "Dotted"
+msgstr ""
+
+#: ../inc/visual-composer.php:477
+msgid "Dashed"
+msgstr ""
+
+#: ../inc/visual-composer.php:479
+msgid "Separator style."
+msgstr ""
+
+#: ../inc/visual-composer.php:483
+msgid "Element width"
+msgstr ""
+
+#: ../inc/visual-composer.php:486
+msgid "100%"
+msgstr ""
+
+#: ../inc/visual-composer.php:487
+msgid "90%"
+msgstr ""
+
+#: ../inc/visual-composer.php:488
+msgid "80%"
+msgstr ""
+
+#: ../inc/visual-composer.php:489
+msgid "70%"
+msgstr ""
+
+#: ../inc/visual-composer.php:490
+msgid "60%"
+msgstr ""
+
+#: ../inc/visual-composer.php:491
+msgid "50%"
+msgstr ""
+
+#: ../inc/visual-composer.php:493
+msgid "Separator element width in percent."
+msgstr ""
+
+#: ../inc/visual-composer.php:515
+msgid "Apicona Events Box"
+msgstr ""
+
+#: ../inc/visual-composer.php:524 ../inc/visual-composer.php:761
+#: ../inc/visual-composer.php:877 ../inc/visual-composer.php:1005
+#: ../inc/visual-composer.php:1139 ../inc/visual-composer.php:1406
+msgid "Box Title"
+msgstr ""
+
+#: ../inc/visual-composer.php:525 ../inc/visual-composer.php:762
+#: ../inc/visual-composer.php:1140 ../inc/visual-composer.php:1407
+msgid "Write box title here."
+msgstr ""
+
+#: ../inc/visual-composer.php:533 ../inc/visual-composer.php:770
+#: ../inc/visual-composer.php:883 ../inc/visual-composer.php:1011
+#: ../inc/visual-composer.php:1148 ../inc/visual-composer.php:1415
+msgid "Box Sub-title"
+msgstr ""
+
+#: ../inc/visual-composer.php:534 ../inc/visual-composer.php:771
+#: ../inc/visual-composer.php:1149 ../inc/visual-composer.php:1416
+msgid "Write box sub-title here."
+msgstr ""
+
+#: ../inc/visual-composer.php:540 ../inc/visual-composer.php:777
+#: ../inc/visual-composer.php:889 ../inc/visual-composer.php:1017
+#: ../inc/visual-composer.php:1155 ../inc/visual-composer.php:1422
+msgid "Title Align"
+msgstr ""
+
+#: ../inc/visual-composer.php:541 ../inc/visual-composer.php:778
+#: ../inc/visual-composer.php:890 ../inc/visual-composer.php:1018
+#: ../inc/visual-composer.php:1156 ../inc/visual-composer.php:1423
+msgid "Select align for title and sub-title tag."
+msgstr ""
+
+#: ../inc/visual-composer.php:544 ../inc/visual-composer.php:725
+#: ../inc/visual-composer.php:781 ../inc/visual-composer.php:893
+#: ../inc/visual-composer.php:1021 ../inc/visual-composer.php:1159
+#: ../inc/visual-composer.php:1426
+#: ../inc/redux-framework/ReduxCore/inc/fields/border/field_border.php:159
+#: ../inc/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:236
+msgid "Left"
+msgstr ""
+
+#: ../inc/visual-composer.php:545 ../inc/visual-composer.php:726
+#: ../inc/visual-composer.php:782 ../inc/visual-composer.php:894
+#: ../inc/visual-composer.php:1022 ../inc/visual-composer.php:1160
+#: ../inc/visual-composer.php:1427
+msgid "Center"
+msgstr ""
+
+#: ../inc/visual-composer.php:546 ../inc/visual-composer.php:727
+#: ../inc/visual-composer.php:783 ../inc/visual-composer.php:895
+#: ../inc/visual-composer.php:1023 ../inc/visual-composer.php:1161
+#: ../inc/visual-composer.php:1428
+#: ../inc/redux-framework/ReduxCore/inc/fields/border/field_border.php:145
+#: ../inc/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:222
+msgid "Right"
+msgstr ""
+
+#: ../inc/visual-composer.php:551
+msgid "Box View"
+msgstr ""
+
+#: ../inc/visual-composer.php:552
+msgid "Select view of the box."
+msgstr ""
+
+#: ../inc/visual-composer.php:555
+msgid "Default View"
+msgstr ""
+
+#: ../inc/visual-composer.php:556
+msgid "Detailed View"
+msgstr ""
+
+#: ../inc/visual-composer.php:563 ../inc/visual-composer.php:1189
+msgid "Show Pagination"
+msgstr ""
+
+#: ../inc/visual-composer.php:564 ../inc/visual-composer.php:1190
+msgid "Show pagination links below portfolio boxes."
+msgstr ""
+
+#: ../inc/visual-composer.php:575 ../inc/visual-composer.php:1201
+#: ../inc/visual-composer.php:1451 ../inc/posttype-slides.php:42
+msgid "Button Text"
+msgstr ""
+
+#: ../inc/visual-composer.php:584 ../inc/visual-composer.php:1210
+#: ../inc/visual-composer.php:1460
+msgid "Button Link (URL)"
+msgstr ""
+
+#: ../inc/visual-composer.php:585 ../inc/visual-composer.php:1211
+#: ../inc/visual-composer.php:1461
+msgid "Write URL for the button."
+msgstr ""
+
+#: ../inc/visual-composer.php:593
+msgid "Show Events Item"
+msgstr ""
+
+#: ../inc/visual-composer.php:594
+msgid "How many events you want to show."
+msgstr ""
+
+#: ../inc/visual-composer.php:615 ../inc/visual-composer.php:1241
+#: ../inc/visual-composer.php:1493
+msgid "21"
+msgstr ""
+
+#: ../inc/visual-composer.php:616 ../inc/visual-composer.php:1242
+#: ../inc/visual-composer.php:1494
+msgid "22"
+msgstr ""
+
+#: ../inc/visual-composer.php:617 ../inc/visual-composer.php:1243
+#: ../inc/visual-composer.php:1495
+msgid "23"
+msgstr ""
+
+#: ../inc/visual-composer.php:618 ../inc/visual-composer.php:1244
+#: ../inc/visual-composer.php:1496
+msgid "24"
+msgstr ""
+
+#: ../inc/visual-composer.php:623 ../inc/visual-composer.php:814
+#: ../inc/visual-composer.php:945 ../inc/visual-composer.php:1066
+#: ../inc/visual-composer.php:1249 ../inc/visual-composer.php:1501
+msgid "Column"
+msgstr ""
+
+#: ../inc/visual-composer.php:625 ../inc/visual-composer.php:1251
+#: ../inc/visual-composer.php:1503
+msgid "Select column."
+msgstr ""
+
+#: ../inc/visual-composer.php:637
+msgid "Events View"
+msgstr ""
+
+#: ../inc/visual-composer.php:638
+msgid ""
+"Select events view. Show as normal row and column or show with carousel "
+"effect."
+msgstr ""
+
+#: ../inc/visual-composer.php:641 ../inc/visual-composer.php:835
+#: ../inc/visual-composer.php:964 ../inc/visual-composer.php:1095
+#: ../inc/visual-composer.php:1267 ../inc/visual-composer.php:1519
+msgid "Row and Column (default)"
+msgstr ""
+
+#: ../inc/visual-composer.php:642 ../inc/visual-composer.php:836
+#: ../inc/visual-composer.php:965 ../inc/visual-composer.php:1096
+#: ../inc/visual-composer.php:1268 ../inc/visual-composer.php:1520
+msgid "Carousel effect"
+msgstr ""
+
+#: ../inc/visual-composer.php:678
+msgid "Apicona Heading"
+msgstr ""
+
+#: ../inc/visual-composer.php:685
+msgid "Text for heading"
+msgstr ""
+
+#: ../inc/visual-composer.php:686
+msgid ""
+"Write text for heading. Some HTML tags are allowed. <br><strong>Tip:</"
+"strong> You can add SPAN tag to add skin color to any text. Example: <code> "
+"Welcome to &lt;span&gt;OUR&lt;/span&gt; website. </code> "
+msgstr ""
+
+#: ../inc/visual-composer.php:688
+msgid "Welcome to our site"
+msgstr ""
+
+#: ../inc/visual-composer.php:692
+msgid "Text for sub-heading"
+msgstr ""
+
+#: ../inc/visual-composer.php:693
+msgid ""
+"Write text for sub-heading. Some HTML tags are allowed. <br><strong>Tip:</"
+"strong> You can add SPAN tag to add skin color to any text. Example: "
+"<code>Lorem Ipsum is simply &lt;span&gt;DUMMY&lt;/span&gt; text of the "
+"printing and typesetting industry.</code> "
+msgstr ""
+
+#: ../inc/visual-composer.php:698
+msgid "Heading Tag"
+msgstr ""
+
+#: ../inc/visual-composer.php:699
+msgid "Select heading tag."
+msgstr ""
+
+#: ../inc/visual-composer.php:702
+msgid "H1"
+msgstr ""
+
+#: ../inc/visual-composer.php:703
+msgid "H2"
+msgstr ""
+
+#: ../inc/visual-composer.php:704
+msgid "H3"
+msgstr ""
+
+#: ../inc/visual-composer.php:705
+msgid "H4"
+msgstr ""
+
+#: ../inc/visual-composer.php:706
+msgid "H5"
+msgstr ""
+
+#: ../inc/visual-composer.php:707
+msgid "H6"
+msgstr ""
+
+#: ../inc/visual-composer.php:721
+msgid "Heading Align"
+msgstr ""
+
+#: ../inc/visual-composer.php:722
+msgid "Select align for heading tag."
+msgstr ""
+
+#: ../inc/visual-composer.php:752
+msgid "Apicona Team Members"
+msgstr ""
+
+#: ../inc/visual-composer.php:788
+msgid "Team Group"
+msgstr ""
+
+#: ../inc/visual-composer.php:790
+msgid ""
+"Select group to show Team Members from selected group only. Select ALL to "
+"show all Team Members."
+msgstr ""
+
+#: ../inc/visual-composer.php:795 ../inc/visual-composer.php:916
+#: ../inc/visual-composer.php:1037
+msgid "Show"
+msgstr ""
+
+#: ../inc/visual-composer.php:797 ../inc/visual-composer.php:918
+#: ../inc/visual-composer.php:1039
+msgid "Total Team Members you want to show."
+msgstr ""
+
+#: ../inc/visual-composer.php:799
+msgid "All Team Members"
+msgstr ""
+
+#: ../inc/visual-composer.php:800
+msgid "1 Team Member"
+msgstr ""
+
+#: ../inc/visual-composer.php:801
+msgid "2 Team Members"
+msgstr ""
+
+#: ../inc/visual-composer.php:802
+msgid "3 Team Members"
+msgstr ""
+
+#: ../inc/visual-composer.php:803
+msgid "4 Team Members"
+msgstr ""
+
+#: ../inc/visual-composer.php:804
+msgid "5 Team Members"
+msgstr ""
+
+#: ../inc/visual-composer.php:805
+msgid "6 Team Members"
+msgstr ""
+
+#: ../inc/visual-composer.php:806
+msgid "7 Team Members"
+msgstr ""
+
+#: ../inc/visual-composer.php:807
+msgid "8 Team Members"
+msgstr ""
+
+#: ../inc/visual-composer.php:808
+msgid "9 Team Members"
+msgstr ""
+
+#: ../inc/visual-composer.php:809
+msgid "10 Team Members"
+msgstr ""
+
+#: ../inc/visual-composer.php:816 ../inc/visual-composer.php:947
+#: ../inc/visual-composer.php:1068
+msgid "Select button alignment."
+msgstr ""
+
+#: ../inc/visual-composer.php:831
+msgid "View"
+msgstr ""
+
+#: ../inc/visual-composer.php:832
+msgid ""
+"Select the view. Show as normal row and column or show with carousel effect."
+msgstr ""
+
+#: ../inc/visual-composer.php:859 ../inc/visual-composer.php:992
+#: ../inc/visual-composer.php:1377 ../inc/tools.php:1946
+#: ../inc/shortcodes/portfoliobox.php:123
+#: ../inc/redux-framework/ReduxCore/inc/fields/border/field_border.php:125
+#: ../inc/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:191
+msgid "All"
+msgstr ""
+
+#: ../inc/visual-composer.php:870
+msgid "Apicona Testimonial Box"
+msgstr ""
+
+#: ../inc/visual-composer.php:879 ../inc/visual-composer.php:1007
+msgid "What text use as a title. Leave blank if no title is needed."
+msgstr ""
+
+#: ../inc/visual-composer.php:885 ../inc/visual-composer.php:1013
+msgid "What text use as a sub-title. Leave blank if no sub-title is needed."
+msgstr ""
+
+#: ../inc/visual-composer.php:908 ../inc/visual-composer.php:1080
+msgid "From Group"
+msgstr ""
+
+#: ../inc/visual-composer.php:910
+msgid "Select group so it will show Testimonials from selected group only."
+msgstr ""
+
+#: ../inc/visual-composer.php:920
+msgid "All Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:921
+msgid "1 Testimonial"
+msgstr ""
+
+#: ../inc/visual-composer.php:922
+msgid "2 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:923
+msgid "3 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:924
+msgid "4 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:925
+msgid "5 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:926
+msgid "6 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:927
+msgid "7 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:928
+msgid "8 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:929
+msgid "9 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:930
+msgid "10 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:931
+msgid "11 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:932
+msgid "12 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:933
+msgid "13 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:934
+msgid "14 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:935
+msgid "15 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:936
+msgid "16 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:937
+msgid "17 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:938
+msgid "18 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:939
+msgid "19 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:940
+msgid "20 Testimonials"
+msgstr ""
+
+#: ../inc/visual-composer.php:960 ../inc/visual-composer.php:1515
+msgid "Blog View"
+msgstr ""
+
+#: ../inc/visual-composer.php:961 ../inc/visual-composer.php:1516
+msgid ""
+"Select blog view. Show as normal row and column or show with carousel effect."
+msgstr ""
+
+#: ../inc/visual-composer.php:998
+msgid "Apicona Client's Logo Box"
+msgstr ""
+
+#: ../inc/visual-composer.php:1041
+msgid "All Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1042
+msgid "1 Client"
+msgstr ""
+
+#: ../inc/visual-composer.php:1043
+msgid "2 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1044
+msgid "3 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1045
+msgid "4 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1046
+msgid "5 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1047
+msgid "6 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1048
+msgid "7 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1049
+msgid "8 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1050
+msgid "9 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1051
+msgid "10 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1052
+msgid "11 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1053
+msgid "12 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1054
+msgid "13 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1055
+msgid "14 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1056
+msgid "15 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1057
+msgid "16 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1058
+msgid "17 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1059
+msgid "18 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1060
+msgid "19 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1061
+msgid "20 Clients"
+msgstr ""
+
+#: ../inc/visual-composer.php:1082
+msgid "Select group so it will show client logo from selected group only."
+msgstr ""
+
+#: ../inc/visual-composer.php:1091 ../inc/visual-composer.php:1263
+msgid "Portfolio View"
+msgstr ""
+
+#: ../inc/visual-composer.php:1092 ../inc/visual-composer.php:1264
+msgid ""
+"Select portfolio view. Show as normal row and column or show with carousel "
+"effect."
+msgstr ""
+
+#: ../inc/visual-composer.php:1117
+msgid "Apicona Portfolio Box"
+msgstr ""
+
+#: ../inc/visual-composer.php:1177
+msgid "Show Sortable Category Links"
+msgstr ""
+
+#: ../inc/visual-composer.php:1178
+msgid ""
+"Show sortable category links above Portfolio items so user can sort by "
+"category by just single click."
+msgstr ""
+
+#: ../inc/visual-composer.php:1219
+msgid "Show Portfolio Item"
+msgstr ""
+
+#: ../inc/visual-composer.php:1220
+msgid "How many portfolio item you want to show."
+msgstr ""
+
+#: ../inc/visual-composer.php:1300
+msgid "Apicona Contact Details Box"
+msgstr ""
+
+#: ../inc/visual-composer.php:1319 ../inc/widgets/kwayyWidgetContact.php:152
+msgid "Phone"
+msgstr ""
+
+#: ../inc/visual-composer.php:1320
+msgid "Write phone number here. Example: <code>(+01) 123 456 7890</code>"
+msgstr ""
+
+#: ../inc/visual-composer.php:1328
+msgid "Write email here. Example: <code>info@example.com</code>"
+msgstr ""
+
+#: ../inc/visual-composer.php:1336
+msgid "Write website URL here. Example: <code>www.example.com</code>"
+msgstr ""
+
+#: ../inc/visual-composer.php:1343 ../inc/widgets/kwayyWidgetContact.php:167
+msgid "Address"
+msgstr ""
+
+#: ../inc/visual-composer.php:1344
+msgid ""
+"Write address here. <br> Example: <code>Honey Business <br> 24 Fifth st., "
+"Los Angeles, <br> USA</code>"
+msgstr ""
+
+#: ../inc/visual-composer.php:1351 ../inc/widgets/kwayyWidgetContact.php:172
+msgid "Time"
+msgstr ""
+
+#: ../inc/visual-composer.php:1352
+msgid ""
+"Write time here. <br> Example: <code>Mon to Sat - 9:00am to "
+"6:00pm<br>(Sunday Closed)</code>"
+msgstr ""
+
+#: ../inc/visual-composer.php:1384
+msgid "Apicona Blog Box"
+msgstr ""
+
+#: ../inc/visual-composer.php:1442
+msgid "From Category"
+msgstr ""
+
+#: ../inc/visual-composer.php:1443
+msgid ""
+"If you like to show posts from selected category than select the category "
+"here."
+msgstr ""
+
+#: ../inc/visual-composer.php:1443
+msgid "The brecket number shows how many posts there in the category."
+msgstr ""
+
+#: ../inc/visual-composer.php:1470
+msgid "How many post you want to show."
+msgstr ""
+
+#: ../inc/visual-composer.php:1539
+msgid "ID (For Anchor link)"
+msgstr ""
+
+#: ../inc/visual-composer.php:1541
+msgid ""
+"Anchor for one-page site navigation link. Technically, this will add "
+"<code>id</code> tag to the row <code>div</code>. Example, <code>&lt;div "
+"id=&quot;foo&quot;&gt;</code>"
+msgstr ""
+
+#: ../inc/visual-composer.php:1547
+msgid "Full Width ROW"
+msgstr ""
+
+#: ../inc/visual-composer.php:1548
+msgid "Set full width (100%) of the ROW instead of the boxed ROW."
+msgstr ""
+
+#: ../inc/visual-composer.php:1558
+msgid "Select text color."
+msgstr ""
+
+#: ../inc/visual-composer.php:1561
+msgid "Use color set in \"Font Color\" option (default)"
+msgstr ""
+
+#: ../inc/visual-composer.php:1562
+msgid "Dark Color"
+msgstr ""
+
+#: ../inc/visual-composer.php:1563
+msgid "White Color"
+msgstr ""
+
+#: ../inc/visual-composer.php:1571
+msgid ""
+"Select Background Color. If you select color and also select background "
+"Video or background Image than the color will be overlay with some opacity."
+msgstr ""
+
+#: ../inc/visual-composer.php:1574
+msgid "Background Color & Image set in \"Design Options\" tab (default)"
+msgstr ""
+
+#: ../inc/visual-composer.php:1575
+msgid "Skin Color as Background Color"
+msgstr ""
+
+#: ../inc/visual-composer.php:1576
+msgid "Grey Color as Background Color"
+msgstr ""
+
+#: ../inc/visual-composer.php:1577
+msgid "Dark Color as Background Color"
+msgstr ""
+
+#: ../inc/visual-composer.php:1586
+msgid "Enable parallax"
+msgstr ""
+
+#: ../inc/visual-composer.php:1587
+msgid ""
+"The background-image is fixed with regard to the ROW. Technically, it will "
+"add <code>background-attachment:fixed</code> to the ROW"
+msgstr ""
+
+#: ../inc/visual-composer.php:1621
+msgid "Video background (mp4)"
+msgstr ""
+
+#: ../inc/visual-composer.php:1624
+msgid ""
+"Fill URL of MP4 video that you want to show as background. This will use "
+"HTML5 VIDEO tag."
+msgstr ""
+
+#: ../inc/visual-composer.php:1630
+msgid "Video background (ogg or ogv)"
+msgstr ""
+
+#: ../inc/visual-composer.php:1633
+msgid ""
+"Fill URL of OGG or OGV video that you want to show as background. This will "
+"use HTML5 VIDEO tag."
+msgstr ""
+
+#: ../inc/visual-composer.php:1639
+msgid "Video background (webm)"
+msgstr ""
+
+#: ../inc/visual-composer.php:1642
+msgid ""
+"Fill URL of WEBM video that you want to show as background. This will use "
+"HTML5 VIDEO tag."
+msgstr ""
+
+#: ../inc/visual-composer.php:1653 ../inc/visual-composer.php:1673
+msgid "Button Icon Position"
+msgstr ""
+
+#: ../inc/visual-composer.php:1654 ../inc/visual-composer.php:1674
+msgid "Select icon position in button."
+msgstr ""
+
+#: ../inc/visual-composer.php:1657 ../inc/visual-composer.php:1677
+msgid "No icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:1658 ../inc/visual-composer.php:1678
+msgid "Left icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:1659 ../inc/visual-composer.php:1679
+msgid "Right icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:1666 ../inc/visual-composer.php:1686
+msgid "Select button icon."
+msgstr ""
+
+#: ../inc/visual-composer.php:1694
+msgid "Big Font Style"
+msgstr ""
+
+#: ../inc/visual-composer.php:1695
+msgid "Select YES to use big size font for this CTA2."
+msgstr ""
+
+#: ../inc/visual-composer.php:1705
+msgid "Add separator below \"Heading first line\" title"
+msgstr ""
+
+#: ../inc/visual-composer.php:1706
+msgid ""
+"Select YES to show a small separator line below \"Heading first line\" title."
+msgstr ""
+
+#: ../inc/visual-composer.php:1730
+msgid "Main Homepage"
+msgstr ""
+
+#: ../inc/visual-composer.php:1760
+msgid "Sample Homepage v1"
+msgstr ""
+
+#: ../inc/visual-composer.php:1773
+msgid "Sample Homepage v2"
+msgstr ""
+
+#: ../inc/visual-composer.php:1785
+msgid "Sample Homepage v3"
+msgstr ""
+
+#: ../inc/visual-composer.php:1799
+msgid "Sample Homepage v4"
+msgstr ""
+
+#: ../inc/tools.php:870
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../inc/tools.php:872
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: ../inc/tools.php:994 ../inc/tools.php:999 ../inc/tools.php:1009
+#: ../inc/tools.php:1016
+#, php-format
+msgid " %s"
+msgstr ""
+
+#: ../inc/tools.php:1007
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:110
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:118
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:77
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:96
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../inc/tools.php:1020
+#, php-format
+msgid "Search Results for <strong>%s</strong>"
+msgstr ""
+
+#: ../inc/tools.php:1036
+msgid "Forum"
+msgstr ""
+
+#: ../inc/tools.php:1043
+msgid "EVENTS"
+msgstr ""
+
+#: ../inc/tools.php:1396
+msgid "Page"
+msgstr ""
+
+#: ../inc/tools.php:1702
+msgid "See Event"
+msgstr ""
+
+#: ../inc/tools.php:2074
+msgid " &nbsp; &middot; &nbsp; "
+msgstr ""
+
+#: ../inc/tools.php:2269
+msgid "Read More"
+msgstr ""
+
+#: ../inc/posttype-testimonial.php:31
+msgid "Person or company Name"
+msgstr ""
+
+#: ../inc/posttype-testimonial.php:60
+msgid "Select/Upload image of person or company"
+msgstr ""
+
+#: ../inc/posttype-testimonial.php:68
+msgid "Apicona: Testimonial Details"
+msgstr ""
+
+#: ../inc/posttype-testimonial.php:78
+msgid "Person designation or company name"
+msgstr ""
+
+#: ../inc/posttype-testimonial.php:79
+msgid ""
+"(Optional) Please fill designation of the person. Fill Company name if it is "
+"a company."
+msgstr ""
+
+#: ../inc/posttype-post.php:46
+msgid "Post Title"
+msgstr ""
+
+#: ../inc/posttype-post.php:52
+msgid "Post Subtitle"
+msgstr ""
+
+#: ../inc/posttype-post.php:86
+msgid "Sidebar Widget Options"
+msgstr ""
+
+#: ../inc/posttype-post.php:90
+msgid "(Optional) Select left sidebar"
+msgstr ""
+
+#: ../inc/posttype-post.php:97
+msgid "(Optional) Select right sidebar"
+msgstr ""
+
+#: ../inc/posttype-slides.php:25
+msgid "Slide Image"
+msgstr ""
+
+#: ../inc/posttype-slides.php:36
+#: ../inc/custom-menus-icon/edit_custom_walker.php:169
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:149
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:204
+msgid "Description"
+msgstr ""
+
+#: ../inc/posttype-slides.php:37
+msgid "Add description text for this slide"
+msgstr ""
+
+#: ../inc/posttype-slides.php:43
+msgid "Add text for button."
+msgstr ""
+
+#: ../inc/posttype-slides.php:49
+msgid "Add URL for button."
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:78
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:82
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:106
+msgid "Move up"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:119
+msgid "Move down"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:121
+#: ../inc/custom-menus-icon/edit_custom_walker.php:123
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:132
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:153
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:139
+msgid "Navigation Label"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:145
+msgid "Title Attribute"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:152
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:157
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:163
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:171
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:185
+msgid "Select Icon"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:225
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:238
+#: ../inc/redux-framework/ReduxCore/inc/fields/background/field_background.php:321
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:133
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:190
+#: ../inc/redux-framework/ReduxCore/inc/fields/multi_text/field_multi_text.php:69
+#: ../inc/redux-framework/ReduxCore/inc/fields/multi_text/field_multi_text.php:73
+#: ../inc/redux-framework/ReduxCore/inc/fields/multi_text/field_multi_text.php:76
+#: ../inc/redux-framework/ReduxCore/inc/fields/media/field_media.php:205
+msgid "Remove"
+msgstr ""
+
+#: ../inc/custom-menus-icon/edit_custom_walker.php:239
+msgid "Cancel"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetContact.php:27
+msgid "Show Contact details with icons."
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetContact.php:45
+msgid "Kwayy Contact Widget"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetTabs.php:36
+msgid "Kwayy Tabs Widget"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetTabs.php:140
+msgid "Tab 1 Title"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetTabs.php:144
+msgid "Tab 1 content"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetTabs.php:150
+msgid "Tab 2 Title"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetTabs.php:154
+msgid "Tab 2 content"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetTabs.php:161
+msgid "Tab 3 Title"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetTabs.php:165
+msgid "Tab 3 content"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetTabs.php:172
+msgid "Tab 4 Title"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetTabs.php:176
+msgid "Tab 4 content"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetTabs.php:183
+msgid "Tab 5 Title"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetTabs.php:187
+msgid "Tab 5 content"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetTabs.php:194
+msgid "Tab 6 Title"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetTabs.php:198
+msgid "Tab 6 content"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetFlickr.php:17
+msgid "Show photos from Flickr."
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetFlickr.php:35
+msgid "Kwayy Flickr Widget"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetRecentPosts.php:10
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetRecentPosts.php:11
+msgid "Kwayy Recent Posts"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetRecentPosts.php:36
+msgid "Recent Posts"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetRecentPosts.php:97
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetRecentPosts.php:100
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../inc/widgets/kwayyWidgetRecentPosts.php:104
+msgid "Display post date?"
+msgstr ""
+
+#: ../inc/shortcodes/twitterbox.php:106
+msgid "Time ago"
+msgstr ""
+
+#: ../inc/shortcodes/twitterbox.php:108
+msgid "See the status"
+msgstr ""
+
+#: ../inc/shortcodes/twitterbox.php:123
+msgid "Reply"
+msgstr ""
+
+#: ../inc/shortcodes/twitterbox.php:124
+msgid "Retweet"
+msgstr ""
+
+#: ../inc/shortcodes/twitterbox.php:125
+msgid "Favorite"
+msgstr ""
+
+#: ../inc/shortcodes/twitterbox.php:230
+#, php-format
+msgctxt "Twitter message for Second Ago"
+msgid "%s Second ago"
+msgid_plural "%s Seconds ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/shortcodes/twitterbox.php:233
+#, php-format
+msgctxt "Twitter message for Minute Ago"
+msgid "%s Minute ago"
+msgid_plural "%s Minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/shortcodes/twitterbox.php:236
+#, php-format
+msgctxt "Twitter message for Hours Ago"
+msgid "%s Hour ago"
+msgid_plural "%s Hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/shortcodes/twitterbox.php:239
+#, php-format
+msgctxt "Twitter message for Days Ago"
+msgid "%s Day ago"
+msgid_plural "%s Days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/cuztom-helper-framework/cuztom.php:201
+#: ../inc/cuztom-helper-framework/classes/fields/image.class.php:29
+msgid "Remove current image"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/cuztom.php:202
+#: ../inc/cuztom-helper-framework/classes/fields/file.class.php:36
+msgid "Remove current file"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:100
+#, php-format
+msgctxt "taxonomy general name"
+msgid "%s"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:101
+#, php-format
+msgctxt "taxonomy singular name"
+msgid "%s"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:102
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:85
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:103
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:78
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:104
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:105
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:106
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:81
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:107
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:108
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:80
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:109
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:176
+#: ../inc/cuztom-helper-framework/classes/meta/meta_box.class.php:159
+msgid "Date"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/taxonomy.class.php:233
+#, php-format
+msgid "Show all %s"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:75
+#, php-format
+msgctxt "post type general name"
+msgid "%s"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:76
+#, php-format
+msgctxt "post type singular title"
+msgid "%s"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:79
+msgctxt "%s"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:82
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:73
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:174
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:83
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:539
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:84
+#, php-format
+msgid "%s Archive"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:86
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:87
+#, php-format
+msgid "No %s found in trash"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/post_type.class.php:88
+#, php-format
+msgid "%s Parent"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/field.class.php:163
+msgid "Save"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/meta.class.php:96
+#: ../inc/cuztom-helper-framework/classes/fields/tab.class.php:51
+#: ../inc/cuztom-helper-framework/classes/fields/bundle.class.php:46
+#: ../inc/redux-framework/ReduxCore/inc/fields/group/field_group.php:126
+msgid "Add"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/cuztom.class.php:157
+msgid "Use of a reserved term."
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/fields/file.class.php:35
+msgid "Select file"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/fields/image.class.php:28
+msgid "Select image"
+msgstr ""
+
+#: ../inc/cuztom-helper-framework/classes/fields/bundle.class.php:81
+#: ../inc/cuztom-helper-framework/classes/fields/bundle.class.php:134
+#: ../inc/cuztom-helper-framework/classes/fields/bundle.class.php:181
+msgid "This input type doesn't support the bundle functionality (yet)."
+msgstr ""
+
+#: ../inc/redux-framework/redux_custom_fields/kwayy_skin_color/field_kwayy_skin_color.php:101
+#: ../inc/redux-framework/ReduxCore/inc/fields/background/field_background.php:124
+#: ../inc/redux-framework/ReduxCore/inc/fields/color/field_color.php:73
+#: ../inc/redux-framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:79
+#: ../inc/redux-framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: ../inc/redux-framework/redux_custom_fields/kwayy_pre_color_packages/field_kwayy_pre_color_packages.php:106
+msgid "All required colors are changed. Please save the changes now."
+msgstr ""
+
+#: ../inc/redux-framework/redux_custom_fields/kwayy_pre_color_packages/field_kwayy_pre_color_packages.php:110
+msgid ""
+"<h4>Note:</h4> Please note that this will change the <strong>Skin Color</"
+"strong>, <strong>Topbar background colours and text colors</strong>, "
+"<strong>Header background colours and text colors</strong> and "
+"<strong>Footer background colours and text colors</strong> option value."
+msgstr ""
+
+#: ../inc/redux-framework/redux_custom_fields/kwayy_one_click_demo_content/field_kwayy_one_click_demo_content.php:78
+msgid ""
+"<strong>NOTE -</strong> This process may overwrite your existing content or "
+"settings. So please do this on fresh WordPress setup only. <br /><br />  "
+"Also if you already included demo data than this will add multiple menu "
+"links and you need to remove the repeated menu items by going to <em>Admin > "
+"Appearance > menus</em> section."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:223
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:223
+msgid "Redux Framework"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:227
+#: ../inc/redux-framework/ReduxCore/framework.php:231
+msgid "Options"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:1384
+#: ../inc/redux-framework/ReduxCore/framework.php:1385
+#: ../inc/redux-framework/ReduxCore/framework.php:3255
+#: ../inc/redux-framework/ReduxCore/framework.php:3334
+msgid "System Info"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:1688
+msgid "Enable"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:1693
+msgid "Disable"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:1699
+msgid "moving the mouse over"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:1701
+msgid "clicking"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:1705
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:1710
+msgid "Hints"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:2999
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:3050
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:3079
+msgid "Expand"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:3081
+#: ../inc/redux-framework/ReduxCore/framework.php:3391
+msgid "Save Changes"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:3085
+#: ../inc/redux-framework/ReduxCore/framework.php:3395
+msgid "Reset Section"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:3087
+#: ../inc/redux-framework/ReduxCore/framework.php:3397
+msgid "Reset All"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:3092
+#: ../inc/redux-framework/ReduxCore/framework.php:3402
+msgid "Working..."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:3112
+msgid "Settings Imported!"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:3127
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:3141
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:3155
+msgid "Settings Saved!"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:3175
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:3183
+msgid "error(s) were found!"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/framework.php:3191
+msgid "warning(s) were found!"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:78
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:81
+msgid "Import / Export Options"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:81
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:84
+msgid "Import Options"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:82
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:85
+msgid "Import from file"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:82
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:85
+msgid "Import from URL"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:85
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:88
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:90
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:93
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:94
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:97
+msgid "Import"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:94
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:97
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:97
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:100
+msgid "Export Options"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:100
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:103
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:104
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:107
+msgid "Copy"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:104
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:107
+msgid "Download"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/import_export.php:104
+#: ../inc/redux-framework/ReduxCore/inc/fields/import_export/import_export.php:107
+msgid "Copy Link"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/class.redux_functions.php:231
+msgid "Dismiss"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/class.redux_filesystem.php:23
+msgid "Unable to modify required files. Please ensure that"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/class.redux_filesystem.php:25
+msgid ""
+"has the proper read/write permissions or enter your FTP information below."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/class.redux_themecheck.php:61
+#, php-format
+msgid ""
+"The theme you are testing has %s embedded. We invite you to read the %sTheme-"
+"Check Documentation%s to understand some warnings you will see because of "
+"Redux."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/class.redux_themecheck.php:109
+msgid ""
+"The following directories & files are still located in your <strong>Redux</"
+"strong>  directory. They may cause errors in Theme-Check."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:129
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:130
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test to ensure "
+"compatibility."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:135
+msgid "Allow tracking"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:140
+msgid "Do not allow tracking"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:151
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:152
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:139
+msgid "Getting Started"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:152
+#, php-format
+msgid ""
+"This panel demonstrates the many features of Redux.  Before digging in, we "
+"suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:152
+msgid "our documentation"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:153
+msgid "Redux Generator"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:153
+#, php-format
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized "
+"boilerplate theme or a standalone admin folder complete with all things "
+"Redux (with the help of Underscores and TGM). Save yourself a headache and "
+"try it today."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:154
+msgid "Redux Extensions"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:154
+#, php-format
+msgid ""
+"Did you know we have extensions, which greatly enhance the features of "
+"Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:154
+msgid "extensions directory"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:155
+msgid "Like Redux?"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:155
+#, php-format
+msgid ""
+"If so, please %1$s and consider making a %2$s to keep development of Redux "
+"moving forward."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:155
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:155
+msgid "donation"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:156
+msgid "Newsletter"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:156
+msgid ""
+"If you'd like to keep up to with all things Redux, please subscribe to our "
+"newsletter"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:157
+msgid "Email address"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:157
+msgid "Subscribe"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/tracking.php:166
+msgid "Close"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:40
+msgid "Welcome to Redux Framework"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:48
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:295
+msgid "Redux Framework Changelog"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:56
+msgid "Getting started with Redux Framework"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:64
+msgid "The people that develop Redux Framework"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:135
+msgid "What's New"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:143
+msgid "Changelog"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:147
+msgid "Credits"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:164
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:333
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:471
+#, php-format
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:167
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Redux Framework %s is ready to "
+"<add description>"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:174
+msgid "Some Feature"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:178
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:182
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:195
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:199
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:203
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:208
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:221
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:225
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:230
+msgid "Feature"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:190
+msgid "Some feature"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:217
+msgid "More Features"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:223
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:227
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:232
+msgid "description"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:238
+msgid "Additional Updates"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:242
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:246
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:252
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:256
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:262
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:266
+msgid "Cool thing"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:244
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:248
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:254
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:258
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:264
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:268
+msgid "cool thing description."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:277
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:316
+msgid "Go to Redux Framework"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:278
+msgid "View the Full Changelog"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:298
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:336
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:474
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Redux Framework %s is ready to "
+"make your <description>"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:305
+msgid "Full Changelog"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:342
+msgid ""
+"Use the tips below to get started using Redux Framework. You'll be up and "
+"running in no time!"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:345
+msgid "Creating Your First Panel"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:350
+#, php-format
+msgid "<a href=\"%s\">%s &rarr; Add New</a>"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:352
+#, php-format
+msgid ""
+"The %s menu is your access point for all aspects of your Easy Digital "
+"Downloads product creation and setup. To create your first product, simply "
+"click Add New and then fill out the product details."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:354
+msgid "Product Price"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:356
+msgid ""
+"Products can have simple prices or variable prices if you wish to have more "
+"than one price point for a product. For a single price, simply enter the "
+"price. For multiple price points, click <em>Enable variable pricing</em> and "
+"enter the options."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:358
+msgid "Download Files"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:360
+msgid ""
+"Uploading the downloadable files is simple. Click <em>Upload File</em> in "
+"the Download Files section and choose your download file. To add more than "
+"one file, simply click the <em>Add New</em> button."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:366
+msgid "Display a Product Grid"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:373
+msgid "Flexible Product Grids"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:375
+msgid ""
+"The [downloads] shortcode will display a product grid that works with any "
+"theme, no matter the size. It is even responsive!"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:377
+msgid "Change the Number of Columns"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:379
+msgid ""
+"You can easily change the number of columns by adding the columns=\"x\" "
+"parameter:"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:385
+msgid "Additional Display Options"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:387
+#, php-format
+msgid ""
+"The product grids can be customized in any way you wish and there is <a href="
+"\"%s\">extensive documentation</a> to assist you."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:392
+msgid "Purchase Buttons Anywhere"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:397
+msgid "The <em>[purchase_link]</em> Shortcode"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:399
+msgid ""
+"With easily accessible shortcodes to display purchase buttons, you can add a "
+"Buy Now or Add to Cart button for any product anywhere on your site in "
+"seconds."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:401
+msgid "Buy Now Buttons"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:403
+msgid ""
+"Purchase buttons can behave as either Add to Cart or Buy Now buttons. With "
+"Buy Now buttons customers are taken straight to PayPal, giving them the most "
+"frictionless purchasing experience possible."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:409
+msgid "Need Help?"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:413
+msgid "Phenomenal Support"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:415
+msgid ""
+"We do our best to provide the best support we can. If you encounter a "
+"problem or have a question, post a question in the <a href=\"https://"
+"easydigitaldownloads.com/support\">support forums</a>."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:417
+msgid "Need Even Faster Support?"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:419
+msgid ""
+"Our <a href=\"https://easydigitaldownloads.com/support/pricing/\">Priority "
+"Support forums</a> are there for customers that need faster and/or more in-"
+"depth assistance."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:425
+msgid "Stay Up to Date"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:429
+msgid "Get Notified of Extension Releases"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:431
+msgid ""
+"New extensions that make Easy Digital Downloads even more powerful are "
+"released nearly every single week. Subscribe to the newsletter to stay up to "
+"date with our latest releases. <a href=\"http://eepurl.com/kaerz\" target="
+"\"_blank\">Signup now</a> to ensure you do not miss a release!"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:433
+msgid "Get Alerted About New Tutorials"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:435
+msgid ""
+"<a href=\"http://eepurl.com/kaerz\" target=\"_blank\">Signup now</a> to hear "
+"about the latest tutorial releases that explain how to take Easy Digital "
+"Downloads further."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:441
+msgid "Extensions for Everything"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:445
+msgid "Over 250 Extensions"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:447
+msgid ""
+"Add-on plugins are available that greatly extend the default functionality "
+"of Easy Digital Downloads. There are extensions for payment processors, such "
+"as Stripe and PayPal, extensions for newsletter integrations, and many, many "
+"more."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:449
+msgid "Visit the Extension Store"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:451
+msgid ""
+"<a href=\"https://asydigitaldownloads.com/extensions\" target=\"_blank\">The "
+"Extensions store</a> has a list of all available extensions, including "
+"convenient category filters so you can find exactly what you are looking for."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:480
+msgid ""
+"Redux Framework is created by a worldwide team of developers who <something "
+"witty here>"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/welcome.php:500
+msgid "No valid changlog was found."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/debug.php:41
+#: ../inc/redux-framework/ReduxCore/inc/debug.php:69
+#: ../inc/redux-framework/ReduxCore/inc/debug.php:76
+#: ../inc/redux-framework/ReduxCore/inc/debug.php:77
+msgid "Options Object"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/debug.php:54
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/validation/email/validation_email.php:16
+#: ../inc/redux-framework/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:16
+#: ../inc/redux-framework/ReduxCore/inc/validation/color/validation_color.php:15
+#: ../inc/redux-framework/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:14
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+#: ../inc/redux-framework/ReduxCore/inc/validation/numeric/validation_numeric.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/background/field_background.php:277
+#: ../inc/redux-framework/ReduxCore/inc/fields/media/field_media.php:149
+msgid "No media selected"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/background/field_background.php:314
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:126
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:188
+#: ../inc/redux-framework/ReduxCore/inc/fields/media/field_media.php:198
+msgid "Upload"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/link_color/field_link_color.php:87
+msgid "Regular"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/link_color/field_link_color.php:91
+msgid "Hover"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/link_color/field_link_color.php:95
+msgid "Visited"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/link_color/field_link_color.php:99
+msgid "Active"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/password/field_password.php:62
+msgid "Password"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/password/field_password.php:63
+msgid "Username"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:167
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:220
+#: ../inc/redux-framework/ReduxCore/inc/fields/group/field_group.php:122
+msgid "Delete"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/dimensions/field_dimensions.php:161
+msgid "Width"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/dimensions/field_dimensions.php:177
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:436
+msgid "Height"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/dimensions/field_dimensions.php:188
+#: ../inc/redux-framework/ReduxCore/inc/fields/dimensions/field_dimensions.php:189
+#: ../inc/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:245
+#: ../inc/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/multi_text/field_multi_text.php:61
+msgid "Add More"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/border/field_border.php:138
+#: ../inc/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/border/field_border.php:152
+#: ../inc/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/border/field_border.php:173
+msgid "Border style"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:227
+msgid "Font Family"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:228
+msgid "Font family"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:254
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:255
+msgid "Backup Font Family"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:269
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:276
+msgid "Font style"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:270
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:316
+msgid "Font subsets"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:318
+msgid "Font Subsets"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:319
+msgid "Subsets"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:319
+msgid "Font script"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:336
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:337
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:338
+msgid "Text Align"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:359
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:360
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:361
+msgid "Text Transform"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:382
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:383
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:384
+msgid "Font Variant"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:402
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:403
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:404
+msgid "Text Decoration"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:426
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:427
+msgid "Font Size"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:427
+msgid "Size"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:435
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:436
+msgid "Line Height"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:444
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:445
+msgid "Word Spacing"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:453
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:454
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:472
+msgid "Font Color"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:474
+msgid "Font color"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:871
+msgid "Standard Fonts"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:972
+msgid "Google Webfonts"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/select_image/field_select_image.php:63
+#: ../inc/redux-framework/ReduxCore/inc/fields/select/field_select.php:83
+msgid "Select an item"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/select_image/field_select_image.php:144
+#: ../inc/redux-framework/ReduxCore/inc/fields/select/field_select.php:134
+msgid "No items of this type were found."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/inc/fields/group/field_group.php:79
+msgid "New "
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/core/enqueue.php:346
+#: ../inc/redux-framework/ReduxCore/extensions/customizer/extension_customizer.php:530
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/core/enqueue.php:354
+#: ../inc/redux-framework/ReduxCore/extensions/customizer/extension_customizer.php:531
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/core/enqueue.php:362
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/core/enqueue.php:370
+#: ../inc/redux-framework/ReduxCore/extensions/customizer/extension_customizer.php:532
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/core/enqueue.php:377
+msgid "Please Wait"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/extensions/customizer/extension_customizer.php:565
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/extensions/customizer/extension_customizer.php:566
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/extensions/customizer/extension_customizer.php:567
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/extensions/edd/extension_edd.php:77
+#: ../inc/redux-framework/ReduxCore/extensions/edd/extension_edd.php:119
+#: ../inc/redux-framework/ReduxCore/extensions/edd/extension_edd.php:176
+#: ../inc/redux-framework/ReduxCore/extensions/edd/edd_license/field_edd_license.php:116
+msgid "Valid"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/extensions/edd/extension_edd.php:170
+#: ../inc/redux-framework/ReduxCore/extensions/edd/edd_license/field_edd_license.php:110
+msgid "Not Activated"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/extensions/edd/extension_edd.php:173
+#: ../inc/redux-framework/ReduxCore/extensions/edd/edd_license/field_edd_license.php:114
+msgid "Deactivated"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/extensions/edd/extension_edd.php:179
+msgid "Not Valid"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/extensions/edd/edd_license/EDD_SL_Theme_Updater.php:54
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/extensions/edd/edd_license/field_edd_license.php:123
+msgid "License Status"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/extensions/edd/edd_license/field_edd_license.php:132
+msgid "Verify License"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/extensions/edd/edd_license/field_edd_license.php:137
+msgid "Activate License"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/extensions/edd/edd_license/field_edd_license.php:142
+#: ../inc/redux-framework/ReduxCore/extensions/edd/edd_license/EDD_License_Handler.php:218
+msgid "Deactivate License"
+msgstr ""
+
+#: ../inc/redux-framework/ReduxCore/extensions/edd/edd_license/EDD_License_Handler.php:112
+#, php-format
+msgid "%1$s License Key"
+msgstr ""
+
+#: ../inc/one-click-demo/demo-content.php:351
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../inc/one-click-demo/demo-content.php:417
+msgid "Inserting Categories..."
+msgstr ""
+
+#: ../inc/one-click-demo/demo-content.php:433
+msgid "All Categories were inserted successfully. Inserting Tags..."
+msgstr ""
+
+#: ../inc/one-click-demo/demo-content.php:447
+msgid "All Tags were inserted successfully. Inserting Terms..."
+msgstr ""
+
+#: ../inc/one-click-demo/demo-content.php:464
+msgid "All Terms were inserted successfully. Inserting Posts..."
+msgstr ""
+
+#: ../inc/one-click-demo/demo-content.php:483
+msgid "All Posts were inserted successfully. Importing images..."
+msgstr ""
+
+#: ../inc/one-click-demo/demo-content.php:523
+msgid ""
+"All Images were inserted successfully. Setting the widgets and options..."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:134
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:143
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:194
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:198
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:511
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:1040
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:1055
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/wordpress-importer.php:1132
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/parsers.php:42
+#: ../inc/one-click-demo/wordpress-importer/parsers.php:72
+#: ../inc/one-click-demo/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../inc/one-click-demo/wordpress-importer/parsers.php:84
+#: ../inc/one-click-demo/wordpress-importer/parsers.php:89
+#: ../inc/one-click-demo/wordpress-importer/parsers.php:279
+#: ../inc/one-click-demo/wordpress-importer/parsers.php:471
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../vc_templates/vc_cta_button2.php:25 ../vc_templates/vc_button2.php:5
+msgid "Text on the button"
+msgstr ""

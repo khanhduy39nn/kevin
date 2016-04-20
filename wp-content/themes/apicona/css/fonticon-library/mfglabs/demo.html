@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+  <head><!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <meta charset="UTF-8"><style>/*
+ * Bootstrap v2.2.1
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  background-color: #fff;
+}
+a {
+  color: #08c;
+  text-decoration: none;
+}
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.row:after {
+  clear: both;
+}
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;
+}
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 940px;
+}
+.span12 {
+  width: 940px;
+}
+.span11 {
+  width: 860px;
+}
+.span10 {
+  width: 780px;
+}
+.span9 {
+  width: 700px;
+}
+.span8 {
+  width: 620px;
+}
+.span7 {
+  width: 540px;
+}
+.span6 {
+  width: 460px;
+}
+.span5 {
+  width: 380px;
+}
+.span4 {
+  width: 300px;
+}
+.span3 {
+  width: 220px;
+}
+.span2 {
+  width: 140px;
+}
+.span1 {
+  width: 60px;
+}
+[class*="span"].pull-right,
+.row-fluid [class*="span"].pull-right {
+  float: right;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+.container:before,
+.container:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.container:after {
+  clear: both;
+}
+p {
+  margin: 0 0 10px;
+}
+.lead {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+}
+small {
+  font-size: 85%;
+}
+h1 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h1 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999;
+}
+h1 {
+  line-height: 40px;
+}
+h1 {
+  font-size: 38.5px;
+}
+h1 small {
+  font-size: 24.5px;
+}
+body {
+  margin-top: 90px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -480px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+  z-index: 10;
+}
+.footer {
+  color: #ddd;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer a {
+  color: #ccc;
+  text-decoration: underline;
+}
+.the-icons {
+  font-size: 14px;
+  line-height: 24px;
+}
+.switch {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  color: #666;
+}
+.switch input {
+  margin-right: 0.3em;
+}
+.codesOn .i-name {
+  display: none;
+}
+.codesOn .i-code {
+  display: inline;
+}
+.i-code {
+  display: none;
+}
+</style>
+    <link rel="stylesheet" href="css/kwayy-mfglabs.css">
+    <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/kwayy-mfglabs-ie7.css"><![endif]-->
+    <script>
+      function toggleCodes(on) {
+        var obj = document.getElementById('icons');
+        
+        if (on) {
+          obj.className += ' codesOn';
+        } else {
+          obj.className = obj.className.replace(' codesOn', '');
+        }
+      }
+      
+    </script>
+  </head>
+  <body>
+    <div class="container header">
+      <h1>
+        kwayy-mfglabs
+         <small>font demo</small>
+      </h1>
+      <label class="switch">
+        <input type="checkbox" onclick="toggleCodes(this.checked)">show codes
+      </label>
+    </div>
+    <div id="icons" class="container">
+      <div class="row">
+        <div title="Code: 0xe800" class="the-icons span3"><i class="kwicon-mfglabs-search"></i> <span class="i-name">kwicon-mfglabs-search</span><span class="i-code">0xe800</span></div>
+        <div title="Code: 0xe801" class="the-icons span3"><i class="kwicon-mfglabs-mail"></i> <span class="i-name">kwicon-mfglabs-mail</span><span class="i-code">0xe801</span></div>
+        <div title="Code: 0xe802" class="the-icons span3"><i class="kwicon-mfglabs-heart"></i> <span class="i-name">kwicon-mfglabs-heart</span><span class="i-code">0xe802</span></div>
+        <div title="Code: 0xe803" class="the-icons span3"><i class="kwicon-mfglabs-heart-broken"></i> <span class="i-name">kwicon-mfglabs-heart-broken</span><span class="i-code">0xe803</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe804" class="the-icons span3"><i class="kwicon-mfglabs-star"></i> <span class="i-name">kwicon-mfglabs-star</span><span class="i-code">0xe804</span></div>
+        <div title="Code: 0xe805" class="the-icons span3"><i class="kwicon-mfglabs-star-empty"></i> <span class="i-name">kwicon-mfglabs-star-empty</span><span class="i-code">0xe805</span></div>
+        <div title="Code: 0xe806" class="the-icons span3"><i class="kwicon-mfglabs-star-half"></i> <span class="i-name">kwicon-mfglabs-star-half</span><span class="i-code">0xe806</span></div>
+        <div title="Code: 0xe807" class="the-icons span3"><i class="kwicon-mfglabs-star-half_empty"></i> <span class="i-name">kwicon-mfglabs-star-half_empty</span><span class="i-code">0xe807</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe808" class="the-icons span3"><i class="kwicon-mfglabs-user"></i> <span class="i-name">kwicon-mfglabs-user</span><span class="i-code">0xe808</span></div>
+        <div title="Code: 0xe809" class="the-icons span3"><i class="kwicon-mfglabs-user-male"></i> <span class="i-name">kwicon-mfglabs-user-male</span><span class="i-code">0xe809</span></div>
+        <div title="Code: 0xe80a" class="the-icons span3"><i class="kwicon-mfglabs-user-female"></i> <span class="i-name">kwicon-mfglabs-user-female</span><span class="i-code">0xe80a</span></div>
+        <div title="Code: 0xe80b" class="the-icons span3"><i class="kwicon-mfglabs-users"></i> <span class="i-name">kwicon-mfglabs-users</span><span class="i-code">0xe80b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe80c" class="the-icons span3"><i class="kwicon-mfglabs-movie"></i> <span class="i-name">kwicon-mfglabs-movie</span><span class="i-code">0xe80c</span></div>
+        <div title="Code: 0xe80d" class="the-icons span3"><i class="kwicon-mfglabs-videocam"></i> <span class="i-name">kwicon-mfglabs-videocam</span><span class="i-code">0xe80d</span></div>
+        <div title="Code: 0xe80e" class="the-icons span3"><i class="kwicon-mfglabs-isight"></i> <span class="i-name">kwicon-mfglabs-isight</span><span class="i-code">0xe80e</span></div>
+        <div title="Code: 0xe80f" class="the-icons span3"><i class="kwicon-mfglabs-camera"></i> <span class="i-name">kwicon-mfglabs-camera</span><span class="i-code">0xe80f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe810" class="the-icons span3"><i class="kwicon-mfglabs-menu"></i> <span class="i-name">kwicon-mfglabs-menu</span><span class="i-code">0xe810</span></div>
+        <div title="Code: 0xe811" class="the-icons span3"><i class="kwicon-mfglabs-th-thumb"></i> <span class="i-name">kwicon-mfglabs-th-thumb</span><span class="i-code">0xe811</span></div>
+        <div title="Code: 0xe812" class="the-icons span3"><i class="kwicon-mfglabs-th-thumb-empty"></i> <span class="i-name">kwicon-mfglabs-th-thumb-empty</span><span class="i-code">0xe812</span></div>
+        <div title="Code: 0xe813" class="the-icons span3"><i class="kwicon-mfglabs-th-list"></i> <span class="i-name">kwicon-mfglabs-th-list</span><span class="i-code">0xe813</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe814" class="the-icons span3"><i class="kwicon-mfglabs-ok"></i> <span class="i-name">kwicon-mfglabs-ok</span><span class="i-code">0xe814</span></div>
+        <div title="Code: 0xe815" class="the-icons span3"><i class="kwicon-mfglabs-ok-circled"></i> <span class="i-name">kwicon-mfglabs-ok-circled</span><span class="i-code">0xe815</span></div>
+        <div title="Code: 0xe816" class="the-icons span3"><i class="kwicon-mfglabs-cancel"></i> <span class="i-name">kwicon-mfglabs-cancel</span><span class="i-code">0xe816</span></div>
+        <div title="Code: 0xe817" class="the-icons span3"><i class="kwicon-mfglabs-cancel-circled"></i> <span class="i-name">kwicon-mfglabs-cancel-circled</span><span class="i-code">0xe817</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe818" class="the-icons span3"><i class="kwicon-mfglabs-plus"></i> <span class="i-name">kwicon-mfglabs-plus</span><span class="i-code">0xe818</span></div>
+        <div title="Code: 0xe819" class="the-icons span3"><i class="kwicon-mfglabs-help-circled"></i> <span class="i-name">kwicon-mfglabs-help-circled</span><span class="i-code">0xe819</span></div>
+        <div title="Code: 0xe81a" class="the-icons span3"><i class="kwicon-mfglabs-help-circled-alt"></i> <span class="i-name">kwicon-mfglabs-help-circled-alt</span><span class="i-code">0xe81a</span></div>
+        <div title="Code: 0xe81b" class="the-icons span3"><i class="kwicon-mfglabs-info-circled"></i> <span class="i-name">kwicon-mfglabs-info-circled</span><span class="i-code">0xe81b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe81c" class="the-icons span3"><i class="kwicon-mfglabs-info-circled-alt"></i> <span class="i-name">kwicon-mfglabs-info-circled-alt</span><span class="i-code">0xe81c</span></div>
+        <div title="Code: 0xe81d" class="the-icons span3"><i class="kwicon-mfglabs-home"></i> <span class="i-name">kwicon-mfglabs-home</span><span class="i-code">0xe81d</span></div>
+        <div title="Code: 0xe81e" class="the-icons span3"><i class="kwicon-mfglabs-link"></i> <span class="i-name">kwicon-mfglabs-link</span><span class="i-code">0xe81e</span></div>
+        <div title="Code: 0xe81f" class="the-icons span3"><i class="kwicon-mfglabs-attach"></i> <span class="i-name">kwicon-mfglabs-attach</span><span class="i-code">0xe81f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe820" class="the-icons span3"><i class="kwicon-mfglabs-lock"></i> <span class="i-name">kwicon-mfglabs-lock</span><span class="i-code">0xe820</span></div>
+        <div title="Code: 0xe821" class="the-icons span3"><i class="kwicon-mfglabs-lock-alt"></i> <span class="i-name">kwicon-mfglabs-lock-alt</span><span class="i-code">0xe821</span></div>
+        <div title="Code: 0xe822" class="the-icons span3"><i class="kwicon-mfglabs-lock-open"></i> <span class="i-name">kwicon-mfglabs-lock-open</span><span class="i-code">0xe822</span></div>
+        <div title="Code: 0xe823" class="the-icons span3"><i class="kwicon-mfglabs-lock-open-alt"></i> <span class="i-name">kwicon-mfglabs-lock-open-alt</span><span class="i-code">0xe823</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe824" class="the-icons span3"><i class="kwicon-mfglabs-eye"></i> <span class="i-name">kwicon-mfglabs-eye</span><span class="i-code">0xe824</span></div>
+        <div title="Code: 0xe825" class="the-icons span3"><i class="kwicon-mfglabs-download"></i> <span class="i-name">kwicon-mfglabs-download</span><span class="i-code">0xe825</span></div>
+        <div title="Code: 0xe826" class="the-icons span3"><i class="kwicon-mfglabs-upload"></i> <span class="i-name">kwicon-mfglabs-upload</span><span class="i-code">0xe826</span></div>
+        <div title="Code: 0xe827" class="the-icons span3"><i class="kwicon-mfglabs-download-cloud"></i> <span class="i-name">kwicon-mfglabs-download-cloud</span><span class="i-code">0xe827</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe828" class="the-icons span3"><i class="kwicon-mfglabs-upload-cloud"></i> <span class="i-name">kwicon-mfglabs-upload-cloud</span><span class="i-code">0xe828</span></div>
+        <div title="Code: 0xe829" class="the-icons span3"><i class="kwicon-mfglabs-reply"></i> <span class="i-name">kwicon-mfglabs-reply</span><span class="i-code">0xe829</span></div>
+        <div title="Code: 0xe82a" class="the-icons span3"><i class="kwicon-mfglabs-pencil"></i> <span class="i-name">kwicon-mfglabs-pencil</span><span class="i-code">0xe82a</span></div>
+        <div title="Code: 0xe82b" class="the-icons span3"><i class="kwicon-mfglabs-export"></i> <span class="i-name">kwicon-mfglabs-export</span><span class="i-code">0xe82b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe82c" class="the-icons span3"><i class="kwicon-mfglabs-print"></i> <span class="i-name">kwicon-mfglabs-print</span><span class="i-code">0xe82c</span></div>
+        <div title="Code: 0xe82d" class="the-icons span3"><i class="kwicon-mfglabs-retweet"></i> <span class="i-name">kwicon-mfglabs-retweet</span><span class="i-code">0xe82d</span></div>
+        <div title="Code: 0xe82e" class="the-icons span3"><i class="kwicon-mfglabs-comment"></i> <span class="i-name">kwicon-mfglabs-comment</span><span class="i-code">0xe82e</span></div>
+        <div title="Code: 0xe82f" class="the-icons span3"><i class="kwicon-mfglabs-chat"></i> <span class="i-name">kwicon-mfglabs-chat</span><span class="i-code">0xe82f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe830" class="the-icons span3"><i class="kwicon-mfglabs-bell"></i> <span class="i-name">kwicon-mfglabs-bell</span><span class="i-code">0xe830</span></div>
+        <div title="Code: 0xe831" class="the-icons span3"><i class="kwicon-mfglabs-attention"></i> <span class="i-name">kwicon-mfglabs-attention</span><span class="i-code">0xe831</span></div>
+        <div title="Code: 0xe832" class="the-icons span3"><i class="kwicon-mfglabs-attention-alt"></i> <span class="i-name">kwicon-mfglabs-attention-alt</span><span class="i-code">0xe832</span></div>
+        <div title="Code: 0xe833" class="the-icons span3"><i class="kwicon-mfglabs-location"></i> <span class="i-name">kwicon-mfglabs-location</span><span class="i-code">0xe833</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe834" class="the-icons span3"><i class="kwicon-mfglabs-trash"></i> <span class="i-name">kwicon-mfglabs-trash</span><span class="i-code">0xe834</span></div>
+        <div title="Code: 0xe835" class="the-icons span3"><i class="kwicon-mfglabs-doc"></i> <span class="i-name">kwicon-mfglabs-doc</span><span class="i-code">0xe835</span></div>
+        <div title="Code: 0xe836" class="the-icons span3"><i class="kwicon-mfglabs-newspaper"></i> <span class="i-name">kwicon-mfglabs-newspaper</span><span class="i-code">0xe836</span></div>
+        <div title="Code: 0xe837" class="the-icons span3"><i class="kwicon-mfglabs-folder"></i> <span class="i-name">kwicon-mfglabs-folder</span><span class="i-code">0xe837</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe838" class="the-icons span3"><i class="kwicon-mfglabs-folder-open"></i> <span class="i-name">kwicon-mfglabs-folder-open</span><span class="i-code">0xe838</span></div>
+        <div title="Code: 0xe839" class="the-icons span3"><i class="kwicon-mfglabs-folder-empty"></i> <span class="i-name">kwicon-mfglabs-folder-empty</span><span class="i-code">0xe839</span></div>
+        <div title="Code: 0xe83a" class="the-icons span3"><i class="kwicon-mfglabs-folder-open-empty"></i> <span class="i-name">kwicon-mfglabs-folder-open-empty</span><span class="i-code">0xe83a</span></div>
+        <div title="Code: 0xe83b" class="the-icons span3"><i class="kwicon-mfglabs-cog"></i> <span class="i-name">kwicon-mfglabs-cog</span><span class="i-code">0xe83b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe83c" class="the-icons span3"><i class="kwicon-mfglabs-calendar"></i> <span class="i-name">kwicon-mfglabs-calendar</span><span class="i-code">0xe83c</span></div>
+        <div title="Code: 0xe83d" class="the-icons span3"><i class="kwicon-mfglabs-login"></i> <span class="i-name">kwicon-mfglabs-login</span><span class="i-code">0xe83d</span></div>
+        <div title="Code: 0xe83e" class="the-icons span3"><i class="kwicon-mfglabs-logout"></i> <span class="i-name">kwicon-mfglabs-logout</span><span class="i-code">0xe83e</span></div>
+        <div title="Code: 0xe83f" class="the-icons span3"><i class="kwicon-mfglabs-mic"></i> <span class="i-name">kwicon-mfglabs-mic</span><span class="i-code">0xe83f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe840" class="the-icons span3"><i class="kwicon-mfglabs-mic-off"></i> <span class="i-name">kwicon-mfglabs-mic-off</span><span class="i-code">0xe840</span></div>
+        <div title="Code: 0xe841" class="the-icons span3"><i class="kwicon-mfglabs-clock"></i> <span class="i-name">kwicon-mfglabs-clock</span><span class="i-code">0xe841</span></div>
+        <div title="Code: 0xe842" class="the-icons span3"><i class="kwicon-mfglabs-stopwatch"></i> <span class="i-name">kwicon-mfglabs-stopwatch</span><span class="i-code">0xe842</span></div>
+        <div title="Code: 0xe843" class="the-icons span3"><i class="kwicon-mfglabs-hourglass"></i> <span class="i-name">kwicon-mfglabs-hourglass</span><span class="i-code">0xe843</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe844" class="the-icons span3"><i class="kwicon-mfglabs-zoom-in"></i> <span class="i-name">kwicon-mfglabs-zoom-in</span><span class="i-code">0xe844</span></div>
+        <div title="Code: 0xe845" class="the-icons span3"><i class="kwicon-mfglabs-zoom-out"></i> <span class="i-name">kwicon-mfglabs-zoom-out</span><span class="i-code">0xe845</span></div>
+        <div title="Code: 0xe846" class="the-icons span3"><i class="kwicon-mfglabs-down-open"></i> <span class="i-name">kwicon-mfglabs-down-open</span><span class="i-code">0xe846</span></div>
+        <div title="Code: 0xe847" class="the-icons span3"><i class="kwicon-mfglabs-left-open"></i> <span class="i-name">kwicon-mfglabs-left-open</span><span class="i-code">0xe847</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe848" class="the-icons span3"><i class="kwicon-mfglabs-right-open"></i> <span class="i-name">kwicon-mfglabs-right-open</span><span class="i-code">0xe848</span></div>
+        <div title="Code: 0xe849" class="the-icons span3"><i class="kwicon-mfglabs-up-open"></i> <span class="i-name">kwicon-mfglabs-up-open</span><span class="i-code">0xe849</span></div>
+        <div title="Code: 0xe84a" class="the-icons span3"><i class="kwicon-mfglabs-down"></i> <span class="i-name">kwicon-mfglabs-down</span><span class="i-code">0xe84a</span></div>
+        <div title="Code: 0xe84b" class="the-icons span3"><i class="kwicon-mfglabs-left"></i> <span class="i-name">kwicon-mfglabs-left</span><span class="i-code">0xe84b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe84c" class="the-icons span3"><i class="kwicon-mfglabs-right"></i> <span class="i-name">kwicon-mfglabs-right</span><span class="i-code">0xe84c</span></div>
+        <div title="Code: 0xe84d" class="the-icons span3"><i class="kwicon-mfglabs-up"></i> <span class="i-name">kwicon-mfglabs-up</span><span class="i-code">0xe84d</span></div>
+        <div title="Code: 0xe84e" class="the-icons span3"><i class="kwicon-mfglabs-down-bold"></i> <span class="i-name">kwicon-mfglabs-down-bold</span><span class="i-code">0xe84e</span></div>
+        <div title="Code: 0xe84f" class="the-icons span3"><i class="kwicon-mfglabs-left-bold"></i> <span class="i-name">kwicon-mfglabs-left-bold</span><span class="i-code">0xe84f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe850" class="the-icons span3"><i class="kwicon-mfglabs-right-bold"></i> <span class="i-name">kwicon-mfglabs-right-bold</span><span class="i-code">0xe850</span></div>
+        <div title="Code: 0xe851" class="the-icons span3"><i class="kwicon-mfglabs-up-bold"></i> <span class="i-name">kwicon-mfglabs-up-bold</span><span class="i-code">0xe851</span></div>
+        <div title="Code: 0xe852" class="the-icons span3"><i class="kwicon-mfglabs-down-fat"></i> <span class="i-name">kwicon-mfglabs-down-fat</span><span class="i-code">0xe852</span></div>
+        <div title="Code: 0xe853" class="the-icons span3"><i class="kwicon-mfglabs-left-fat"></i> <span class="i-name">kwicon-mfglabs-left-fat</span><span class="i-code">0xe853</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe854" class="the-icons span3"><i class="kwicon-mfglabs-right-fat"></i> <span class="i-name">kwicon-mfglabs-right-fat</span><span class="i-code">0xe854</span></div>
+        <div title="Code: 0xe855" class="the-icons span3"><i class="kwicon-mfglabs-up-fat"></i> <span class="i-name">kwicon-mfglabs-up-fat</span><span class="i-code">0xe855</span></div>
+        <div title="Code: 0xe856" class="the-icons span3"><i class="kwicon-mfglabs-ccw"></i> <span class="i-name">kwicon-mfglabs-ccw</span><span class="i-code">0xe856</span></div>
+        <div title="Code: 0xe857" class="the-icons span3"><i class="kwicon-mfglabs-shuffle"></i> <span class="i-name">kwicon-mfglabs-shuffle</span><span class="i-code">0xe857</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe858" class="the-icons span3"><i class="kwicon-mfglabs-play"></i> <span class="i-name">kwicon-mfglabs-play</span><span class="i-code">0xe858</span></div>
+        <div title="Code: 0xe859" class="the-icons span3"><i class="kwicon-mfglabs-pause"></i> <span class="i-name">kwicon-mfglabs-pause</span><span class="i-code">0xe859</span></div>
+        <div title="Code: 0xe85a" class="the-icons span3"><i class="kwicon-mfglabs-stop"></i> <span class="i-name">kwicon-mfglabs-stop</span><span class="i-code">0xe85a</span></div>
+        <div title="Code: 0xe85b" class="the-icons span3"><i class="kwicon-mfglabs-to-end"></i> <span class="i-name">kwicon-mfglabs-to-end</span><span class="i-code">0xe85b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe85c" class="the-icons span3"><i class="kwicon-mfglabs-to-start"></i> <span class="i-name">kwicon-mfglabs-to-start</span><span class="i-code">0xe85c</span></div>
+        <div title="Code: 0xe85d" class="the-icons span3"><i class="kwicon-mfglabs-fast-forward"></i> <span class="i-name">kwicon-mfglabs-fast-forward</span><span class="i-code">0xe85d</span></div>
+        <div title="Code: 0xe85e" class="the-icons span3"><i class="kwicon-mfglabs-fast-backward"></i> <span class="i-name">kwicon-mfglabs-fast-backward</span><span class="i-code">0xe85e</span></div>
+        <div title="Code: 0xe85f" class="the-icons span3"><i class="kwicon-mfglabs-trophy"></i> <span class="i-name">kwicon-mfglabs-trophy</span><span class="i-code">0xe85f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe860" class="the-icons span3"><i class="kwicon-mfglabs-monitor"></i> <span class="i-name">kwicon-mfglabs-monitor</span><span class="i-code">0xe860</span></div>
+        <div title="Code: 0xe861" class="the-icons span3"><i class="kwicon-mfglabs-tablet"></i> <span class="i-name">kwicon-mfglabs-tablet</span><span class="i-code">0xe861</span></div>
+        <div title="Code: 0xe862" class="the-icons span3"><i class="kwicon-mfglabs-mobile"></i> <span class="i-name">kwicon-mfglabs-mobile</span><span class="i-code">0xe862</span></div>
+        <div title="Code: 0xe863" class="the-icons span3"><i class="kwicon-mfglabs-data-science"></i> <span class="i-name">kwicon-mfglabs-data-science</span><span class="i-code">0xe863</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe864" class="the-icons span3"><i class="kwicon-mfglabs-data-science-inv"></i> <span class="i-name">kwicon-mfglabs-data-science-inv</span><span class="i-code">0xe864</span></div>
+        <div title="Code: 0xe865" class="the-icons span3"><i class="kwicon-mfglabs-inbox"></i> <span class="i-name">kwicon-mfglabs-inbox</span><span class="i-code">0xe865</span></div>
+        <div title="Code: 0xe866" class="the-icons span3"><i class="kwicon-mfglabs-globe"></i> <span class="i-name">kwicon-mfglabs-globe</span><span class="i-code">0xe866</span></div>
+        <div title="Code: 0xe867" class="the-icons span3"><i class="kwicon-mfglabs-globe-inv"></i> <span class="i-name">kwicon-mfglabs-globe-inv</span><span class="i-code">0xe867</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe868" class="the-icons span3"><i class="kwicon-mfglabs-flash"></i> <span class="i-name">kwicon-mfglabs-flash</span><span class="i-code">0xe868</span></div>
+        <div title="Code: 0xe869" class="the-icons span3"><i class="kwicon-mfglabs-cloud"></i> <span class="i-name">kwicon-mfglabs-cloud</span><span class="i-code">0xe869</span></div>
+        <div title="Code: 0xe86a" class="the-icons span3"><i class="kwicon-mfglabs-coverflow"></i> <span class="i-name">kwicon-mfglabs-coverflow</span><span class="i-code">0xe86a</span></div>
+        <div title="Code: 0xe86b" class="the-icons span3"><i class="kwicon-mfglabs-coverflow-empty"></i> <span class="i-name">kwicon-mfglabs-coverflow-empty</span><span class="i-code">0xe86b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe86c" class="the-icons span3"><i class="kwicon-mfglabs-math"></i> <span class="i-name">kwicon-mfglabs-math</span><span class="i-code">0xe86c</span></div>
+        <div title="Code: 0xe86d" class="the-icons span3"><i class="kwicon-mfglabs-math-circled"></i> <span class="i-name">kwicon-mfglabs-math-circled</span><span class="i-code">0xe86d</span></div>
+        <div title="Code: 0xe86e" class="the-icons span3"><i class="kwicon-mfglabs-math-circled-empty"></i> <span class="i-name">kwicon-mfglabs-math-circled-empty</span><span class="i-code">0xe86e</span></div>
+        <div title="Code: 0xe86f" class="the-icons span3"><i class="kwicon-mfglabs-paper-plane"></i> <span class="i-name">kwicon-mfglabs-paper-plane</span><span class="i-code">0xe86f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe870" class="the-icons span3"><i class="kwicon-mfglabs-paper-plane-alt"></i> <span class="i-name">kwicon-mfglabs-paper-plane-alt</span><span class="i-code">0xe870</span></div>
+        <div title="Code: 0xe871" class="the-icons span3"><i class="kwicon-mfglabs-paper-plane-alt2"></i> <span class="i-name">kwicon-mfglabs-paper-plane-alt2</span><span class="i-code">0xe871</span></div>
+        <div title="Code: 0xe872" class="the-icons span3"><i class="kwicon-mfglabs-fontsize"></i> <span class="i-name">kwicon-mfglabs-fontsize</span><span class="i-code">0xe872</span></div>
+        <div title="Code: 0xe873" class="the-icons span3"><i class="kwicon-mfglabs-color-adjust"></i> <span class="i-name">kwicon-mfglabs-color-adjust</span><span class="i-code">0xe873</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe874" class="the-icons span3"><i class="kwicon-mfglabs-fire"></i> <span class="i-name">kwicon-mfglabs-fire</span><span class="i-code">0xe874</span></div>
+        <div title="Code: 0xe875" class="the-icons span3"><i class="kwicon-mfglabs-chart-bar"></i> <span class="i-name">kwicon-mfglabs-chart-bar</span><span class="i-code">0xe875</span></div>
+        <div title="Code: 0xe876" class="the-icons span3"><i class="kwicon-mfglabs-hdd"></i> <span class="i-name">kwicon-mfglabs-hdd</span><span class="i-code">0xe876</span></div>
+        <div title="Code: 0xe877" class="the-icons span3"><i class="kwicon-mfglabs-connected-object"></i> <span class="i-name">kwicon-mfglabs-connected-object</span><span class="i-code">0xe877</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe878" class="the-icons span3"><i class="kwicon-mfglabs-ruler"></i> <span class="i-name">kwicon-mfglabs-ruler</span><span class="i-code">0xe878</span></div>
+        <div title="Code: 0xe879" class="the-icons span3"><i class="kwicon-mfglabs-vector"></i> <span class="i-name">kwicon-mfglabs-vector</span><span class="i-code">0xe879</span></div>
+        <div title="Code: 0xe87a" class="the-icons span3"><i class="kwicon-mfglabs-vector-pencil"></i> <span class="i-name">kwicon-mfglabs-vector-pencil</span><span class="i-code">0xe87a</span></div>
+        <div title="Code: 0xe87b" class="the-icons span3"><i class="kwicon-mfglabs-at"></i> <span class="i-name">kwicon-mfglabs-at</span><span class="i-code">0xe87b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe87c" class="the-icons span3"><i class="kwicon-mfglabs-hash"></i> <span class="i-name">kwicon-mfglabs-hash</span><span class="i-code">0xe87c</span></div>
+        <div title="Code: 0xe87d" class="the-icons span3"><i class="kwicon-mfglabs-female"></i> <span class="i-name">kwicon-mfglabs-female</span><span class="i-code">0xe87d</span></div>
+        <div title="Code: 0xe87e" class="the-icons span3"><i class="kwicon-mfglabs-male"></i> <span class="i-name">kwicon-mfglabs-male</span><span class="i-code">0xe87e</span></div>
+        <div title="Code: 0xe87f" class="the-icons span3"><i class="kwicon-mfglabs-spread"></i> <span class="i-name">kwicon-mfglabs-spread</span><span class="i-code">0xe87f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe880" class="the-icons span3"><i class="kwicon-mfglabs-king"></i> <span class="i-name">kwicon-mfglabs-king</span><span class="i-code">0xe880</span></div>
+        <div title="Code: 0xe881" class="the-icons span3"><i class="kwicon-mfglabs-anchor"></i> <span class="i-name">kwicon-mfglabs-anchor</span><span class="i-code">0xe881</span></div>
+        <div title="Code: 0xe882" class="the-icons span3"><i class="kwicon-mfglabs-joystick"></i> <span class="i-name">kwicon-mfglabs-joystick</span><span class="i-code">0xe882</span></div>
+        <div title="Code: 0xe883" class="the-icons span3"><i class="kwicon-mfglabs-spinner1"></i> <span class="i-name">kwicon-mfglabs-spinner1</span><span class="i-code">0xe883</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe884" class="the-icons span3"><i class="kwicon-mfglabs-spinner2"></i> <span class="i-name">kwicon-mfglabs-spinner2</span><span class="i-code">0xe884</span></div>
+        <div title="Code: 0xe885" class="the-icons span3"><i class="kwicon-mfglabs-github"></i> <span class="i-name">kwicon-mfglabs-github</span><span class="i-code">0xe885</span></div>
+        <div title="Code: 0xe886" class="the-icons span3"><i class="kwicon-mfglabs-github-circled"></i> <span class="i-name">kwicon-mfglabs-github-circled</span><span class="i-code">0xe886</span></div>
+        <div title="Code: 0xe887" class="the-icons span3"><i class="kwicon-mfglabs-github-circled-alt"></i> <span class="i-name">kwicon-mfglabs-github-circled-alt</span><span class="i-code">0xe887</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe888" class="the-icons span3"><i class="kwicon-mfglabs-github-circled-alt2"></i> <span class="i-name">kwicon-mfglabs-github-circled-alt2</span><span class="i-code">0xe888</span></div>
+        <div title="Code: 0xe889" class="the-icons span3"><i class="kwicon-mfglabs-twitter"></i> <span class="i-name">kwicon-mfglabs-twitter</span><span class="i-code">0xe889</span></div>
+        <div title="Code: 0xe88a" class="the-icons span3"><i class="kwicon-mfglabs-twitter-circled"></i> <span class="i-name">kwicon-mfglabs-twitter-circled</span><span class="i-code">0xe88a</span></div>
+        <div title="Code: 0xe88b" class="the-icons span3"><i class="kwicon-mfglabs-facebook-1"></i> <span class="i-name">kwicon-mfglabs-facebook-1</span><span class="i-code">0xe88b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe88c" class="the-icons span3"><i class="kwicon-mfglabs-facebook-circled"></i> <span class="i-name">kwicon-mfglabs-facebook-circled</span><span class="i-code">0xe88c</span></div>
+        <div title="Code: 0xe88d" class="the-icons span3"><i class="kwicon-mfglabs-gplus"></i> <span class="i-name">kwicon-mfglabs-gplus</span><span class="i-code">0xe88d</span></div>
+        <div title="Code: 0xe88e" class="the-icons span3"><i class="kwicon-mfglabs-gplus-circled"></i> <span class="i-name">kwicon-mfglabs-gplus-circled</span><span class="i-code">0xe88e</span></div>
+        <div title="Code: 0xe88f" class="the-icons span3"><i class="kwicon-mfglabs-linkedin"></i> <span class="i-name">kwicon-mfglabs-linkedin</span><span class="i-code">0xe88f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe890" class="the-icons span3"><i class="kwicon-mfglabs-linkedin-circled"></i> <span class="i-name">kwicon-mfglabs-linkedin-circled</span><span class="i-code">0xe890</span></div>
+        <div title="Code: 0xe891" class="the-icons span3"><i class="kwicon-mfglabs-dribbble"></i> <span class="i-name">kwicon-mfglabs-dribbble</span><span class="i-code">0xe891</span></div>
+        <div title="Code: 0xe892" class="the-icons span3"><i class="kwicon-mfglabs-dribbble-circled"></i> <span class="i-name">kwicon-mfglabs-dribbble-circled</span><span class="i-code">0xe892</span></div>
+        <div title="Code: 0xe893" class="the-icons span3"><i class="kwicon-mfglabs-instagram"></i> <span class="i-name">kwicon-mfglabs-instagram</span><span class="i-code">0xe893</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe894" class="the-icons span3"><i class="kwicon-mfglabs-instagram-circled"></i> <span class="i-name">kwicon-mfglabs-instagram-circled</span><span class="i-code">0xe894</span></div>
+        <div title="Code: 0xe895" class="the-icons span3"><i class="kwicon-mfglabs-soundcloud"></i> <span class="i-name">kwicon-mfglabs-soundcloud</span><span class="i-code">0xe895</span></div>
+        <div title="Code: 0xe896" class="the-icons span3"><i class="kwicon-mfglabs-soundcloud-circled"></i> <span class="i-name">kwicon-mfglabs-soundcloud-circled</span><span class="i-code">0xe896</span></div>
+        <div title="Code: 0xe897" class="the-icons span3"><i class="kwicon-mfglabs-mfg-logo"></i> <span class="i-name">kwicon-mfglabs-mfg-logo</span><span class="i-code">0xe897</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe898" class="the-icons span3"><i class="kwicon-mfglabs-mfg-logo-circled"></i> <span class="i-name">kwicon-mfglabs-mfg-logo-circled</span><span class="i-code">0xe898</span></div>
+      </div>
+    </div>
+    <div class="container footer">Generated by <a href="http://fontello.com">fontello.com</a></div>
+  </body>
+</html>
