@@ -1276,4 +1276,99 @@ div.nav-menu > ul > li:hover > a:before,
 #masthead{
     display:none !important;
 }
+body{
+    color:black !important;
+}
+.orange{
+    background:#f89c1d;
+}
+.orange .baiviet:hover .see-more{
+    background:white;
+    color:black !important;
+}
+.baiviet:hover .thumnail-recent-hover{
+    display:block;
+}
+ .grid_section{
+    border:none !important;
+    border-radius:0px !important;
+    background:inherit !important;
+    box-shadow:none !important;
+}
+
+.decription{
+    font-size: 22px;
+    color: #000000;
+}
+
+.category{
+    font-size: 28px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.text-center{
+    
+}
+
+.last-post{
+    padding-top: 15px;
+}
+
+.last-post img{
+    max-height:225px;
+        width: 100%;
+}
+.justify{
+    text-align:justify;
+}
+
+.title-recent-post{
+    font-size: 18px;
+    padding-top: 12px;
+}
+.bold{
+    font-weight:bold;
+}
+.expert-recent-post{
+      font-size:14px;
+} 
+.overline-expert {
+         width: 55px;
+    height: 1px;
+    border-top: 2px solid black;
+    margin-bottom: 14px;
+ }
+
+ .see-more{
+    padding: 6px 10px;
+    background: black;
+    color: white !important;
+    border-radius: 4px;
+}
+  .see-more::after{
+    content:"\003e";
+    padding-left: 6px;
+    color: #7d7d7d;
+}
+.clearfix{
+    clear:both;
+}
+.thumnail-recent{
+    position:relative;
+}
+
+.thumnail-recent-hover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; 
+    padding:8px;
+    display:none;
+}
+.thumnail-recent-hover div{
+    border:3px solid #f89c1d;
+    width:100%;
+    height:100%;
+}
 /******************************************************/
