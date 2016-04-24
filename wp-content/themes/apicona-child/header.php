@@ -83,16 +83,7 @@ if( is_page() ){
 	<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
 	<meta name="DCTERMS.created" scheme="ISO8601" content="2015-7-18">
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-69572157-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>
@@ -169,9 +160,9 @@ if( isset($apicona['customhtml_bodystart']) && trim($apicona['customhtml_bodysta
 			$navbarClass = ' class="k_searchbutton"';
 		  }
 		  ?>
-			
-		  
-		  
+
+
+
           <div id="navbar"<?php echo $navbarClass; ?>>
             <nav id="site-navigation" class="navigation main-navigation" role="navigation">
               <h3 class="menu-toggle">
@@ -188,8 +179,8 @@ if( isset($apicona['customhtml_bodystart']) && trim($apicona['customhtml_bodysta
 					   //}
       			 ?>
               <?php /*?><?php get_search_form(); ?><?php */?>
-              
-			  
+
+
 			  <?php if( isset($apicona['header_search']) &&  $apicona['header_search']=='1'): ?>
               <div class="k_flying_searchform"> <span class="k_searchlink"><a href="javascript:void(0);"><i class="kwicon-fa-search"></i></a></span>
                 <div class="k_flying_searchform_wrapper">
@@ -207,22 +198,22 @@ if( isset($apicona['customhtml_bodystart']) && trim($apicona['customhtml_bodysta
                     <div class="sform-close-icon"><i class="icon-remove"></i></div>
                   </form>
                 </div>
-              </div><!-- .k_flying_searchform --> 
+              </div><!-- .k_flying_searchform -->
               <?php endif; ?>
-              
+
             </nav>
-            <!-- #site-navigation --> 
+            <!-- #site-navigation -->
           </div>
-          <!-- #navbar --> 
+          <!-- #navbar -->
         </div>
-        <!-- .row --> 
+        <!-- .row -->
       </div>
     </div>
   </div>
   <?php kwayy_header_titlebar(); ?>
   <?php kwayy_header_slider(); ?>
 
-  
+
 </header>
 <!-- #masthead -->
 

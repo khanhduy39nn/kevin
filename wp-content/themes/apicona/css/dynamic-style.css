@@ -1277,15 +1277,37 @@ div.nav-menu > ul > li:hover > a:before,
     display:none !important;
 }
 body{
-    color:black !important;
+    color:#010101 !important;
+}
+
+body #main{
+    background:white !important;
 }
 .orange{
     background:#f89c1d;
 }
-.orange .baiviet:hover .see-more{
+
+.gray{
+    background:#f9f9f9;
+}
+
+
+.baiviet{
+    padding-bottom:36px;
+}
+.gray .see-more:hover{
+    background:#f89c1d;
+    color:white !important;
+}
+.whites .see-more:hover{
+    background:#f89c1d;
+    color:white !important;
+}
+.orange .see-more:hover{
     background:white;
     color:black !important;
 }
+
 .baiviet:hover .thumnail-recent-hover{
     display:block;
 }
@@ -1338,7 +1360,10 @@ body{
     height: 1px;
     border-top: 2px solid black;
     margin-bottom: 14px;
+        display: block;
  }
+ 
+
 
  .see-more{
     padding: 6px 10px;
@@ -1349,7 +1374,7 @@ body{
   .see-more::after{
     content:"\003e";
     padding-left: 6px;
-    color: #7d7d7d;
+    color: white;
 }
 .clearfix{
     clear:both;
@@ -1370,5 +1395,60 @@ body{
     border:3px solid #f89c1d;
     width:100%;
     height:100%;
+}
+
+
+.know-more{
+    font-size:15px;
+}
+.white-color{
+    color:white;
+}
+.category-name{
+    font-size:30px;
+}
+.one-post .see-more{
+    background:#f89c1d;
+       border: 1px solid white;
+}
+.one-post .see-more::after{
+    content:"\003e";
+    padding-left: 6px;
+    color: white;
+}
+
+.featuring{
+    padding-right:5px;
+    font-weight:bold;
+}
+.orange .featuring{
+    color:#010101;
+}
+.whites{
+    background:white;
+}
+.whites .featuring{
+    color:#f89c1d !important;
+}
+
+.view-more-container{
+    margin-top: 31px;
+}
+
+.view-more-container a{
+    padding:10px;
+    font-size:14px;
+    border:1px solid black;
+}
+.view-more-container a::after{
+    content:"\003e";
+    padding-left: 6px;
+}
+.view-more-container a:hover{
+    background:#f89c1d;
+    color:black;
+}
+.orange-color{
+    color:#f89c1d;
 }
 /******************************************************/
