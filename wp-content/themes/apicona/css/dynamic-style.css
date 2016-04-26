@@ -1451,4 +1451,119 @@ body #main{
 .orange-color{
     color:#f89c1d;
 }
+
+#menu-main-menu{
+    font-size: 17px;
+    font-weight: bold;
+    display: table-cell;
+    float: right;
+}
+#menu-main-menu .sub-menu{
+    padding: 13px 10px !important;
+}
+#menu-main-menu  li:hover a{
+    transition: all 0.1s ease-in-out;
+    border-bottom:3px solid #f89c1d;
+}
+#menu-main-menu  li:hover .sub-menu{
+    display:block;
+}
+#menu-main-menu  li a{
+    padding: 7px 0px 43px 0px !important;
+}
+
+#menu-main-menu  li{
+	    display: inline-block;
+	    padding:5px 10px !important;
+}
+#menu-main-menu  li a:before{
+    content:"";
+}
+#menu-main-menu .mega-current-menu-item a{
+        transition: all 0.1s ease-in-out;
+        border-bottom:3px solid #f89c1d;
+}
+
+#menu-main-menu .sub-menu{
+    display:none;
+    position: absolute;
+    background:white;
+}
+#menu-main-menu .sub-menu li{
+    display:block;
+}
+#menu-main-menu .sub-menu li a{
+    font-size:13px;
+    
+}
+
+
+#menu-main-menu  .menu-item-has-children.mega-current-menu-item a{
+     border:none;
+}
+#menu-main-menu  .menu-item-has-children:hover a{
+     border:none;
+     
+}
+
+#menu-main-menu  .sub-menu li:hover{
+    transition: all 0.1s ease-in-out;
+    border-bottom:3px solid #f89c1d;
+}
+
+
+.tile {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+
+}
+.tile:hover {
+
+}
+
+.scale-anm {
+  transform: scale(1);
+}
+
+
+.tile img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+
+}
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.menubar{
+    margin-bottom: 0px;
+    height: 82px;
+}
+
+.menubar .wpb_wrapper{
+    padding:0px !important;
+}
+
+.tls_logo_slider{
+    border:none;
+}
+.tls_logo_slider .owl-buttons{
+    position: inherit;
+    top: 0px;
+}
+#tls_logo_slider .owl-buttons div{
+    margin:-100px 0px 0px 0px;
+}
+body .owl-theme .owl-controls .owl-buttons .owl-prev{
+        left: -24px;
+}
+
+body .owl-theme .owl-controls .owl-buttons .owl-next {
+    right: -27px;
+}
 /******************************************************/
