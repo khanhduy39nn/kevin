@@ -15,7 +15,7 @@ echo do_shortcode( '[rev_slider slidehome]' );
 
   <article id="post-40" class="post-40 page type-page status-publish hentry">
       <div class="entry-content">
-            <div class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid menubar">
+            <div class=" wpb_row kwayy-row-textcolor- vc_row-fluid menubar">
               <div class="section clearfix grid_section" style="overflow: visible;">
                   <div class="vc_col-sm-12 wpb_column vc_column_container ">
                     <div class="wpb_wrapper">
@@ -322,6 +322,21 @@ echo do_shortcode( '[rev_slider slidehome]' );
             $i++;
           endforeach;
                ?>
+               <!--div class=" wpb_row kwayy-row-textcolor- vc_row-fluid search-row ">
+                   <div class="section clearfix grid_section">
+                     <div class="vc_col-sm-4 wpb_column vc_column_container ">
+                       <div class="wpb_wrapper">
+                        <p class="lookingfor text-center">LOOKING FOR SOMETHING</p>
+                       </div>
+                     </div>
+                       <div class="vc_col-sm-8 wpb_column vc_column_container ">
+                         <div class="wpb_wrapper">
+                           <?php get_search_form(true); ?>
+                         </div>
+                       </div>
+                   </div>
+               </div-->
+
           </div>
         </div>
       </div>
@@ -332,22 +347,21 @@ echo do_shortcode( '[rev_slider slidehome]' );
 jQuery(function() {
 		var selectedClass = "";
 		jQuery("#menu-main-menu .fil-cat:not('.menu-item-has-children') ").click(function(){
-    jQuery(".fil-cat" ).removeClass("mega-current-menu-item");
-     jQuery( this ).addClass("mega-current-menu-item");
-		selectedClass = jQuery(this).attr("data-rel");
-     jQuery("#portfolio").fadeTo(100, 0.1);
-		jQuery("#portfolio .for-filter").not("."+selectedClass).fadeOut().removeClass('scale-anm');
-    setTimeout(function() {
-      jQuery("."+selectedClass).fadeIn().addClass('scale-anm');
-      jQuery("#portfolio").fadeTo(300, 1);
-    }, 300);
-    return false;
-	});
+      jQuery(".fil-cat" ).removeClass("mega-current-menu-item");
+       jQuery( this ).addClass("mega-current-menu-item");
+  		selectedClass = jQuery(this).attr("data-rel");
+       jQuery("#portfolio").fadeTo(100, 0.1);
+  		jQuery("#portfolio .for-filter").not("."+selectedClass).fadeOut().removeClass('scale-anm');
+      setTimeout(function() {
+        jQuery("."+selectedClass).fadeIn().addClass('scale-anm');
+        jQuery("#portfolio").fadeTo(300, 1);
+      }, 300);
+      return false;
+	  });
 });
 jQuery( "#menu-main-menu li" ).each(function( index ) {
    jQuery( this ).attr('data-rel', jQuery( this ).attr('class').split(' ').pop());
 });
 
-jQuery( "#menu-main-menu ul:not('.sub-menu') li a" ).attr("href","#");
 </script>
 <?php  get_footer(); ?>

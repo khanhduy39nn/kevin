@@ -1469,7 +1469,7 @@ body #main{
     display:block;
 }
 #menu-main-menu  li a{
-    padding: 7px 0px 43px 0px !important;
+    padding: 7px 0px 23px 0px !important;
 }
 
 #menu-main-menu  li{
@@ -1543,6 +1543,7 @@ body #main{
 .menubar{
     margin-bottom: 0px;
     height: 82px;
+    padding-top: 15px !important;
 }
 
 .menubar .wpb_wrapper{
@@ -1565,5 +1566,73 @@ body .owl-theme .owl-controls .owl-buttons .owl-prev{
 
 body .owl-theme .owl-controls .owl-buttons .owl-next {
     right: -27px;
+}
+
+.for-filter{
+    margin-bottom:0px;
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;
+}
+
+body .site-footer .widget .widget-title{
+    color:#f99e1c;
+    font-size:16px;
+}
+
+body .site-footer .widget .widget-title:after {
+    background-color: #f99e1c;
+}
+.footer .menu li{
+    padding: 6px 0px !important;
+    border: none !important;
+
+}
+
+.footer p{
+        color:#b3b3b3;
+}
+
+.footer .menu li a{
+    color:#b3b3b3;
+}
+
+.footer .menu a:before{
+    color: #f99e1c;
+}
+
+.footer .hightlightcontact{
+    font-weight:bold;
+    color:#f99e1c;
+}
+
+.footer-contact input{
+    background:transparent;
+    border:1px solid #858585;
+}
+
+.footer-contact textarea{
+    background:transparent;
+    border:1px solid #858585;
+}
+.your-message textarea{
+    min-height:97px !important;
+}
+
+.search-row{
+    background:black;
+}
+
+.search-row .search-form label{
+display: block;
+    width: 80%;
+    float: left;
+}
+
+.search-row .search-form .search-submit{
+    float: right;
+}
+.lookingfor{
+        color: white;
+    font-size: 24px
 }
 /******************************************************/
