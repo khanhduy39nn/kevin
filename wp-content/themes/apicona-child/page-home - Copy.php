@@ -40,7 +40,7 @@ echo do_shortcode( '[rev_slider slidehome]' );
                 if($i==1):
           ?>
 
-          <div id="<?php echo $category->slug; ?>" class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid orange <?php echo $category->slug; ?> scale-anm all">
+          <div class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid orange <?php echo $category->slug; ?> scale-anm all">
               <div class="section clearfix grid_section" >
                   <div class="vc_col-sm-12 wpb_column vc_column_container ">
                     <div class="wpb_wrapper">
@@ -77,7 +77,7 @@ echo do_shortcode( '[rev_slider slidehome]' );
               </div>
           </div>
         <?php elseif($i==2): ?>
-          <div id="<?php echo $category->slug; ?>" class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid  whites <?php echo $category->slug; ?> scale-anm all">
+          <div class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid  whites <?php echo $category->slug; ?> scale-anm all">
               <div class="section clearfix grid_section">
                   <div class="vc_col-sm-12 wpb_column vc_column_container ">
                     <div class="wpb_wrapper">
@@ -124,7 +124,7 @@ echo do_shortcode( '[rev_slider slidehome]' );
               </div>
           </div>
         <?php elseif($i==3): ?>
-          <div id="<?php echo $category->slug; ?>" class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid  orange one-post white-color <?php echo $category->slug; ?> scale-anm all">
+          <div class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid  orange one-post white-color <?php echo $category->slug; ?> scale-anm all">
               <div class="section clearfix grid_section">
                   <div class="vc_col-sm-12 wpb_column vc_column_container ">
                     <div class="wpb_wrapper">
@@ -162,7 +162,7 @@ echo do_shortcode( '[rev_slider slidehome]' );
                   </div>
               </div>
             <?php elseif($i==4): ?>
-              <div id="<?php echo $category->slug; ?>" class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid  whites <?php echo $category->slug; ?> scale-anm all">
+              <div class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid  whites <?php echo $category->slug; ?> scale-anm all">
                   <div class="section clearfix grid_section">
                       <div class="vc_col-sm-12 wpb_column vc_column_container ">
                         <div class="wpb_wrapper">
@@ -207,7 +207,7 @@ echo do_shortcode( '[rev_slider slidehome]' );
                   </div>
               </div>
             <?php elseif($i==5): ?>
-              <div id="<?php echo $category->slug; ?>" class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid  gray <?php echo $category->slug; ?> scale-anm all">
+              <div class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid  gray <?php echo $category->slug; ?> scale-anm all">
                   <div class="section clearfix grid_section">
                       <div class="vc_col-sm-12 wpb_column vc_column_container ">
                         <div class="wpb_wrapper">
@@ -265,7 +265,7 @@ echo do_shortcode( '[rev_slider slidehome]' );
                       </div>
                   </div>
               </div>
-              <div  class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid orange scale-anm all">
+              <div class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid orange scale-anm all">
                   <div class="section clearfix grid_section" >
                       <div class="vc_col-sm-12 wpb_column vc_column_container ">
                         <?php echo do_shortcode('[the-logo-slider]');?>
@@ -273,7 +273,7 @@ echo do_shortcode( '[rev_slider slidehome]' );
                   </div>
               </div>
             <?php elseif($i==7): ?>
-              <div id="<?php echo $category->slug; ?>" class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid  whites <?php echo $category->slug; ?> scale-anm all">
+              <div class="for-filter wpb_row kwayy-row-textcolor- vc_row-fluid  whites <?php echo $category->slug; ?> scale-anm all">
                   <div class="section clearfix grid_section">
                       <div class="vc_col-sm-12 wpb_column vc_column_container ">
                         <div class="wpb_wrapper">
@@ -341,24 +341,9 @@ echo do_shortcode( '[rev_slider slidehome]' );
         </div>
       </div>
   </article>
-     <button id="click">Click me</button>
+
 </div>
 <script>
-jQuery(document).ready(function (){
-
-           jQuery(".fil-cat").click(function (){
-             var id=jQuery(this).attr("data-rel");
-               jQuery('html, body').animate({
-                   scrollTop: jQuery("#"+id).offset().top  }, 1000);
-           });
-       });
-jQuery( "#menu-main-menu li" ).each(function( index ) {
-   jQuery( this ).attr('data-rel', jQuery( this ).attr('class').split(' ').pop());
-
-});
-jQuery("#menu-main-menu .fil-cat a:first-child").attr("href","#");
-
-/*
 jQuery(function() {
 		var selectedClass = "";
 		jQuery("#menu-main-menu .fil-cat:not('.menu-item-has-children') ").click(function(){
@@ -374,7 +359,9 @@ jQuery(function() {
       return false;
 	  });
 });
+jQuery( "#menu-main-menu li" ).each(function( index ) {
+   jQuery( this ).attr('data-rel', jQuery( this ).attr('class').split(' ').pop());
+});
 
-*/
 </script>
 <?php  get_footer(); ?>
