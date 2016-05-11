@@ -15,6 +15,7 @@ echo do_shortcode( '[rev_slider slidehome]' );
 
   <article id="post-40" class="post-40 page type-page status-publish hentry">
       <div class="entry-content">
+          <div id="sticky-anchor"></div>
             <div class=" wpb_row kwayy-row-textcolor- vc_row-fluid menubar">
               <div class="section clearfix grid_section" style="overflow: visible;">
                   <div class="vc_col-sm-12 wpb_column vc_column_container ">

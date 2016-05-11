@@ -180,7 +180,7 @@
   margin: 0 0 0 0px;
 }
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-toggle-on > a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link:hover, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link:focus {
-  background: #333;
+  background: white;
   color: #fff;
   font-weight: normal;
   text-decoration: none;
